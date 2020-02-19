@@ -1,12 +1,20 @@
 ﻿using System;
+using System.IO;
 
 namespace Bonwerk.SnooStudy
 {
     class Program
     {
-        static void Main(string[] args)
+        public const string DocsPath = "../../../docs";
+        
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CreateHome();
+        }
+
+        private static void CreateHome()
+        {
+            File.WriteAllText($"{DocsPath}/index.md", "# Snoo Study \nStay a while, and listen.");
         }
     }
 }

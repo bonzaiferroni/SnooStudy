@@ -1,3 +1,2 @@
-# Snoo Study
-
-Study a snoo.
+# Snoo Study 
+Stay a while, and listen.
