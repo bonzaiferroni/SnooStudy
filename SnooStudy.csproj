@@ -6,8 +6,4 @@
         <RootNamespace>Bonwerk.SnooStudy</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="docs" />
-    </ItemGroup>
-
 </Project>
