@@ -1,6 +1,13 @@
 # Snoo Study 
 Stay a while, and listen.
 
+## Example
+| Tables        | Are           | Cool  | 
+| :--- | :---: | ---: |
+| col 3 is      | right-aligned | $1600 | 
+| col 2 is      | centered      |   $12 | 
+| zebra stripes | are neat      |    $1 | 
+
 ## Overview
 #### politics
 | Study | Trainer Name | Feature Set | n | R² | 
