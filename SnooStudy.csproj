@@ -12,6 +12,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Markdown\Markdown.csproj" />
+      <ProjectReference Include="..\RedditSpy\RedditSpy.csproj" />
     </ItemGroup>
 
 </Project>
