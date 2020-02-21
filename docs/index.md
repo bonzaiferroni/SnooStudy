@@ -4,119 +4,119 @@ Stay a while, and listen.
 
 ## Overview
 
-#### politics
+### politics
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastTreeTweedie|RawData|6,495|0.18|
 |guess|FastTreeTweedie|AutoML|2,472|0.60|
 
-#### news
+### news
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastTreeTweedie|RawData|824|0.15|
 |guess|FastTreeTweedie|AutoML|377|0.29|
 
-#### worldnews
+### worldnews
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastForest|RawData|3,844|0.09|
 |guess|FastTreeTweedie|AutoML|1,659|0.29|
 
-#### television
+### television
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastTreeTweedie|RawData|534|-0.00|
 |guess|FastTreeTweedie|AutoML|256|0.41|
 
-#### movies
+### movies
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastTreeTweedie|RawData|1,793|0.20|
 |guess|FastTreeTweedie|AutoML|853|0.30|
 
-#### the_donald
+### the_donald
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastTreeTweedie|RawData|12,320|0.44|
 |guess|FastTree|AutoML|6,195|0.81|
 
-#### pics
+### pics
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastForest|RawData|8,320|0.07|
 |guess|FastTree|AutoML|4,019|0.45|
 
-#### videos
+### videos
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastTreeTweedie|RawData|3,440|-0.01|
 |guess|FastTreeTweedie|AutoML|1,626|-0.00|
 
-#### art
+### art
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastForest|RawData|4,294|0.05|
 |guess|FastTreeTweedie|AutoML|2,072|0.38|
 
-#### dataisbeautiful
+### dataisbeautiful
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|LbfgsPoisson|RawData|223|-0.06|
 |guess|FastTreeTweedie|AutoML|176|0.11|
 
-#### outoftheloop
+### outoftheloop
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastForest|RawData|91|0.00|
 |guess|FastForest|AutoML|74|0.00|
 
-#### gifs
+### gifs
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastForest|RawData|421|0.06|
 |guess|FastTreeTweedie|AutoML|322|0.22|
 
-#### funny
+### funny
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|LightGbm|RawData|3,315|0.06|
 |guess|FastForest|AutoML|3,315|0.55|
 
-#### atheism
+### atheism
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastTreeTweedie|RawData|338|-0.06|
 |guess|FastTreeTweedie|AutoML|338|0.16|
 
-#### music
+### music
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|FastTreeTweedie|RawData|1,675|-0.02|
 |guess|FastTreeTweedie|AutoML|1,675|0.08|
 
-#### aww
+### aww
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
 |hunch|LightGbm|RawData|5,609|0.09|
 |guess|LightGbm|AutoML|5,609|0.59|
 
-#### gaming
+### gaming
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
