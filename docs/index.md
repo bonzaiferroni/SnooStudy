@@ -8,118 +8,118 @@ Stay a while, and listen.
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastTreeTweedie|RawData|6,495|0.18|
-|guess|FastTreeTweedie|AutoML|2,472|0.60|
+|hunch|FastTreeTweedie|DropTitle|7,294|0.18|
+|guess|FastTreeTweedie|DropTitle|3,271|0.62|
 
 ### news
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastTreeTweedie|RawData|824|0.15|
-|guess|FastTreeTweedie|AutoML|377|0.29|
+|hunch|LightGbm|DropTitle|926|0.20|
+|guess|FastTreeTweedie|DropTitle|479|0.34|
 
 ### worldnews
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastForest|RawData|3,844|0.09|
-|guess|FastTreeTweedie|AutoML|1,659|0.29|
+|hunch|FastTreeTweedie|DropTitle|4,387|0.16|
+|guess|FastTreeTweedie|DropTitle|2,202|0.20|
 
 ### television
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastTreeTweedie|RawData|534|-0.00|
-|guess|FastTreeTweedie|AutoML|256|0.41|
+|hunch|LightGbm|DropTitle|610|0.54|
+|guess|FastTreeTweedie|DropTitle|332|-0.07|
 
 ### movies
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastTreeTweedie|RawData|1,793|0.20|
-|guess|FastTreeTweedie|AutoML|853|0.30|
+|hunch|FastForest|DropTitle|2,023|0.16|
+|guess|LightGbm|DropTitle|1,083|0.22|
 
 ### the_donald
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastTreeTweedie|RawData|12,320|0.44|
-|guess|FastTree|AutoML|6,195|0.81|
+|hunch|FastTree|DropTitle|14,401|0.40|
+|guess|LightGbm|DropTitle|8,276|0.83|
 
 ### pics
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastForest|RawData|8,320|0.07|
-|guess|FastTree|AutoML|4,019|0.45|
+|hunch|Sdca|DropTitle|9,477|0.11|
+|guess|FastTree|DropTitle|5,176|0.44|
 
 ### videos
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastTreeTweedie|RawData|3,440|-0.01|
-|guess|FastTreeTweedie|AutoML|1,626|-0.00|
+|hunch|FastTreeTweedie|DropTitle|3,906|0.05|
+|guess|LightGbm|DropTitle|2,092|0.02|
 
 ### art
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastForest|RawData|4,294|0.05|
-|guess|FastTreeTweedie|AutoML|2,072|0.38|
+|hunch|Sdca|DropTitle|4,955|0.05|
+|guess|Sdca|DropTitle|2,733|0.35|
 
 ### dataisbeautiful
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|LbfgsPoisson|RawData|223|-0.06|
-|guess|FastTreeTweedie|AutoML|176|0.11|
+|hunch|FastTree|DropTitle|268|-0.06|
+|guess|FastTreeTweedie|DropTitle|221|-0.06|
 
 ### outoftheloop
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastForest|RawData|91|0.00|
-|guess|FastForest|AutoML|74|0.00|
+|hunch|FastForest|DropTitle|112|0.00|
+|guess|FastForest|DropTitle|95|0.00|
 
 ### gifs
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastForest|RawData|421|0.06|
-|guess|FastTreeTweedie|AutoML|322|0.22|
+|hunch|FastForest|DropTitle|517|0.06|
+|guess|FastTree|DropTitle|418|0.37|
 
 ### funny
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|LightGbm|RawData|3,315|0.06|
-|guess|FastForest|AutoML|3,315|0.55|
+|hunch|FastTreeTweedie|DropTitle|4,408|0.08|
+|guess|FastForest|DropTitle|4,408|0.61|
 
 ### atheism
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastTreeTweedie|RawData|338|-0.06|
-|guess|FastTreeTweedie|AutoML|338|0.16|
+|hunch|FastTreeTweedie|DropTitle|474|-0.03|
+|guess|FastTreeTweedie|DropTitle|474|-0.04|
 
 ### music
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastTreeTweedie|RawData|1,675|-0.02|
-|guess|FastTreeTweedie|AutoML|1,675|0.08|
+|hunch|FastTreeTweedie|DropTitle|2,257|-0.02|
+|guess|FastTreeTweedie|DropTitle|2,257|0.03|
 
 ### aww
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|LightGbm|RawData|5,609|0.09|
-|guess|LightGbm|AutoML|5,609|0.59|
+|hunch|FastTreeTweedie|DropTitle|7,967|0.14|
+|guess|LightGbm|DropTitle|7,967|0.53|
 
 ### gaming
 
 |Study|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|hunch|FastForest|RawData|2,344|0.05|
-|guess|FastTreeTweedie|AutoML|2,344|0.53|
+|hunch|FastForest|DropTitle|3,067|0.06|
+|guess|FastTreeTweedie|DropTitle|3,067|0.49|
 
