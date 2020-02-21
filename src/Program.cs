@@ -14,19 +14,21 @@ namespace Bonwerk.SnooStudy
 
         private static void CreateHome()
         {
-            // var document = new Document();
-            // document.Heading = new Heading(1, "Welcome");
-            // document.Children.Add(new TextContent("Stay awhile, and listen"));
-            //
-            // var section = document.AddSection("Section 1");
-            // section.AddParagraph("Content for section 1");
-            //
-            // section = document.AddSection("Section 2");
-            // section.AddParagraph("Content for section 2");
             var path = $"{DocsPath}/index.md";
             var str = File.ReadAllText(path);
             var parser = new Parser();
             var document = parser.Read(str);
+
+            var overview = document.FindSection("Overview");
+            overview.Children.Clear();
+
+            var table = new Table();
+            table.AddColumn("Procedural");
+            table.AddColumn("Table", TextAlignment.Center);
+            table.AddColumn("Generation", TextAlignment.Right);
+            table.AddRow("This", "seems", "to");
+            table.AddRow("work", "just", "fine", "cool");
+            overview.AddContent(table);
             
             var writer = new Writer();
             File.WriteAllText(path, writer.Write(document));

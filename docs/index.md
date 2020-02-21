@@ -1,12 +1,16 @@
 # Snoo Study 
 Stay a while, and listen.
 
-## Section 1
-Content for section 1
+## Example
+| Tables|Are|Cool|
+|:---|:---:|---:|
+|col 3 is| right-aligned | $1600 |
+|col 2 is| centered      |   $12 |
+|zebra stripes | are neat      |    $1 |
 
-#### Subsection
-Content for subsection
-
-## Section 2
-Content for section 2;
+## Overview
+|Procedural|Table|Generation||
+|:---|:---:|---:|:---|
+|This|seems|to||
+|work|just|fine|cool|
 
