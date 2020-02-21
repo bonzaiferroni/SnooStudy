@@ -6,4 +6,12 @@
         <RootNamespace>Bonwerk.SnooStudy</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Markdig" Version="0.18.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Markdown\Markdown.csproj" />
+    </ItemGroup>
+
 </Project>
