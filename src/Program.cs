@@ -38,7 +38,7 @@ namespace Bonwerk.SnooStudy
 
             foreach (var subName in SpyProcess.Subs)
             {
-                var section = overview.AddSection(overview.Heading.Level + 2, subName);
+                var section = overview.AddSection(subName);
                 
                 var table = new Table();
                 table.AddColumns(TextAlignment.Left, "Study", "Trainer Name", "Feature Set");
