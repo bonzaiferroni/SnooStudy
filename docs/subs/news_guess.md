@@ -1,6 +1,8 @@
 # news guess
 
+[Home](../index.md)
+
 [Back](news.md)
 
-![R²](../images/news_guess_RSq.png "R²")
+![guess R²](../images/news_guess_RSq.png "guess R²")
 

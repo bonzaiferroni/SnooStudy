@@ -1,6 +1,8 @@
 # outoftheloop guess
 
+[Home](../index.md)
+
 [Back](outoftheloop.md)
 
-![R²](../images/outoftheloop_guess_RSq.png "R²")
+![guess R²](../images/outoftheloop_guess_RSq.png "guess R²")
 

@@ -21,11 +21,13 @@ namespace Bonwerk.SnooStudy
         {
             var data = LoadData();
 
-            var home = ParseHelper.ParsePath($"{DocsPath}/index.md");
-            Overview.Add(home, data);
-            SubPages.Add(home, data);
+            var linker = new FileLinker(DocsPath);
+            linker.LoadPage("index.md");
             
-            home.Save();
+            Overview.Add(linker, data);
+            SubPages.Add(linker, data);
+
+            linker.SaveAll();
         }
 
         private static SubData LoadData()

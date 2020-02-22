@@ -1,6 +1,8 @@
 # worldnews guess
 
+[Home](../index.md)
+
 [Back](worldnews.md)
 
-![R²](../images/worldnews_guess_RSq.png "R²")
+![guess R²](../images/worldnews_guess_RSq.png "guess R²")
 

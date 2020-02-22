@@ -1,6 +1,6 @@
 # the_donald
 
-[Back](../index.md)
+[Home](../index.md)
 
 ## Overview
 

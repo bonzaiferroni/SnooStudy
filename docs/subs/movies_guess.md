@@ -1,6 +1,8 @@
 # movies guess
 
+[Home](../index.md)
+
 [Back](movies.md)
 
-![R²](../images/movies_guess_RSq.png "R²")
+![guess R²](../images/movies_guess_RSq.png "guess R²")
 

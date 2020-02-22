@@ -1,6 +1,8 @@
 # aww guess
 
+[Home](../index.md)
+
 [Back](aww.md)
 
-![R²](../images/aww_guess_RSq.png "R²")
+![guess R²](../images/aww_guess_RSq.png "guess R²")
 

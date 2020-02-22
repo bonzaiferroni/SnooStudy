@@ -1,6 +1,8 @@
 # gifs guess
 
+[Home](../index.md)
+
 [Back](gifs.md)
 
-![R²](../images/gifs_guess_RSq.png "R²")
+![guess R²](../images/gifs_guess_RSq.png "guess R²")
 

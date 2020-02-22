@@ -1,6 +1,8 @@
 # pics hunch
 
+[Home](../index.md)
+
 [Back](pics.md)
 
-![R²](../images/pics_hunch_RSq.png "R²")
+![hunch R²](../images/pics_hunch_RSq.png "hunch R²")
 

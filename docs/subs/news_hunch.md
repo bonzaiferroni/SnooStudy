@@ -1,6 +1,8 @@
 # news hunch
 
+[Home](../index.md)
+
 [Back](news.md)
 
-![R²](../images/news_hunch_RSq.png "R²")
+![hunch R²](../images/news_hunch_RSq.png "hunch R²")
 

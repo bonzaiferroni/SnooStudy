@@ -1,6 +1,8 @@
 # outoftheloop hunch
 
+[Home](../index.md)
+
 [Back](outoftheloop.md)
 
-![R²](../images/outoftheloop_hunch_RSq.png "R²")
+![hunch R²](../images/outoftheloop_hunch_RSq.png "hunch R²")
 

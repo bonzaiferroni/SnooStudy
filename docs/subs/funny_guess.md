@@ -1,6 +1,8 @@
 # funny guess
 
+[Home](../index.md)
+
 [Back](funny.md)
 
-![R²](../images/funny_guess_RSq.png "R²")
+![guess R²](../images/funny_guess_RSq.png "guess R²")
 

@@ -1,6 +1,8 @@
 # gaming hunch
 
+[Home](../index.md)
+
 [Back](gaming.md)
 
-![R²](../images/gaming_hunch_RSq.png "R²")
+![hunch R²](../images/gaming_hunch_RSq.png "hunch R²")
 

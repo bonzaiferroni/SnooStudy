@@ -1,6 +1,8 @@
 # television guess
 
+[Home](../index.md)
+
 [Back](television.md)
 
-![R²](../images/television_guess_RSq.png "R²")
+![guess R²](../images/television_guess_RSq.png "guess R²")
 

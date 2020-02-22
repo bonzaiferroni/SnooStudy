@@ -1,6 +1,8 @@
 # music guess
 
+[Home](../index.md)
+
 [Back](music.md)
 
-![R²](../images/music_guess_RSq.png "R²")
+![guess R²](../images/music_guess_RSq.png "guess R²")
 

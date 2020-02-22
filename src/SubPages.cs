@@ -6,29 +6,29 @@ namespace Bonwerk.SnooStudy
     {
         public const string OverviewName = "Overview";
         
-        public static void Add(Document home, SubData data)
+        public static void Add(FileLinker linker, SubData data)
         {
+            var home = linker.GetPage("index");
+            
             foreach (var subKvp in data)
             {
                 var subName = subKvp.Key;
-                var pagePath = $"subs/{subName}.md";
-                var document = new Document(subName, $"{StudyProgram.DocsPath}/{pagePath}");
-                document.Root.AddText(PathHelper.TextLink("Back", "../index.md"));
+                var subPage = linker.CreatePage(subName, $"subs/{subName}.md");
+                
+                subPage.Root.AddText(linker.LinkPage("Home", subPage, home));
 
                 var homeSection = home.Root.FindSection(subName);
-                homeSection.Heading.Text = PathHelper.TextLink(subName, pagePath);
+                homeSection.Heading.Text = linker.LinkPage(subName, home, subPage);
 
-                var section = document.Root.AddSection(OverviewName);
+                var section = subPage.Root.AddSection(OverviewName);
                 var table = ContentHelper.GetParamsTable(subKvp.Value);
                 section.AddContent(table);
                 
                 foreach (var studyKvp in subKvp.Value)
                 {
                     var studyName = studyKvp.Key;
-                    StudyPages.Add(home, document, subName, studyName, studyKvp.Value);
+                    StudyPages.Add(linker, subName, studyName, studyKvp.Value);
                 }
-
-                document.Save();
             }
         }
     }

@@ -1,6 +1,8 @@
 # atheism guess
 
+[Home](../index.md)
+
 [Back](atheism.md)
 
-![R²](../images/atheism_guess_RSq.png "R²")
+![guess R²](../images/atheism_guess_RSq.png "guess R²")
 

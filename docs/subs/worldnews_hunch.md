@@ -1,6 +1,8 @@
 # worldnews hunch
 
+[Home](../index.md)
+
 [Back](worldnews.md)
 
-![R²](../images/worldnews_hunch_RSq.png "R²")
+![hunch R²](../images/worldnews_hunch_RSq.png "hunch R²")
 

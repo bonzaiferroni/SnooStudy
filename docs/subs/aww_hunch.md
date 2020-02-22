@@ -1,6 +1,8 @@
 # aww hunch
 
+[Home](../index.md)
+
 [Back](aww.md)
 
-![R²](../images/aww_hunch_RSq.png "R²")
+![hunch R²](../images/aww_hunch_RSq.png "hunch R²")
 

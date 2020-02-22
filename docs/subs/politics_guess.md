@@ -1,6 +1,8 @@
 # politics guess
 
+[Home](../index.md)
+
 [Back](politics.md)
 
-![R²](../images/politics_guess_RSq.png "R²")
+![guess R²](../images/politics_guess_RSq.png "guess R²")
 

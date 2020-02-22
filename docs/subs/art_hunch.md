@@ -1,6 +1,8 @@
 # art hunch
 
+[Home](../index.md)
+
 [Back](art.md)
 
-![R²](../images/art_hunch_RSq.png "R²")
+![hunch R²](../images/art_hunch_RSq.png "hunch R²")
 

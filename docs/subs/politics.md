@@ -1,6 +1,6 @@
 # politics
 
-[Back](../index.md)
+[Home](../index.md)
 
 ## Overview
 

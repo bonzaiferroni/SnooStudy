@@ -1,6 +1,8 @@
 # gaming guess
 
+[Home](../index.md)
+
 [Back](gaming.md)
 
-![R²](../images/gaming_guess_RSq.png "R²")
+![guess R²](../images/gaming_guess_RSq.png "guess R²")
 

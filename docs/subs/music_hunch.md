@@ -1,6 +1,8 @@
 # music hunch
 
+[Home](../index.md)
+
 [Back](music.md)
 
-![R²](../images/music_hunch_RSq.png "R²")
+![hunch R²](../images/music_hunch_RSq.png "hunch R²")
 

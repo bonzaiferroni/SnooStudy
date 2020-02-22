@@ -7,8 +7,9 @@ namespace Bonwerk.SnooStudy
 {
     public static class Overview
     {
-        public static void Add(Document home, SubData data)
+        public static void Add(FileLinker linker, SubData data)
         {
+            var home = linker.GetPage("index");
             var overview = home.Root.FindSection("Overview");
             overview.Children.Clear();
 

@@ -1,6 +1,8 @@
 # politics hunch
 
+[Home](../index.md)
+
 [Back](politics.md)
 
-![R²](../images/politics_hunch_RSq.png "R²")
+![hunch R²](../images/politics_hunch_RSq.png "hunch R²")
 

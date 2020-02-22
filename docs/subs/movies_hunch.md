@@ -1,6 +1,8 @@
 # movies hunch
 
+[Home](../index.md)
+
 [Back](movies.md)
 
-![R²](../images/movies_hunch_RSq.png "R²")
+![hunch R²](../images/movies_hunch_RSq.png "hunch R²")
 

@@ -1,6 +1,6 @@
 # dataisbeautiful
 
-[Back](../index.md)
+[Home](../index.md)
 
 ## Overview
 

@@ -1,6 +1,8 @@
 # pics guess
 
+[Home](../index.md)
+
 [Back](pics.md)
 
-![R²](../images/pics_guess_RSq.png "R²")
+![guess R²](../images/pics_guess_RSq.png "guess R²")
 
