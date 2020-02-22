@@ -4,6 +4,8 @@ namespace Bonwerk.SnooStudy
 {
     public static class SubPages
     {
+        public const string OverviewName = "Overview";
+        
         public static void Add(Document home, SubData data)
         {
             foreach (var subKvp in data)
@@ -15,13 +17,15 @@ namespace Bonwerk.SnooStudy
 
                 var homeSection = home.Root.FindSection(subName);
                 homeSection.Heading.Text = PathHelper.TextLink(subName, pagePath);
-                
+
+                var section = document.Root.AddSection(OverviewName);
                 var table = ContentHelper.GetParamsTable(subKvp.Value);
-                document.Root.Children.Add(table);
+                section.AddContent(table);
                 
                 foreach (var studyKvp in subKvp.Value)
                 {
-                    var studyName = studyKvp.Value;
+                    var studyName = studyKvp.Key;
+                    StudyPages.Add(home, document, subName, studyName, studyKvp.Value);
                 }
 
                 document.Save();
