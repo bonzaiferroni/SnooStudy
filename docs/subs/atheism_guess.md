@@ -2,5 +2,5 @@
 
 [Back](atheism.md)
 
-[R²](../images/atheism_guess_RSq.png)
+![R²](../images/atheism_guess_RSq.png "R²")
 

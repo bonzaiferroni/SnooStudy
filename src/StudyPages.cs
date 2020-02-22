@@ -23,7 +23,7 @@ namespace Bonwerk.SnooStudy
 
             var fileName = $"{subName}_{studyName}_RSq.png";
             GetRSqChart(data.Archive, subName, studyName, fileName);
-            document.Root.AddText(PathHelper.TextLink("R²", $"../images/{fileName}"));
+            document.Root.AddText(PathHelper.Image("R²", $"../images/{fileName}"));
             
             document.Save();
         }

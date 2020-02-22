@@ -2,5 +2,5 @@
 
 [Back](outoftheloop.md)
 
-[R²](../images/outoftheloop_hunch_RSq.png)
+![R²](../images/outoftheloop_hunch_RSq.png "R²")
 

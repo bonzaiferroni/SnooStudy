@@ -2,5 +2,5 @@
 
 [Back](the_donald.md)
 
-[R²](../images/the_donald_hunch_RSq.png)
+![R²](../images/the_donald_hunch_RSq.png "R²")
 

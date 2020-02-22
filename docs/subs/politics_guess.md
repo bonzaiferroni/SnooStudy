@@ -2,5 +2,5 @@
 
 [Back](politics.md)
 
-[R²](../images/politics_guess_RSq.png)
+![R²](../images/politics_guess_RSq.png "R²")
 

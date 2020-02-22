@@ -2,5 +2,5 @@
 
 [Back](funny.md)
 
-[R²](../images/funny_guess_RSq.png)
+![R²](../images/funny_guess_RSq.png "R²")
 
