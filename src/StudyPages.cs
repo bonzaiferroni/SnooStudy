@@ -48,11 +48,14 @@ namespace Bonwerk.SnooStudy
             var xs = data.Select(x => x.Created.ToOADate()).ToArray();
             
             var plot = new Plot();
-            plot.Title($"{subName} {studyName} R²");
+            plot.Title($"{subName} {studyName} R²", fontSize: 24);
             plot.PlotScatter(xs, ys, Color.Chartreuse, markerSize: 0, lineWidth: 2);
             plot.Style(Style.Blue1);
+            plot.Axis(y1: -.05, y2: 1.05);
             var docsPath = $"{StudyProgram.DocsPath}/images/{fileName}";
             plot.Ticks(dateTimeX: true);
+            plot.YTicks(new []{0, .25, .5, .75, 1}, new []{"0", ".25", ".5", ".75", "1"});
+            plot.Style(label: Color.LightBlue, tick: Color.LightBlue, grid: Color.DimGray);
             plot.SaveFig(docsPath);
         }
     }
