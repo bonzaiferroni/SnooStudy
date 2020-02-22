@@ -13,7 +13,7 @@ namespace Bonwerk.SnooStudy
                 var subName = subKvp.Key;
                 var pagePath = $"subs/{subName}.md";
                 var document = new Document(subName, $"{StudyProgram.DocsPath}/{pagePath}");
-                document.Root.AddParagraph(PathHelper.TextLink("Back", "../index.md"));
+                document.Root.AddText(PathHelper.TextLink("Back", "../index.md"));
 
                 var homeSection = home.Root.FindSection(subName);
                 homeSection.Heading.Text = PathHelper.TextLink(subName, pagePath);

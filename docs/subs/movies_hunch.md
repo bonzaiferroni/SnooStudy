@@ -2,3 +2,5 @@
 
 [Back](movies.md)
 
+[R²](../images/movies_hunch_RSq.png)
+

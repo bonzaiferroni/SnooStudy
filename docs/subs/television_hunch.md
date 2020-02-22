@@ -2,3 +2,5 @@
 
 [Back](television.md)
 
+[R²](../images/television_hunch_RSq.png)
+
