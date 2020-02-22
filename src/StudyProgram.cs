@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Bonwerk.Archiving;
 using Bonwerk.Markdown;
 using Bonwerk.RedditSpy;
@@ -39,11 +40,15 @@ namespace Bonwerk.SnooStudy
             foreach (var sub in SpyProcess.Subs)
             {
                 subData[sub] = new Dictionary<string, StudyData>();
+                var archive = new PostArchive($"{sub}.archive", $"{DataPath}/data");
+                var items = archive.GetItems();
+                
                 foreach (var study in studies)
                 {
                     var prams = Memorizer.Load<ModelParams>($"{sub}.{study}.params", $"{DataPath}/models");
-                    var archive = new PostArchive($"{sub}.archive", $"{DataPath}/data");
-                    subData[sub][study] = new StudyData(archive.GetItems(), prams);
+
+                    var studyItems = items.Select(x => new StudyItem(study, x)).ToArray();
+                    subData[sub][study] = new StudyData(studyItems, prams);
                 }
             }
 

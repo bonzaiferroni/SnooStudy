@@ -4,5 +4,5 @@
 
 [Back](the_donald.md)
 
-![guess R²](../images/the_donald_guess_RSq.png "guess R²")
+![guess R²](../images/the_donald_guess_Accuracy.png "guess R²")
 

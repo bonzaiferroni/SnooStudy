@@ -4,5 +4,5 @@
 
 [Back](movies.md)
 
-![guess R²](../images/movies_guess_RSq.png "guess R²")
+![guess R²](../images/movies_guess_Accuracy.png "guess R²")
 

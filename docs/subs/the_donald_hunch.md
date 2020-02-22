@@ -4,5 +4,5 @@
 
 [Back](the_donald.md)
 
-![hunch R²](../images/the_donald_hunch_RSq.png "hunch R²")
+![hunch R²](../images/the_donald_hunch_Accuracy.png "hunch R²")
 

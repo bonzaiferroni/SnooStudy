@@ -4,5 +4,5 @@
 
 [Back](television.md)
 
-![guess R²](../images/television_guess_RSq.png "guess R²")
+![guess R²](../images/television_guess_Accuracy.png "guess R²")
 

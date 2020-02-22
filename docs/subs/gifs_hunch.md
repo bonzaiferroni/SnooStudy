@@ -4,5 +4,5 @@
 
 [Back](gifs.md)
 
-![hunch R²](../images/gifs_hunch_RSq.png "hunch R²")
+![hunch R²](../images/gifs_hunch_Accuracy.png "hunch R²")
 

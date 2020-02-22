@@ -4,5 +4,5 @@
 
 [Back](music.md)
 
-![hunch R²](../images/music_hunch_RSq.png "hunch R²")
+![hunch R²](../images/music_hunch_Accuracy.png "hunch R²")
 
