@@ -7,8 +7,8 @@ namespace Bonwerk.SnooStudy
     {
         public const int TitleSize = 24;
 
-        public static Color RSqColor => Color.LightGreen;
-        public static Color AccuracyColor => Color.OrangeRed;
+        public static Color Color1 => Color.LightGreen;
+        public static Color Color2 => Color.OrangeRed;
         
         public static void StylePlot(Plot plot)
         {

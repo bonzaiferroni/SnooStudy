@@ -4,5 +4,7 @@
 
 [Back](worldnews.md)
 
-![guess R²](../images/worldnews_guess_Accuracy.png "guess R²")
+![worldnews-guess R²](../images/worldnews_guess_Accuracy.png "worldnews-guess R²")
+
+![worldnews-guess Hit Ratio](../images/worldnews_guess_HitRatio.png "worldnews-guess Hit Ratio")
 

@@ -4,5 +4,7 @@
 
 [Back](gaming.md)
 
-![guess R²](../images/gaming_guess_Accuracy.png "guess R²")
+![gaming-guess R²](../images/gaming_guess_Accuracy.png "gaming-guess R²")
+
+![gaming-guess Hit Ratio](../images/gaming_guess_HitRatio.png "gaming-guess Hit Ratio")
 

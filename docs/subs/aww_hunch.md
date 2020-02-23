@@ -4,5 +4,7 @@
 
 [Back](aww.md)
 
-![hunch R²](../images/aww_hunch_Accuracy.png "hunch R²")
+![aww-hunch R²](../images/aww_hunch_Accuracy.png "aww-hunch R²")
+
+![aww-hunch Hit Ratio](../images/aww_hunch_HitRatio.png "aww-hunch Hit Ratio")
 

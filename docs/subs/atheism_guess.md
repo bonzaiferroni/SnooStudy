@@ -4,5 +4,7 @@
 
 [Back](atheism.md)
 
-![guess R²](../images/atheism_guess_Accuracy.png "guess R²")
+![atheism-guess R²](../images/atheism_guess_Accuracy.png "atheism-guess R²")
+
+![atheism-guess Hit Ratio](../images/atheism_guess_HitRatio.png "atheism-guess Hit Ratio")
 

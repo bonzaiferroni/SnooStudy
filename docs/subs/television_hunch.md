@@ -4,5 +4,7 @@
 
 [Back](television.md)
 
-![hunch R²](../images/television_hunch_Accuracy.png "hunch R²")
+![television-hunch R²](../images/television_hunch_Accuracy.png "television-hunch R²")
+
+![television-hunch Hit Ratio](../images/television_hunch_HitRatio.png "television-hunch Hit Ratio")
 

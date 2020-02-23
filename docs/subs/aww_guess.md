@@ -4,5 +4,7 @@
 
 [Back](aww.md)
 
-![guess R²](../images/aww_guess_Accuracy.png "guess R²")
+![aww-guess R²](../images/aww_guess_Accuracy.png "aww-guess R²")
+
+![aww-guess Hit Ratio](../images/aww_guess_HitRatio.png "aww-guess Hit Ratio")
 

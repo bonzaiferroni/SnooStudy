@@ -4,5 +4,7 @@
 
 [Back](worldnews.md)
 
-![hunch R²](../images/worldnews_hunch_Accuracy.png "hunch R²")
+![worldnews-hunch R²](../images/worldnews_hunch_Accuracy.png "worldnews-hunch R²")
+
+![worldnews-hunch Hit Ratio](../images/worldnews_hunch_HitRatio.png "worldnews-hunch Hit Ratio")
 

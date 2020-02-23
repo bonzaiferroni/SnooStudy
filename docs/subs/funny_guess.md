@@ -4,5 +4,7 @@
 
 [Back](funny.md)
 
-![guess R²](../images/funny_guess_Accuracy.png "guess R²")
+![funny-guess R²](../images/funny_guess_Accuracy.png "funny-guess R²")
+
+![funny-guess Hit Ratio](../images/funny_guess_HitRatio.png "funny-guess Hit Ratio")
 

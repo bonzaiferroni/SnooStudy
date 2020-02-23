@@ -4,5 +4,7 @@
 
 [Back](politics.md)
 
-![hunch R²](../images/politics_hunch_Accuracy.png "hunch R²")
+![politics-hunch R²](../images/politics_hunch_Accuracy.png "politics-hunch R²")
+
+![politics-hunch Hit Ratio](../images/politics_hunch_HitRatio.png "politics-hunch Hit Ratio")
 

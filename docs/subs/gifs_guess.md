@@ -4,5 +4,7 @@
 
 [Back](gifs.md)
 
-![guess R²](../images/gifs_guess_Accuracy.png "guess R²")
+![gifs-guess R²](../images/gifs_guess_Accuracy.png "gifs-guess R²")
+
+![gifs-guess Hit Ratio](../images/gifs_guess_HitRatio.png "gifs-guess Hit Ratio")
 

@@ -42,6 +42,7 @@ namespace Bonwerk.SnooStudy
                 subData[sub] = new Dictionary<string, StudyData>();
                 var archive = new PostArchive($"{sub}.archive", $"{DataPath}/data");
                 var items = archive.GetItems();
+                items = items.OrderBy(x => x.Created).ToList();
                 
                 foreach (var study in studies)
                 {

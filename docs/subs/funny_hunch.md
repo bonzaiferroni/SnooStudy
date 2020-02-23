@@ -4,5 +4,7 @@
 
 [Back](funny.md)
 
-![hunch R²](../images/funny_hunch_Accuracy.png "hunch R²")
+![funny-hunch R²](../images/funny_hunch_Accuracy.png "funny-hunch R²")
+
+![funny-hunch Hit Ratio](../images/funny_hunch_HitRatio.png "funny-hunch Hit Ratio")
 

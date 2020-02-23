@@ -4,5 +4,7 @@
 
 [Back](music.md)
 
-![hunch R²](../images/music_hunch_Accuracy.png "hunch R²")
+![music-hunch R²](../images/music_hunch_Accuracy.png "music-hunch R²")
+
+![music-hunch Hit Ratio](../images/music_hunch_HitRatio.png "music-hunch Hit Ratio")
 

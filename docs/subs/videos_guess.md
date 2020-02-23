@@ -4,5 +4,7 @@
 
 [Back](videos.md)
 
-![guess R²](../images/videos_guess_Accuracy.png "guess R²")
+![videos-guess R²](../images/videos_guess_Accuracy.png "videos-guess R²")
+
+![videos-guess Hit Ratio](../images/videos_guess_HitRatio.png "videos-guess Hit Ratio")
 

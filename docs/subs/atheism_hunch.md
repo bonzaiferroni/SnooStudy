@@ -4,5 +4,7 @@
 
 [Back](atheism.md)
 
-![hunch R²](../images/atheism_hunch_Accuracy.png "hunch R²")
+![atheism-hunch R²](../images/atheism_hunch_Accuracy.png "atheism-hunch R²")
+
+![atheism-hunch Hit Ratio](../images/atheism_hunch_HitRatio.png "atheism-hunch Hit Ratio")
 

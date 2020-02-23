@@ -5,6 +5,8 @@ namespace Bonwerk.SnooStudy
 {
     public class StudyItem
     {
+        public const int PopularityThreshold = 10000;
+        
         public StudyItem(string study, ArchiveItem rawData)
         {
             RawData = rawData;
@@ -33,5 +35,11 @@ namespace Bonwerk.SnooStudy
             var moe = (float) Math.Max(Outcome, 1000) / 5;
             return Predicted > Outcome - moe && Predicted < Outcome + moe;
         }
+
+        public bool IsPopular => Outcome > PopularityThreshold;
+        public bool PredictedPopular => Predicted > PopularityThreshold;
+
+        public bool IsHit => IsPopular && PredictedPopular;
+        public bool IsHype => !IsPopular && PredictedPopular;
     }
 }

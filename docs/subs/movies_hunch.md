@@ -4,5 +4,7 @@
 
 [Back](movies.md)
 
-![hunch R²](../images/movies_hunch_Accuracy.png "hunch R²")
+![movies-hunch R²](../images/movies_hunch_Accuracy.png "movies-hunch R²")
+
+![movies-hunch Hit Ratio](../images/movies_hunch_HitRatio.png "movies-hunch Hit Ratio")
 

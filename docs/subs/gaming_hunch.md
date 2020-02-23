@@ -4,5 +4,7 @@
 
 [Back](gaming.md)
 
-![hunch R²](../images/gaming_hunch_Accuracy.png "hunch R²")
+![gaming-hunch R²](../images/gaming_hunch_Accuracy.png "gaming-hunch R²")
+
+![gaming-hunch Hit Ratio](../images/gaming_hunch_HitRatio.png "gaming-hunch Hit Ratio")
 
