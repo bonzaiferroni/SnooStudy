@@ -4,122 +4,47 @@ Stay a while, and listen.
 
 ## Overview
 
-### [politics](subs/politics.md)
+### guess
 
-|Study|Trainer Name|Feature Set|n|R²|
+|Subreddit|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|[hunch](subs/politics_hunch.md)|FastTreeTweedie|DropTitle|7,294|0.18|
-|[guess](subs/politics_guess.md)|FastTreeTweedie|DropTitle|3,271|0.62|
+|politics|FastTreeTweedie|DropAuthor_N+1|5,354|0.61|
+|news|FastTreeTweedie|DropAuthor_N+1|733|0.46|
+|worldnews|FastTreeTweedie|DropAuthor_N+1|3,521|0.42|
+|television|FastTreeTweedie|DropAuthor_N+1|559|0.17|
+|movies|LightGbm|DropAuthor_N+1|1,634|0.64|
+|the_donald|FastTree|DropAuthor_N+1|13,363|0.83|
+|pics|LightGbm|DropAuthor_N+1|8,059|0.46|
+|videos|FastTreeTweedie|DropAuthor_N+1|3,465|0.15|
+|art|Sdca|DropAuthor_N+1|4,163|0.37|
+|dataisbeautiful|FastTreeTweedie|DropAuthor_N+1|365|0.06|
+|outoftheloop|FastTreeTweedie|DropAuthor_N+1|164|-0.08|
+|gifs|FastForest|DropAuthor_N+1|665|0.41|
+|funny|LightGbm|DropAuthor_N+1|7,251|0.65|
+|atheism|FastTreeTweedie|DropAuthor_N+1|783|0.27|
+|music|FastTreeTweedie|DropAuthor_N+1|3,912|0.05|
+|aww|FastTree|DropAuthor_N+1|13,290|0.60|
+|gaming|LightGbm|DropAuthor_N+1|5,060|0.68|
 
-### [news](subs/news.md)
+### hunch
 
-|Study|Trainer Name|Feature Set|n|R²|
+|Subreddit|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|[hunch](subs/news_hunch.md)|LightGbm|DropTitle|926|0.20|
-|[guess](subs/news_guess.md)|FastTreeTweedie|DropTitle|479|0.34|
-
-### [worldnews](subs/worldnews.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/worldnews_hunch.md)|FastTreeTweedie|DropTitle|4,387|0.16|
-|[guess](subs/worldnews_guess.md)|FastTreeTweedie|DropTitle|2,202|0.20|
-
-### [television](subs/television.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/television_hunch.md)|LightGbm|DropTitle|610|0.54|
-|[guess](subs/television_guess.md)|FastTreeTweedie|DropTitle|332|-0.07|
-
-### [movies](subs/movies.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/movies_hunch.md)|FastForest|DropTitle|2,023|0.16|
-|[guess](subs/movies_guess.md)|LightGbm|DropTitle|1,083|0.22|
-
-### [the_donald](subs/the_donald.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/the_donald_hunch.md)|FastTree|DropTitle|14,401|0.40|
-|[guess](subs/the_donald_guess.md)|LightGbm|DropTitle|8,276|0.83|
-
-### [pics](subs/pics.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/pics_hunch.md)|Sdca|DropTitle|9,477|0.11|
-|[guess](subs/pics_guess.md)|FastTree|DropTitle|5,176|0.44|
-
-### [videos](subs/videos.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/videos_hunch.md)|FastTreeTweedie|DropTitle|3,906|0.05|
-|[guess](subs/videos_guess.md)|LightGbm|DropTitle|2,092|0.02|
-
-### [art](subs/art.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/art_hunch.md)|Sdca|DropTitle|4,955|0.05|
-|[guess](subs/art_guess.md)|Sdca|DropTitle|2,733|0.35|
-
-### [dataisbeautiful](subs/dataisbeautiful.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/dataisbeautiful_hunch.md)|FastTree|DropTitle|268|-0.06|
-|[guess](subs/dataisbeautiful_guess.md)|FastTreeTweedie|DropTitle|221|-0.06|
-
-### [outoftheloop](subs/outoftheloop.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/outoftheloop_hunch.md)|FastForest|DropTitle|112|0.00|
-|[guess](subs/outoftheloop_guess.md)|FastForest|DropTitle|95|0.00|
-
-### [gifs](subs/gifs.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/gifs_hunch.md)|FastForest|DropTitle|517|0.06|
-|[guess](subs/gifs_guess.md)|FastTree|DropTitle|418|0.37|
-
-### [funny](subs/funny.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/funny_hunch.md)|FastTreeTweedie|DropTitle|4,408|0.08|
-|[guess](subs/funny_guess.md)|FastForest|DropTitle|4,408|0.61|
-
-### [atheism](subs/atheism.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/atheism_hunch.md)|FastTreeTweedie|DropTitle|474|-0.03|
-|[guess](subs/atheism_guess.md)|FastTreeTweedie|DropTitle|474|-0.04|
-
-### [music](subs/music.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/music_hunch.md)|FastTreeTweedie|DropTitle|2,257|-0.02|
-|[guess](subs/music_guess.md)|FastTreeTweedie|DropTitle|2,257|0.03|
-
-### [aww](subs/aww.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/aww_hunch.md)|FastTreeTweedie|DropTitle|7,967|0.14|
-|[guess](subs/aww_guess.md)|LightGbm|DropTitle|7,967|0.53|
-
-### [gaming](subs/gaming.md)
-
-|Study|Trainer Name|Feature Set|n|R²|
-|:---|:---|:---|---:|---:|
-|[hunch](subs/gaming_hunch.md)|FastForest|DropTitle|3,067|0.06|
-|[guess](subs/gaming_guess.md)|FastTreeTweedie|DropTitle|3,067|0.49|
+|politics|FastTree|DropAuthor_N+1|9,377|0.20|
+|news|FastTreeTweedie|DropAuthor_N+1|1,180|0.19|
+|worldnews|FastForest|DropAuthor_N+1|5,706|0.20|
+|television|FastTree|DropAuthor_N+1|837|0.59|
+|movies|LightGbm|DropAuthor_N+1|2,574|0.27|
+|the_donald|LightGbm|DropAuthor_N+1|19,488|0.44|
+|pics|FastForest|DropAuthor_N+1|12,360|0.11|
+|videos|LightGbm|DropAuthor_N+1|5,279|0.05|
+|art|FastTreeTweedie|DropAuthor_N+1|6,385|0.07|
+|dataisbeautiful|FastTreeTweedie|DropAuthor_N+1|412|-0.00|
+|outoftheloop|FastTreeTweedie|DropAuthor_N+1|181|-0.10|
+|gifs|FastTreeTweedie|DropAuthor_N+1|764|0.14|
+|funny|Sdca|DropAuthor_N+1|7,251|0.11|
+|atheism|FastTreeTweedie|DropAuthor_N+1|783|-0.03|
+|music|FastForest|DropAuthor_N+1|3,912|0.00|
+|aww|FastTreeTweedie|DropAuthor_N+1|13,290|0.12|
+|gaming|FastForest|DropAuthor_N+1|5,060|0.11|
 

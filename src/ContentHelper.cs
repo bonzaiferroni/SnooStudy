@@ -5,18 +5,17 @@ namespace Bonwerk.SnooStudy
 {
     public static class ContentHelper
     {
-        public static Table GetParamsTable(Dictionary<string, StudyData> studyData)
+        public static Table GetParamsTable(ScopeData scope)
         {
             var table = new Table();
-            table.AddColumns(TextAlignment.Left, "Study", "Trainer Name", "Feature Set");
+            table.AddColumns(TextAlignment.Left, "Subreddit", "Trainer Name", "Feature Set");
             table.AddColumns(TextAlignment.Right, "n", "R²");
 
-            foreach (var studyKvp in studyData)
+            foreach (var subreddit in scope.Subreddits)
             {
-                var study = studyKvp.Key;
-                var prams = studyKvp.Value.CurrentParams;
+                var prams = subreddit.CurrentParams;
                 var trainer = prams.TrainerName.Replace("Regression", "");
-                table.AddRow(study, trainer, prams.FeatureSetName, prams.N.ToString("N0"), prams.RSquared.ToString("N2"));
+                table.AddRow(subreddit.Name, trainer, prams.FeatureSetName, prams.N.ToString("N0"), prams.RSquared.ToString("N2"));
             }
 
             return table;

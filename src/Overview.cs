@@ -7,18 +7,18 @@ namespace Bonwerk.SnooStudy
 {
     public static class Overview
     {
-        public static void Add(FileLinker linker, SubData data)
+        public static void Add(FileLinker linker, ScopeData[] scopes)
         {
             var home = linker.GetPage("index");
+
             var overview = home.Root.FindSection("Overview");
             overview.Children.Clear();
 
-            foreach (var subKvp in data)
+            foreach (var scope in scopes)
             {
-                var subName = subKvp.Key;
-                var section = overview.AddSection(subName);
+                var section = overview.AddSection(scope.Name);
                 
-                var table = ContentHelper.GetParamsTable(subKvp.Value);
+                var table = ContentHelper.GetParamsTable(scope);
                 
                 section.AddContent(table);
             }

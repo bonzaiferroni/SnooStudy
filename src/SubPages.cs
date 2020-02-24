@@ -6,28 +6,17 @@ namespace Bonwerk.SnooStudy
     {
         public const string OverviewName = "Overview";
         
-        public static void Add(FileLinker linker, SubData data)
+        public static void Add(FileLinker linker, ScopeData[] scopes)
         {
             var home = linker.GetPage("index");
             
-            foreach (var subKvp in data)
+            foreach (var scope in scopes)
             {
-                var subName = subKvp.Key;
-                var subPage = linker.CreatePage(subName, $"subs/{subName}.md");
-                
-                subPage.Root.AddText(linker.LinkPage("Home", subPage, home));
-
-                var homeSection = home.Root.FindSection(subName);
-                homeSection.Heading.Text = linker.LinkPage(subName, home, subPage);
-
-                var section = subPage.Root.AddSection(OverviewName);
-                var table = ContentHelper.GetParamsTable(subKvp.Value);
-                section.AddContent(table);
-                
-                foreach (var studyKvp in subKvp.Value)
+                foreach (var sub in scope.Subreddits)
                 {
-                    var studyName = studyKvp.Key;
-                    StudyPages.Add(linker, subName, studyName, studyKvp.Value);
+                    var subPage = linker.CreatePage(sub.Name, $"subs/{scope.Name}_{sub.Name}.md");
+                    subPage.Root.AddText(linker.LinkPage("Home", subPage, home));
+                    ChartSections.Add(linker, sub, subPage);
                 }
             }
         }

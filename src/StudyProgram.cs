@@ -20,40 +20,46 @@ namespace Bonwerk.SnooStudy
 
         private static void CreatePages()
         {
-            var data = LoadData();
+            var scopes = LoadData();
 
             var linker = new FileLinker(DocsPath);
             linker.LoadPage("index.md");
             
-            Overview.Add(linker, data);
-            SubPages.Add(linker, data);
+            Overview.Add(linker, scopes);
+            SubPages.Add(linker, scopes);
 
             linker.SaveAll();
         }
 
-        private static SubData LoadData()
+        private static ScopeData[] LoadData()
         {
-            var subData = new SubData();
+            var scopes = new List<ScopeData>();
             
-            var studies = new[] {"hunch", "guess"};
+            var scopeNames = new[] {"guess", "hunch"};
 
-            foreach (var sub in SpyProcess.Subs)
+            foreach (var subName in SpyProcess.Subs)
             {
-                subData[sub] = new Dictionary<string, StudyData>();
-                var archive = new PostArchive($"{sub}.archive", $"{DataPath}/data");
+                var archive = new PostArchive($"{subName}.archive", $"{DataPath}/data");
                 var items = archive.GetItems();
                 items = items.OrderBy(x => x.Created).ToList();
                 
-                foreach (var study in studies)
+                foreach (var scopeName in scopeNames)
                 {
-                    var prams = Memorizer.Load<ModelParams>($"{sub}.{study}.params", $"{DataPath}/models");
+                    var scope = scopes.FirstOrDefault(x => x.Name == scopeName);
+                    if (scope == null)
+                    {
+                        scope = new ScopeData(scopeName);
+                        scopes.Add(scope);
+                    }
+                    
+                    var prams = Memorizer.Load<ModelParams>($"{subName}.{scopeName}.params", $"{DataPath}/models");
 
-                    var studyItems = items.Select(x => new StudyItem(study, x)).ToArray();
-                    subData[sub][study] = new StudyData(studyItems, prams);
+                    var studyItems = items.Select(x => new StudyItem(scopeName, x)).ToArray();
+                    scope.Subreddits.Add(new SubData(subName, scopeName, studyItems, prams));
                 }
             }
 
-            return subData;
+            return scopes.ToArray();
         }
     }
 }
