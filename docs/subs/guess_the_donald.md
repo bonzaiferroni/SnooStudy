@@ -13,3 +13,5 @@
 
 ![r/the_donald Distributions (guess)](../images/guess_the_donald_Distributions.png "r/the_donald Distributions (guess)")
 
+![r/the_donald Score Averages (guess)](../images/guess_the_donald_Scores.png "r/the_donald Score Averages (guess)")
+

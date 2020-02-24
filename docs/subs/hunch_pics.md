@@ -13,3 +13,5 @@
 
 ![r/pics Distributions (hunch)](../images/hunch_pics_Distributions.png "r/pics Distributions (hunch)")
 
+![r/pics Score Averages (hunch)](../images/hunch_pics_Scores.png "r/pics Score Averages (hunch)")
+

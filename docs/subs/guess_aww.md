@@ -13,3 +13,5 @@
 
 ![r/aww Distributions (guess)](../images/guess_aww_Distributions.png "r/aww Distributions (guess)")
 
+![r/aww Score Averages (guess)](../images/guess_aww_Scores.png "r/aww Score Averages (guess)")
+

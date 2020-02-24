@@ -13,3 +13,5 @@
 
 ![r/gaming Distributions (hunch)](../images/hunch_gaming_Distributions.png "r/gaming Distributions (hunch)")
 
+![r/gaming Score Averages (hunch)](../images/hunch_gaming_Scores.png "r/gaming Score Averages (hunch)")
+

@@ -13,3 +13,5 @@
 
 ![r/art Distributions (guess)](../images/guess_art_Distributions.png "r/art Distributions (guess)")
 
+![r/art Score Averages (guess)](../images/guess_art_Scores.png "r/art Score Averages (guess)")
+

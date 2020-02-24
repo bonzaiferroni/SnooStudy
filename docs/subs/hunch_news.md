@@ -13,3 +13,5 @@
 
 ![r/news Distributions (hunch)](../images/hunch_news_Distributions.png "r/news Distributions (hunch)")
 
+![r/news Score Averages (hunch)](../images/hunch_news_Scores.png "r/news Score Averages (hunch)")
+

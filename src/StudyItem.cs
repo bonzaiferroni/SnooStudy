@@ -5,9 +5,7 @@ namespace Bonwerk.SnooStudy
 {
     public class StudyItem
     {
-        public const int PopularityThreshold = 10000;
-        
-        public StudyItem(string study, ArchiveItem rawData)
+        public StudyItem(string study, ArchiveItem rawData, int threshold)
         {
             RawData = rawData;
             Predicted = study == ProphetStrings.Hunch ? rawData.HunchScore : rawData.GuessScore;
@@ -17,6 +15,22 @@ namespace Bonwerk.SnooStudy
             Trainer = study == ProphetStrings.Hunch ? rawData.HunchTrainer : rawData.GuessTrainer;
             FeatureSet = study == ProphetStrings.Hunch ? rawData.HunchFeatures : rawData.GuessFeatures;
             IsNotable = study == ProphetStrings.Hunch ? rawData.IsHunchNotable : rawData.IsGuessNotable;
+
+            Threshold = threshold;
+
+            Scores = new[]
+            {
+                rawData.Score0,
+                rawData.Score1,
+                rawData.Score2,
+                rawData.Score3,
+                rawData.Score4,
+                rawData.Score5,
+                rawData.Score6,
+                rawData.Score7,
+                rawData.Score8,
+                rawData.Score9,
+            };
         }
         
         public int Predicted { get; }
@@ -27,9 +41,13 @@ namespace Bonwerk.SnooStudy
         public bool IsNotable { get; }
         public ArchiveItem RawData { get; }
         
+        public int Threshold { get; }
+        
         public DateTime Created => RawData.Created;
         public DateTime Recorded => RawData.Created + TimeSpan.FromSeconds(RawData.AgeAtOutcome);
         public int Outcome => RawData.OutcomeScore;
+        
+        public int[] Scores { get; }
 
         public bool IsAccurate()
         {
@@ -37,10 +55,10 @@ namespace Bonwerk.SnooStudy
             return Predicted > Outcome - moe && Predicted < Outcome + moe;
         }
 
-        public bool IsPopular => Outcome > PopularityThreshold;
-        public bool PredictedPopular => Predicted > PopularityThreshold;
+        public bool IsTop => Outcome > Threshold;
+        public bool PredictedTop => Predicted > Threshold;
 
-        public bool IsHit => IsPopular && PredictedPopular;
-        public bool IsHype => !IsPopular && PredictedPopular;
+        public bool IsHit => IsTop && PredictedTop;
+        public bool IsHype => !IsTop && PredictedTop;
     }
 }

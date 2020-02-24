@@ -13,3 +13,5 @@
 
 ![r/movies Distributions (hunch)](../images/hunch_movies_Distributions.png "r/movies Distributions (hunch)")
 
+![r/movies Score Averages (hunch)](../images/hunch_movies_Scores.png "r/movies Score Averages (hunch)")
+

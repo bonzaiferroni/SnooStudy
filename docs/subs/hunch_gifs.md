@@ -13,3 +13,5 @@
 
 ![r/gifs Distributions (hunch)](../images/hunch_gifs_Distributions.png "r/gifs Distributions (hunch)")
 
+![r/gifs Score Averages (hunch)](../images/hunch_gifs_Scores.png "r/gifs Score Averages (hunch)")
+

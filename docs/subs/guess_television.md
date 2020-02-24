@@ -13,3 +13,5 @@
 
 ![r/television Distributions (guess)](../images/guess_television_Distributions.png "r/television Distributions (guess)")
 
+![r/television Score Averages (guess)](../images/guess_television_Scores.png "r/television Score Averages (guess)")
+

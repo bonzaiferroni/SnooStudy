@@ -13,3 +13,5 @@
 
 ![r/news Distributions (guess)](../images/guess_news_Distributions.png "r/news Distributions (guess)")
 
+![r/news Score Averages (guess)](../images/guess_news_Scores.png "r/news Score Averages (guess)")
+

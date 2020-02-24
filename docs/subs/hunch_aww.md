@@ -13,3 +13,5 @@
 
 ![r/aww Distributions (hunch)](../images/hunch_aww_Distributions.png "r/aww Distributions (hunch)")
 
+![r/aww Score Averages (hunch)](../images/hunch_aww_Scores.png "r/aww Score Averages (hunch)")
+

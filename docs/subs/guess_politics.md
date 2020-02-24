@@ -13,3 +13,5 @@
 
 ![r/politics Distributions (guess)](../images/guess_politics_Distributions.png "r/politics Distributions (guess)")
 
+![r/politics Score Averages (guess)](../images/guess_politics_Scores.png "r/politics Score Averages (guess)")
+

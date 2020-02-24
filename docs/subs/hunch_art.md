@@ -13,3 +13,5 @@
 
 ![r/art Distributions (hunch)](../images/hunch_art_Distributions.png "r/art Distributions (hunch)")
 
+![r/art Score Averages (hunch)](../images/hunch_art_Scores.png "r/art Score Averages (hunch)")
+

@@ -13,3 +13,5 @@
 
 ![r/dataisbeautiful Distributions (guess)](../images/guess_dataisbeautiful_Distributions.png "r/dataisbeautiful Distributions (guess)")
 
+![r/dataisbeautiful Score Averages (guess)](../images/guess_dataisbeautiful_Scores.png "r/dataisbeautiful Score Averages (guess)")
+

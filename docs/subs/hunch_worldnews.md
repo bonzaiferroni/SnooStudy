@@ -13,3 +13,5 @@
 
 ![r/worldnews Distributions (hunch)](../images/hunch_worldnews_Distributions.png "r/worldnews Distributions (hunch)")
 
+![r/worldnews Score Averages (hunch)](../images/hunch_worldnews_Scores.png "r/worldnews Score Averages (hunch)")
+

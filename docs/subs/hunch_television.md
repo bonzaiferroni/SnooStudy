@@ -13,3 +13,5 @@
 
 ![r/television Distributions (hunch)](../images/hunch_television_Distributions.png "r/television Distributions (hunch)")
 
+![r/television Score Averages (hunch)](../images/hunch_television_Scores.png "r/television Score Averages (hunch)")
+

@@ -13,3 +13,5 @@
 
 ![r/dataisbeautiful Distributions (hunch)](../images/hunch_dataisbeautiful_Distributions.png "r/dataisbeautiful Distributions (hunch)")
 
+![r/dataisbeautiful Score Averages (hunch)](../images/hunch_dataisbeautiful_Scores.png "r/dataisbeautiful Score Averages (hunch)")
+

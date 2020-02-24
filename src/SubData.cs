@@ -17,8 +17,8 @@ namespace Bonwerk.SnooStudy
             DailyOADate = GetDailyValues(x => x[0].Created.Date.ToOADate());
             DailyRSq = GetDailyValues(x => x.Average(x1 => x1.RSquared));
             DailyAccuracy = GetDailyValues(x => (double) x.Count(x1 => x1.IsAccurate()) / x.Count);
-            DailyHitRatio = GetDailyValues(x => (double) x.Count(x1 => x1.IsHit) / x.Count(x1 => x1.IsPopular));
-            DailyHypeRatio = GetDailyValues(x => (double) x.Count(x1 => x1.IsHype) / x.Count(x1 => !x1.IsPopular));
+            DailyHitRatio = GetDailyValues(x => (double) x.Count(x1 => x1.IsHit) / x.Count(x1 => x1.IsTop));
+            DailyHypeRatio = GetDailyValues(x => (double) x.Count(x1 => x1.IsHype) / x.Count(x1 => !x1.IsTop));
         }
 
         public string Name { get; }

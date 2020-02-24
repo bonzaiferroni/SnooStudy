@@ -13,3 +13,5 @@
 
 ![r/gaming Distributions (guess)](../images/guess_gaming_Distributions.png "r/gaming Distributions (guess)")
 
+![r/gaming Score Averages (guess)](../images/guess_gaming_Scores.png "r/gaming Score Averages (guess)")
+

@@ -13,3 +13,5 @@
 
 ![r/music Distributions (hunch)](../images/hunch_music_Distributions.png "r/music Distributions (hunch)")
 
+![r/music Score Averages (hunch)](../images/hunch_music_Scores.png "r/music Score Averages (hunch)")
+

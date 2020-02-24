@@ -13,3 +13,5 @@
 
 ![r/gifs Distributions (guess)](../images/guess_gifs_Distributions.png "r/gifs Distributions (guess)")
 
+![r/gifs Score Averages (guess)](../images/guess_gifs_Scores.png "r/gifs Score Averages (guess)")
+

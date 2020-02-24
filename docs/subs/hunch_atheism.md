@@ -13,3 +13,5 @@
 
 ![r/atheism Distributions (hunch)](../images/hunch_atheism_Distributions.png "r/atheism Distributions (hunch)")
 
+![r/atheism Score Averages (hunch)](../images/hunch_atheism_Scores.png "r/atheism Score Averages (hunch)")
+

@@ -13,3 +13,5 @@
 
 ![r/outoftheloop Distributions (hunch)](../images/hunch_outoftheloop_Distributions.png "r/outoftheloop Distributions (hunch)")
 
+![r/outoftheloop Score Averages (hunch)](../images/hunch_outoftheloop_Scores.png "r/outoftheloop Score Averages (hunch)")
+

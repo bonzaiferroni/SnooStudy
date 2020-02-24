@@ -13,3 +13,5 @@
 
 ![r/the_donald Distributions (hunch)](../images/hunch_the_donald_Distributions.png "r/the_donald Distributions (hunch)")
 
+![r/the_donald Score Averages (hunch)](../images/hunch_the_donald_Scores.png "r/the_donald Score Averages (hunch)")
+

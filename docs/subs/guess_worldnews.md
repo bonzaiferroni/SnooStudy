@@ -13,3 +13,5 @@
 
 ![r/worldnews Distributions (guess)](../images/guess_worldnews_Distributions.png "r/worldnews Distributions (guess)")
 
+![r/worldnews Score Averages (guess)](../images/guess_worldnews_Scores.png "r/worldnews Score Averages (guess)")
+

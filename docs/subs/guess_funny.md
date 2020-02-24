@@ -13,3 +13,5 @@
 
 ![r/funny Distributions (guess)](../images/guess_funny_Distributions.png "r/funny Distributions (guess)")
 
+![r/funny Score Averages (guess)](../images/guess_funny_Scores.png "r/funny Score Averages (guess)")
+

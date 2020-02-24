@@ -1,6 +1,8 @@
 using System;
 using System.Linq;
+using Bonwerk.LearningML.Auto;
 using Bonwerk.Markdown;
+using Bonwerk.RedditSpy;
 using ScottPlot;
 
 namespace Bonwerk.SnooStudy
@@ -21,6 +23,10 @@ namespace Bonwerk.SnooStudy
 
             image = CreateDistCharts(linker, sub);
             linkText = linker.LinkImage($"{sub.RName} Distributions ({sub.Scope})", page, image);
+            section.AddText(linkText);
+            
+            image = CreateScoreCharts(linker, sub);
+            linkText = linker.LinkImage($"{sub.RName} Score Averages ({sub.Scope})", page, image);
             section.AddText(linkText);
         }
 
@@ -150,6 +156,47 @@ namespace Bonwerk.SnooStudy
             return image;
         }
 
-        // private static Image CreateScoreCharts(FileLinker linker, SubData sub) 
+        private static Image CreateScoreCharts(FileLinker linker, SubData sub)
+        {
+            var top = GetScoreAverages(sub.Items.Where(x => x.IsTop).ToArray());
+            var bottom = GetScoreAverages(sub.Items.Where(x => !x.IsTop).ToArray());
+            var hits = GetScoreAverages(sub.Items.Where(x => x.IsHit).ToArray());
+            var hypes = GetScoreAverages(sub.Items.Where(x => x.IsHype).ToArray());
+            var xs = ScottPlot.DataGen.Consecutive(PostInfo.UpdateCount);
+            var xTicks = xs;
+            var xLabels = xs.Select(x => $"{x * PostInfo.UpdateInterval / 60}").ToArray();
+            
+            var plot = new Plot();
+            plot.Title($"{sub.RName} Score Averages ({sub.Scope})", fontSize: ProgramConfig.TitleSize);
+            
+            if (top != null) plot.PlotScatter(xs, top, ProgramConfig.Color1, 2, 5, $"Top");
+            if (bottom != null) plot.PlotScatter(xs, bottom, ProgramConfig.Color2, 2, 5, "Bottom");
+            if (hits != null) plot.PlotScatter(xs, hits, ProgramConfig.Color3, 2, 5, "Hits");
+            if (hypes != null) plot.PlotScatter(xs, hypes, ProgramConfig.Color4, 2, 5, "Hypes");
+            
+            plot.Legend();
+            plot.XTicks(xTicks, xLabels);
+            plot.XLabel("Minutes after posting");
+            plot.YLabel("Score");
+
+            ProgramConfig.StylePlot(plot);
+            var image = linker.CreateImage($"images/{sub.Scope}_{sub.Name}_Scores.png");
+            plot.SaveFig(image.Path);
+            return image;
+        }
+
+        private static double[] GetScoreAverages(StudyItem[] top)
+        {
+            if (top.Length == 0) return null;
+            
+            var values = new double[PostInfo.UpdateCount];
+
+            for (int i = 0; i < values.Length; i++)
+            {
+                values[i] = top.Average(x => x.Scores[i]);
+            }
+
+            return values;
+        }
     }
 }

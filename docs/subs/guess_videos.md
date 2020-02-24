@@ -13,3 +13,5 @@
 
 ![r/videos Distributions (guess)](../images/guess_videos_Distributions.png "r/videos Distributions (guess)")
 
+![r/videos Score Averages (guess)](../images/guess_videos_Scores.png "r/videos Score Averages (guess)")
+

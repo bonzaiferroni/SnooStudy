@@ -57,7 +57,7 @@ namespace Bonwerk.SnooStudy
 
                     if (prams.Threshold == 0) prams.Threshold = (int) AutoProgram.FindThreshold(items, x => x.OutcomeScore);
 
-                    var studyItems = items.Select(x => new StudyItem(scopeName, x)).ToArray();
+                    var studyItems = items.Select(x => new StudyItem(scopeName, x, prams.Threshold)).ToArray();
                     scope.Subreddits.Add(new SubData(subName, scopeName, studyItems, prams));
                 }
             }

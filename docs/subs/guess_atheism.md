@@ -13,3 +13,5 @@
 
 ![r/atheism Distributions (guess)](../images/guess_atheism_Distributions.png "r/atheism Distributions (guess)")
 
+![r/atheism Score Averages (guess)](../images/guess_atheism_Scores.png "r/atheism Score Averages (guess)")
+

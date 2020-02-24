@@ -13,3 +13,5 @@
 
 ![r/music Distributions (guess)](../images/guess_music_Distributions.png "r/music Distributions (guess)")
 
+![r/music Score Averages (guess)](../images/guess_music_Scores.png "r/music Score Averages (guess)")
+

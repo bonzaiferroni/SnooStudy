@@ -13,3 +13,5 @@
 
 ![r/funny Distributions (hunch)](../images/hunch_funny_Distributions.png "r/funny Distributions (hunch)")
 
+![r/funny Score Averages (hunch)](../images/hunch_funny_Scores.png "r/funny Score Averages (hunch)")
+

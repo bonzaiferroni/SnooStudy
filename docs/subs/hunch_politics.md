@@ -13,3 +13,5 @@
 
 ![r/politics Distributions (hunch)](../images/hunch_politics_Distributions.png "r/politics Distributions (hunch)")
 
+![r/politics Score Averages (hunch)](../images/hunch_politics_Scores.png "r/politics Score Averages (hunch)")
+

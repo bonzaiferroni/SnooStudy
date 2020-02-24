@@ -13,3 +13,5 @@
 
 ![r/pics Distributions (guess)](../images/guess_pics_Distributions.png "r/pics Distributions (guess)")
 
+![r/pics Score Averages (guess)](../images/guess_pics_Scores.png "r/pics Score Averages (guess)")
+

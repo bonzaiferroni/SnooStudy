@@ -13,3 +13,5 @@
 
 ![r/movies Distributions (guess)](../images/guess_movies_Distributions.png "r/movies Distributions (guess)")
 
+![r/movies Score Averages (guess)](../images/guess_movies_Scores.png "r/movies Score Averages (guess)")
+

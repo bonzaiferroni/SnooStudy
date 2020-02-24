@@ -13,3 +13,5 @@
 
 ![r/videos Distributions (hunch)](../images/hunch_videos_Distributions.png "r/videos Distributions (hunch)")
 
+![r/videos Score Averages (hunch)](../images/hunch_videos_Scores.png "r/videos Score Averages (hunch)")
+

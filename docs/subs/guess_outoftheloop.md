@@ -13,3 +13,5 @@
 
 ![r/outoftheloop Distributions (guess)](../images/guess_outoftheloop_Distributions.png "r/outoftheloop Distributions (guess)")
 
+![r/outoftheloop Score Averages (guess)](../images/guess_outoftheloop_Scores.png "r/outoftheloop Score Averages (guess)")
+
