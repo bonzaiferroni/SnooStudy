@@ -1,12 +1,12 @@
-# pics
+# r/pics
 
 [Home](../index.md)
 
 ## Charts
 
-![pics R² (guess)](../images/guess_pics_Accuracy.png "pics R² (guess)")
+![r/pics R² (guess)](../images/guess_pics_Accuracy.png "r/pics R² (guess)")
 
-![pics Hit Ratio (guess)](../images/guess_pics_HitRatio.png "pics Hit Ratio (guess)")
+![r/pics Hit Ratio (guess)](../images/guess_pics_HitRatio.png "r/pics Hit Ratio (guess)")
 
-![pics Distributions (guess)](../images/guess_pics_Distributions.png "pics Distributions (guess)")
+![r/pics Distributions (guess)](../images/guess_pics_Distributions.png "r/pics Distributions (guess)")
 

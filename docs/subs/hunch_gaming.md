@@ -1,12 +1,12 @@
-# gaming
+# r/gaming
 
 [Home](../index.md)
 
 ## Charts
 
-![gaming R² (hunch)](../images/hunch_gaming_Accuracy.png "gaming R² (hunch)")
+![r/gaming R² (hunch)](../images/hunch_gaming_Accuracy.png "r/gaming R² (hunch)")
 
-![gaming Hit Ratio (hunch)](../images/hunch_gaming_HitRatio.png "gaming Hit Ratio (hunch)")
+![r/gaming Hit Ratio (hunch)](../images/hunch_gaming_HitRatio.png "r/gaming Hit Ratio (hunch)")
 
-![gaming Distributions (hunch)](../images/hunch_gaming_Distributions.png "gaming Distributions (hunch)")
+![r/gaming Distributions (hunch)](../images/hunch_gaming_Distributions.png "r/gaming Distributions (hunch)")
 

@@ -1,12 +1,12 @@
-# television
+# r/television
 
 [Home](../index.md)
 
 ## Charts
 
-![television R² (guess)](../images/guess_television_Accuracy.png "television R² (guess)")
+![r/television R² (guess)](../images/guess_television_Accuracy.png "r/television R² (guess)")
 
-![television Hit Ratio (guess)](../images/guess_television_HitRatio.png "television Hit Ratio (guess)")
+![r/television Hit Ratio (guess)](../images/guess_television_HitRatio.png "r/television Hit Ratio (guess)")
 
-![television Distributions (guess)](../images/guess_television_Distributions.png "television Distributions (guess)")
+![r/television Distributions (guess)](../images/guess_television_Distributions.png "r/television Distributions (guess)")
 

@@ -12,7 +12,7 @@ namespace Bonwerk.SnooStudy
             {
                 foreach (var sub in scope.Subreddits)
                 {
-                    var subPage = linker.CreatePage(sub.Name, $"subs/{scope.Name}_{sub.Name}.md");
+                    var subPage = linker.CreatePage(sub.RName, $"subs/{scope.Name}_{sub.Name}.md");
                     subPage.Root.AddText(linker.LinkPage("Home", subPage, home));
                     ChartSections.Add(linker, sub, subPage);
                 }

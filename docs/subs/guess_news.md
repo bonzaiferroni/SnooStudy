@@ -1,12 +1,12 @@
-# news
+# r/news
 
 [Home](../index.md)
 
 ## Charts
 
-![news R² (guess)](../images/guess_news_Accuracy.png "news R² (guess)")
+![r/news R² (guess)](../images/guess_news_Accuracy.png "r/news R² (guess)")
 
-![news Hit Ratio (guess)](../images/guess_news_HitRatio.png "news Hit Ratio (guess)")
+![r/news Hit Ratio (guess)](../images/guess_news_HitRatio.png "r/news Hit Ratio (guess)")
 
-![news Distributions (guess)](../images/guess_news_Distributions.png "news Distributions (guess)")
+![r/news Distributions (guess)](../images/guess_news_Distributions.png "r/news Distributions (guess)")
 

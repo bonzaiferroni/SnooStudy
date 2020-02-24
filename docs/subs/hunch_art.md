@@ -1,12 +1,12 @@
-# art
+# r/art
 
 [Home](../index.md)
 
 ## Charts
 
-![art R² (hunch)](../images/hunch_art_Accuracy.png "art R² (hunch)")
+![r/art R² (hunch)](../images/hunch_art_Accuracy.png "r/art R² (hunch)")
 
-![art Hit Ratio (hunch)](../images/hunch_art_HitRatio.png "art Hit Ratio (hunch)")
+![r/art Hit Ratio (hunch)](../images/hunch_art_HitRatio.png "r/art Hit Ratio (hunch)")
 
-![art Distributions (hunch)](../images/hunch_art_Distributions.png "art Distributions (hunch)")
+![r/art Distributions (hunch)](../images/hunch_art_Distributions.png "r/art Distributions (hunch)")
 

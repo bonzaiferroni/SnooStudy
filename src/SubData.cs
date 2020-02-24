@@ -22,6 +22,7 @@ namespace Bonwerk.SnooStudy
         }
 
         public string Name { get; }
+        public string RName => $"r/{Name}";
         public string Scope { get; }
         public StudyItem[] Items { get; }
         public ModelParams CurrentParams { get; }

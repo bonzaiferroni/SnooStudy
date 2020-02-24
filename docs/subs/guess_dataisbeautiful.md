@@ -1,12 +1,12 @@
-# dataisbeautiful
+# r/dataisbeautiful
 
 [Home](../index.md)
 
 ## Charts
 
-![dataisbeautiful R² (guess)](../images/guess_dataisbeautiful_Accuracy.png "dataisbeautiful R² (guess)")
+![r/dataisbeautiful R² (guess)](../images/guess_dataisbeautiful_Accuracy.png "r/dataisbeautiful R² (guess)")
 
-![dataisbeautiful Hit Ratio (guess)](../images/guess_dataisbeautiful_HitRatio.png "dataisbeautiful Hit Ratio (guess)")
+![r/dataisbeautiful Hit Ratio (guess)](../images/guess_dataisbeautiful_HitRatio.png "r/dataisbeautiful Hit Ratio (guess)")
 
-![dataisbeautiful Distributions (guess)](../images/guess_dataisbeautiful_Distributions.png "dataisbeautiful Distributions (guess)")
+![r/dataisbeautiful Distributions (guess)](../images/guess_dataisbeautiful_Distributions.png "r/dataisbeautiful Distributions (guess)")
 

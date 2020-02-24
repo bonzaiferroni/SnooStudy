@@ -1,12 +1,12 @@
-# movies
+# r/movies
 
 [Home](../index.md)
 
 ## Charts
 
-![movies R² (guess)](../images/guess_movies_Accuracy.png "movies R² (guess)")
+![r/movies R² (guess)](../images/guess_movies_Accuracy.png "r/movies R² (guess)")
 
-![movies Hit Ratio (guess)](../images/guess_movies_HitRatio.png "movies Hit Ratio (guess)")
+![r/movies Hit Ratio (guess)](../images/guess_movies_HitRatio.png "r/movies Hit Ratio (guess)")
 
-![movies Distributions (guess)](../images/guess_movies_Distributions.png "movies Distributions (guess)")
+![r/movies Distributions (guess)](../images/guess_movies_Distributions.png "r/movies Distributions (guess)")
 

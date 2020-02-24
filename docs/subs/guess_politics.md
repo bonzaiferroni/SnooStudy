@@ -1,12 +1,12 @@
-# politics
+# r/politics
 
 [Home](../index.md)
 
 ## Charts
 
-![politics R² (guess)](../images/guess_politics_Accuracy.png "politics R² (guess)")
+![r/politics R² (guess)](../images/guess_politics_Accuracy.png "r/politics R² (guess)")
 
-![politics Hit Ratio (guess)](../images/guess_politics_HitRatio.png "politics Hit Ratio (guess)")
+![r/politics Hit Ratio (guess)](../images/guess_politics_HitRatio.png "r/politics Hit Ratio (guess)")
 
-![politics Distributions (guess)](../images/guess_politics_Distributions.png "politics Distributions (guess)")
+![r/politics Distributions (guess)](../images/guess_politics_Distributions.png "r/politics Distributions (guess)")
 

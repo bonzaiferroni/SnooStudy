@@ -1,12 +1,12 @@
-# gifs
+# r/gifs
 
 [Home](../index.md)
 
 ## Charts
 
-![gifs R² (guess)](../images/guess_gifs_Accuracy.png "gifs R² (guess)")
+![r/gifs R² (guess)](../images/guess_gifs_Accuracy.png "r/gifs R² (guess)")
 
-![gifs Hit Ratio (guess)](../images/guess_gifs_HitRatio.png "gifs Hit Ratio (guess)")
+![r/gifs Hit Ratio (guess)](../images/guess_gifs_HitRatio.png "r/gifs Hit Ratio (guess)")
 
-![gifs Distributions (guess)](../images/guess_gifs_Distributions.png "gifs Distributions (guess)")
+![r/gifs Distributions (guess)](../images/guess_gifs_Distributions.png "r/gifs Distributions (guess)")
 

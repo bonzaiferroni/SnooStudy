@@ -34,7 +34,7 @@ namespace Bonwerk.SnooStudy
             {
                 var prams = subreddit.CurrentParams;
                 var trainer = prams.TrainerName.Replace("Regression", "");
-                var subredditText = linker.LinkPage(subreddit.Name, page, $"{subreddit.Scope}_{subreddit.Name}");
+                var subredditText = linker.LinkPage(subreddit.RName, page, $"{subreddit.Scope}_{subreddit.Name}");
                 table.AddRow(subredditText, trainer, prams.FeatureSetName, prams.N.ToString("N0"), prams.RSquared.ToString("N2"));
             }
 

@@ -1,12 +1,12 @@
-# atheism
+# r/atheism
 
 [Home](../index.md)
 
 ## Charts
 
-![atheism R² (hunch)](../images/hunch_atheism_Accuracy.png "atheism R² (hunch)")
+![r/atheism R² (hunch)](../images/hunch_atheism_Accuracy.png "r/atheism R² (hunch)")
 
-![atheism Hit Ratio (hunch)](../images/hunch_atheism_HitRatio.png "atheism Hit Ratio (hunch)")
+![r/atheism Hit Ratio (hunch)](../images/hunch_atheism_HitRatio.png "r/atheism Hit Ratio (hunch)")
 
-![atheism Distributions (hunch)](../images/hunch_atheism_Distributions.png "atheism Distributions (hunch)")
+![r/atheism Distributions (hunch)](../images/hunch_atheism_Distributions.png "r/atheism Distributions (hunch)")
 

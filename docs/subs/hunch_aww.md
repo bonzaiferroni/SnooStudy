@@ -1,12 +1,12 @@
-# aww
+# r/aww
 
 [Home](../index.md)
 
 ## Charts
 
-![aww R² (hunch)](../images/hunch_aww_Accuracy.png "aww R² (hunch)")
+![r/aww R² (hunch)](../images/hunch_aww_Accuracy.png "r/aww R² (hunch)")
 
-![aww Hit Ratio (hunch)](../images/hunch_aww_HitRatio.png "aww Hit Ratio (hunch)")
+![r/aww Hit Ratio (hunch)](../images/hunch_aww_HitRatio.png "r/aww Hit Ratio (hunch)")
 
-![aww Distributions (hunch)](../images/hunch_aww_Distributions.png "aww Distributions (hunch)")
+![r/aww Distributions (hunch)](../images/hunch_aww_Distributions.png "r/aww Distributions (hunch)")
 

@@ -12,22 +12,22 @@ namespace Bonwerk.SnooStudy
             var section = page.Root.AddSection("Charts");
 
             var image = CreateAccuracyChart(linker, sub);
-            var linkText = linker.LinkImage($"{sub.Name} R² ({sub.Scope})", page, image);
+            var linkText = linker.LinkImage($"{sub.RName} R² ({sub.Scope})", page, image);
             section.AddText(linkText);
 
             image = CreateHitRatioChart(linker, sub);
-            linkText = linker.LinkImage($"{sub.Name} Hit Ratio ({sub.Scope})", page, image);
+            linkText = linker.LinkImage($"{sub.RName} Hit Ratio ({sub.Scope})", page, image);
             section.AddText(linkText);
 
             image = CreateDistCharts(linker, sub);
-            linkText = linker.LinkImage($"{sub.Name} Distributions ({sub.Scope})", page, image);
+            linkText = linker.LinkImage($"{sub.RName} Distributions ({sub.Scope})", page, image);
             section.AddText(linkText);
         }
 
         private static Image CreateAccuracyChart(FileLinker linker, SubData sub)
         {
             var plot = new Plot();
-            plot.Title($"{sub.Name} Accuracy ({sub.Scope})", fontSize: ProgramConfig.TitleSize);
+            plot.Title($"{sub.RName} Accuracy ({sub.Scope})", fontSize: ProgramConfig.TitleSize);
             plot.PlotScatter(sub.DailyOADate, sub.DailyRSq, ProgramConfig.Color1, 2, 5, "R²");
             plot.PlotScatter(sub.DailyOADate, sub.DailyAccuracy, ProgramConfig.Color2, 2, 5, "Accuracy");
             plot.Axis(y1: -.05, y2: 1.05);
@@ -44,7 +44,7 @@ namespace Bonwerk.SnooStudy
         private static Image CreateHitRatioChart(FileLinker linker, SubData sub)
         {
             var plot = new Plot();
-            plot.Title($"{sub.Name} Hit Ratio ({sub.Scope})", fontSize: ProgramConfig.TitleSize);
+            plot.Title($"{sub.RName} Hit Ratio ({sub.Scope})", fontSize: ProgramConfig.TitleSize);
             plot.PlotScatter(sub.DailyOADate, sub.DailyHitRatio, ProgramConfig.Color1, 2, 5, "Hit");
             plot.PlotScatter(sub.DailyOADate, sub.DailyHypeRatio, ProgramConfig.Color2, 2, 5, "Hype");
             plot.Axis(y1: -.05, y2: 1.05);
