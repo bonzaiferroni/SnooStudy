@@ -8,3 +8,5 @@
 
 ![videos-hunch Hit Ratio](../images/videos_hunch_HitRatio.png "videos-hunch Hit Ratio")
 
+![videos-hunch Distributions](../images/videos_hunch_Distributions.png "videos-hunch Distributions")
+

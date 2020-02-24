@@ -8,3 +8,5 @@
 
 ![music-hunch Hit Ratio](../images/music_hunch_HitRatio.png "music-hunch Hit Ratio")
 
+![music-hunch Distributions](../images/music_hunch_Distributions.png "music-hunch Distributions")
+

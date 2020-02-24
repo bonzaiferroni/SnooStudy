@@ -8,3 +8,5 @@
 
 ![art-guess Hit Ratio](../images/art_guess_HitRatio.png "art-guess Hit Ratio")
 
+![art-guess Distributions](../images/art_guess_Distributions.png "art-guess Distributions")
+

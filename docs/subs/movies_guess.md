@@ -8,3 +8,5 @@
 
 ![movies-guess Hit Ratio](../images/movies_guess_HitRatio.png "movies-guess Hit Ratio")
 
+![movies-guess Distributions](../images/movies_guess_Distributions.png "movies-guess Distributions")
+

@@ -8,3 +8,5 @@
 
 ![television-guess Hit Ratio](../images/television_guess_HitRatio.png "television-guess Hit Ratio")
 
+![television-guess Distributions](../images/television_guess_Distributions.png "television-guess Distributions")
+

@@ -8,3 +8,5 @@
 
 ![politics-guess Hit Ratio](../images/politics_guess_HitRatio.png "politics-guess Hit Ratio")
 
+![politics-guess Distributions](../images/politics_guess_Distributions.png "politics-guess Distributions")
+

@@ -8,3 +8,5 @@
 
 ![worldnews-hunch Hit Ratio](../images/worldnews_hunch_HitRatio.png "worldnews-hunch Hit Ratio")
 
+![worldnews-hunch Distributions](../images/worldnews_hunch_Distributions.png "worldnews-hunch Distributions")
+

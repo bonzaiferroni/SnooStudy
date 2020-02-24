@@ -8,3 +8,5 @@
 
 ![dataisbeautiful-guess Hit Ratio](../images/dataisbeautiful_guess_HitRatio.png "dataisbeautiful-guess Hit Ratio")
 
+![dataisbeautiful-guess Distributions](../images/dataisbeautiful_guess_Distributions.png "dataisbeautiful-guess Distributions")
+

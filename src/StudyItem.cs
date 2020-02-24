@@ -11,6 +11,7 @@ namespace Bonwerk.SnooStudy
         {
             RawData = rawData;
             Predicted = study == ProphetStrings.Hunch ? rawData.HunchScore : rawData.GuessScore;
+            if (float.IsNaN(Predicted)) Predicted = -1;
             RSquared = study == ProphetStrings.Hunch ? rawData.HunchRSquared : rawData.GuessRSquared;
             N = study == ProphetStrings.Hunch ? rawData.HunchN : rawData.GuessN;
             Trainer = study == ProphetStrings.Hunch ? rawData.HunchTrainer : rawData.GuessTrainer;

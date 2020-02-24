@@ -8,3 +8,5 @@
 
 ![pics-guess Hit Ratio](../images/pics_guess_HitRatio.png "pics-guess Hit Ratio")
 
+![pics-guess Distributions](../images/pics_guess_Distributions.png "pics-guess Distributions")
+

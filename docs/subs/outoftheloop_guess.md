@@ -8,3 +8,5 @@
 
 ![outoftheloop-guess Hit Ratio](../images/outoftheloop_guess_HitRatio.png "outoftheloop-guess Hit Ratio")
 
+![outoftheloop-guess Distributions](../images/outoftheloop_guess_Distributions.png "outoftheloop-guess Distributions")
+

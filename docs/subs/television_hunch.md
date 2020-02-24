@@ -8,3 +8,5 @@
 
 ![television-hunch Hit Ratio](../images/television_hunch_HitRatio.png "television-hunch Hit Ratio")
 
+![television-hunch Distributions](../images/television_hunch_Distributions.png "television-hunch Distributions")
+

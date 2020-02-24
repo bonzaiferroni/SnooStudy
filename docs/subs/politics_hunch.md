@@ -8,3 +8,5 @@
 
 ![politics-hunch Hit Ratio](../images/politics_hunch_HitRatio.png "politics-hunch Hit Ratio")
 
+![politics-hunch Distributions](../images/politics_hunch_Distributions.png "politics-hunch Distributions")
+

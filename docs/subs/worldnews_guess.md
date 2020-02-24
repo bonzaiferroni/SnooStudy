@@ -8,3 +8,5 @@
 
 ![worldnews-guess Hit Ratio](../images/worldnews_guess_HitRatio.png "worldnews-guess Hit Ratio")
 
+![worldnews-guess Distributions](../images/worldnews_guess_Distributions.png "worldnews-guess Distributions")
+

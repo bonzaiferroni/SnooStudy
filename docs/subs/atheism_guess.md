@@ -8,3 +8,5 @@
 
 ![atheism-guess Hit Ratio](../images/atheism_guess_HitRatio.png "atheism-guess Hit Ratio")
 
+![atheism-guess Distributions](../images/atheism_guess_Distributions.png "atheism-guess Distributions")
+

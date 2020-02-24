@@ -8,3 +8,5 @@
 
 ![funny-hunch Hit Ratio](../images/funny_hunch_HitRatio.png "funny-hunch Hit Ratio")
 
+![funny-hunch Distributions](../images/funny_hunch_Distributions.png "funny-hunch Distributions")
+

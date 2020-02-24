@@ -8,3 +8,5 @@
 
 ![gifs-hunch Hit Ratio](../images/gifs_hunch_HitRatio.png "gifs-hunch Hit Ratio")
 
+![gifs-hunch Distributions](../images/gifs_hunch_Distributions.png "gifs-hunch Distributions")
+

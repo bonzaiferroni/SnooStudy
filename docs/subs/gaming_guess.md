@@ -8,3 +8,5 @@
 
 ![gaming-guess Hit Ratio](../images/gaming_guess_HitRatio.png "gaming-guess Hit Ratio")
 
+![gaming-guess Distributions](../images/gaming_guess_Distributions.png "gaming-guess Distributions")
+

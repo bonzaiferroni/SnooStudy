@@ -8,3 +8,5 @@
 
 ![funny-guess Hit Ratio](../images/funny_guess_HitRatio.png "funny-guess Hit Ratio")
 
+![funny-guess Distributions](../images/funny_guess_Distributions.png "funny-guess Distributions")
+

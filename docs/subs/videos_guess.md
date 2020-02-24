@@ -8,3 +8,5 @@
 
 ![videos-guess Hit Ratio](../images/videos_guess_HitRatio.png "videos-guess Hit Ratio")
 
+![videos-guess Distributions](../images/videos_guess_Distributions.png "videos-guess Distributions")
+

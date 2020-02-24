@@ -8,3 +8,5 @@
 
 ![news-guess Hit Ratio](../images/news_guess_HitRatio.png "news-guess Hit Ratio")
 
+![news-guess Distributions](../images/news_guess_Distributions.png "news-guess Distributions")
+

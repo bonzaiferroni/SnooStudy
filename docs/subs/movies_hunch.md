@@ -8,3 +8,5 @@
 
 ![movies-hunch Hit Ratio](../images/movies_hunch_HitRatio.png "movies-hunch Hit Ratio")
 
+![movies-hunch Distributions](../images/movies_hunch_Distributions.png "movies-hunch Distributions")
+

@@ -8,3 +8,5 @@
 
 ![gifs-guess Hit Ratio](../images/gifs_guess_HitRatio.png "gifs-guess Hit Ratio")
 
+![gifs-guess Distributions](../images/gifs_guess_Distributions.png "gifs-guess Distributions")
+

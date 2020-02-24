@@ -8,3 +8,5 @@
 
 ![the_donald-guess Hit Ratio](../images/the_donald_guess_HitRatio.png "the_donald-guess Hit Ratio")
 
+![the_donald-guess Distributions](../images/the_donald_guess_Distributions.png "the_donald-guess Distributions")
+

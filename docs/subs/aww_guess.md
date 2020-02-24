@@ -8,3 +8,5 @@
 
 ![aww-guess Hit Ratio](../images/aww_guess_HitRatio.png "aww-guess Hit Ratio")
 
+![aww-guess Distributions](../images/aww_guess_Distributions.png "aww-guess Distributions")
+

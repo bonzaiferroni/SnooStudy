@@ -8,3 +8,5 @@
 
 ![pics-hunch Hit Ratio](../images/pics_hunch_HitRatio.png "pics-hunch Hit Ratio")
 
+![pics-hunch Distributions](../images/pics_hunch_Distributions.png "pics-hunch Distributions")
+

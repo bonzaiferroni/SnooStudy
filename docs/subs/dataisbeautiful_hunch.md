@@ -8,3 +8,5 @@
 
 ![dataisbeautiful-hunch Hit Ratio](../images/dataisbeautiful_hunch_HitRatio.png "dataisbeautiful-hunch Hit Ratio")
 
+![dataisbeautiful-hunch Distributions](../images/dataisbeautiful_hunch_Distributions.png "dataisbeautiful-hunch Distributions")
+

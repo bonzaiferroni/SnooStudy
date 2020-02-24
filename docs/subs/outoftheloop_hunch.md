@@ -8,3 +8,5 @@
 
 ![outoftheloop-hunch Hit Ratio](../images/outoftheloop_hunch_HitRatio.png "outoftheloop-hunch Hit Ratio")
 
+![outoftheloop-hunch Distributions](../images/outoftheloop_hunch_Distributions.png "outoftheloop-hunch Distributions")
+
