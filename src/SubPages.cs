@@ -4,8 +4,6 @@ namespace Bonwerk.SnooStudy
 {
     public static class SubPages
     {
-        public const string OverviewName = "Overview";
-        
         public static void Add(FileLinker linker, ScopeData[] scopes)
         {
             var home = linker.GetPage("index");

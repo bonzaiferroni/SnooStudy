@@ -25,8 +25,8 @@ namespace Bonwerk.SnooStudy
             var linker = new FileLinker(DocsPath);
             linker.LoadPage("index.md");
             
-            Overview.Add(linker, scopes);
             SubPages.Add(linker, scopes);
+            Overview.Add(linker, scopes);
 
             linker.SaveAll();
         }

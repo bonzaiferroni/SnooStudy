@@ -18,10 +18,27 @@ namespace Bonwerk.SnooStudy
             {
                 var section = overview.AddSection(scope.Name);
                 
-                var table = ContentHelper.GetParamsTable(scope);
+                var table = GetParamsTable(linker, scope, home);
                 
                 section.AddContent(table);
             }
+        }
+        
+        public static Table GetParamsTable(FileLinker linker, ScopeData scope, Document page)
+        {
+            var table = new Table();
+            table.AddColumns(TextAlignment.Left, "Subreddit", "Trainer Name", "Feature Set");
+            table.AddColumns(TextAlignment.Right, "n", "R²");
+
+            foreach (var subreddit in scope.Subreddits)
+            {
+                var prams = subreddit.CurrentParams;
+                var trainer = prams.TrainerName.Replace("Regression", "");
+                var subredditText = linker.LinkPage(subreddit.Name, page, $"{subreddit.Scope}_{subreddit.Name}");
+                table.AddRow(subredditText, trainer, prams.FeatureSetName, prams.N.ToString("N0"), prams.RSquared.ToString("N2"));
+            }
+
+            return table;
         }
     }
 }
