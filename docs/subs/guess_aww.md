@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 13720
+* Threshold: 18,780
+
 ## Charts
 
 ![r/aww R² (guess)](../images/guess_aww_Accuracy.png "r/aww R² (guess)")

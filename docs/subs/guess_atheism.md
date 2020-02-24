@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 807
+* Threshold: 9,778
+
 ## Charts
 
 ![r/atheism R² (guess)](../images/guess_atheism_Accuracy.png "r/atheism R² (guess)")

@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 780
+* Threshold: 67,325
+
 ## Charts
 
 ![r/gifs R² (hunch)](../images/hunch_gifs_Accuracy.png "r/gifs R² (hunch)")

@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 189
+* Threshold: 6,562
+
 ## Charts
 
 ![r/outoftheloop R² (hunch)](../images/hunch_outoftheloop_Accuracy.png "r/outoftheloop R² (hunch)")

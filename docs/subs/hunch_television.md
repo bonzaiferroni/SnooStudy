@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 847
+* Threshold: 20,559
+
 ## Charts
 
 ![r/television R² (hunch)](../images/hunch_television_Accuracy.png "r/television R² (hunch)")

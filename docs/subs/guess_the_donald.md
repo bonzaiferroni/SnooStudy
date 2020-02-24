@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 19762
+* Threshold: 4,586
+
 ## Charts
 
 ![r/the_donald R² (guess)](../images/guess_the_donald_Accuracy.png "r/the_donald R² (guess)")

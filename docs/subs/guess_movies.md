@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 2610
+* Threshold: 16,908
+
 ## Charts
 
 ![r/movies R² (guess)](../images/guess_movies_Accuracy.png "r/movies R² (guess)")

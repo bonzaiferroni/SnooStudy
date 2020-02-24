@@ -120,13 +120,22 @@ namespace Bonwerk.SnooStudy
                         positions[i] = interval * i + interval * .5f + min;
                     }
                     
-                    plot.Grid(false);
+                    plot.Grid(enableHorizontal: true, enableVertical: false);
 
                     var maxCount = barValues.Max();
                     if (maxCount == 0) continue;
+
+                    const int yTicksCount = 5;
+                    var yTickValues = new double[yTicksCount];
+                    var yTickLabels = new string[yTicksCount];
+                    for (int i = 0; i < yTicksCount; i++)
+                    {
+                        yTickValues[i] = (double) i / (yTicksCount - 1) * maxCount;
+                        yTickLabels[i] = yTickValues[i].ToString("N0");
+                    }
                     
                     plot.Axis(min, interval * bars, 0, maxCount);
-                    plot.YTicks(new[] {0, maxCount}, new[] {"0", maxCount.ToString("N0")});
+                    plot.YTicks(yTickValues, yTickLabels);
                     plot.XTicks(new[] {min, average, upperLimit}, 
                         new[] {min.ToString("N0"), average.ToString("N0"), upperLimit.ToString("N0")});
                     
@@ -140,5 +149,7 @@ namespace Bonwerk.SnooStudy
             mp.SaveFig(image.Path);
             return image;
         }
+
+        // private static Image CreateScoreCharts(FileLinker linker, SubData sub) 
     }
 }

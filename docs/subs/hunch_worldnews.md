@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 5803
+* Threshold: 27,610
+
 ## Charts
 
 ![r/worldnews R² (hunch)](../images/hunch_worldnews_Accuracy.png "r/worldnews R² (hunch)")

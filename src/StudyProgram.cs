@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Bonwerk.Archiving;
+using Bonwerk.LearningML.Auto;
 using Bonwerk.Markdown;
 using Bonwerk.RedditSpy;
 
@@ -53,6 +54,8 @@ namespace Bonwerk.SnooStudy
                     }
                     
                     var prams = Memorizer.Load<ModelParams>($"{subName}.{scopeName}.params", $"{DataPath}/models");
+
+                    if (prams.Threshold == 0) prams.Threshold = (int) AutoProgram.FindThreshold(items, x => x.OutcomeScore);
 
                     var studyItems = items.Select(x => new StudyItem(scopeName, x)).ToArray();
                     scope.Subreddits.Add(new SubData(subName, scopeName, studyItems, prams));

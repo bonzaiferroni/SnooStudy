@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 417
+* Threshold: 49,606
+
 ## Charts
 
 ![r/dataisbeautiful R² (guess)](../images/guess_dataisbeautiful_Accuracy.png "r/dataisbeautiful R² (guess)")

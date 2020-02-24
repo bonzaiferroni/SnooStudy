@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 7413
+* Threshold: 29,066
+
 ## Charts
 
 ![r/funny R² (hunch)](../images/hunch_funny_Accuracy.png "r/funny R² (hunch)")

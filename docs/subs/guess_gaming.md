@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 5215
+* Threshold: 24,616
+
 ## Charts
 
 ![r/gaming R² (guess)](../images/guess_gaming_Accuracy.png "r/gaming R² (guess)")

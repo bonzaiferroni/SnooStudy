@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 6482
+* Threshold: 6,373
+
 ## Charts
 
 ![r/art R² (guess)](../images/guess_art_Accuracy.png "r/art R² (guess)")

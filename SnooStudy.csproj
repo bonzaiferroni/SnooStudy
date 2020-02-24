@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\LearningML\LearningML.csproj" />
       <ProjectReference Include="..\Markdown\Markdown.csproj" />
       <ProjectReference Include="..\RedditSpy\RedditSpy.csproj" />
     </ItemGroup>

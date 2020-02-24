@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 9441
+* Threshold: 33,116
+
 ## Charts
 
 ![r/politics R² (hunch)](../images/hunch_politics_Accuracy.png "r/politics R² (hunch)")

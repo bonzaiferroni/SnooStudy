@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 4018
+* Threshold: 247
+
 ## Charts
 
 ![r/music R² (hunch)](../images/hunch_music_Accuracy.png "r/music R² (hunch)")

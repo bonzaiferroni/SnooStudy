@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 5368
+* Threshold: 4,752
+
 ## Charts
 
 ![r/videos R² (guess)](../images/guess_videos_Accuracy.png "r/videos R² (guess)")

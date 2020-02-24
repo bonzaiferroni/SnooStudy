@@ -2,6 +2,9 @@
 
 [Home](../index.md)
 
+* n: 1197
+* Threshold: 56,063
+
 ## Charts
 
 ![r/news R² (guess)](../images/guess_news_Accuracy.png "r/news R² (guess)")
