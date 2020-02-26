@@ -47,7 +47,10 @@ namespace Bonwerk.SnooStudy
         {
             if (!FindInvalid(ys)) return new SeriesValues(xs, ys);
 
-            var indices = ys.Where(x => x != InvalidValue).Select((x, index) => index).ToArray();
+            var indices = ys
+                .Select((x, index) => x != InvalidValue ? index : -1)
+                .Where(x => x != -1)
+                .ToArray();
             if (indices.Length == 0) return null;
 
             var newXs = new double[indices.Length];
