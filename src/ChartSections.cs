@@ -30,8 +30,8 @@ namespace Bonwerk.SnooStudy
         {
             var plot = new Plot();
             plot.Title($"{model.RName}: {model.Name} Accuracy ({model.Scope})", fontSize: ProgramConfig.TitleSize);
-            plot.PlotScatter(model.HourlyOADate, model.HourlyRSq, ProgramConfig.Color1, 2, 5, "R²");
-            plot.PlotScatter(model.HourlyOADate, model.HourlyAccuracy, ProgramConfig.Color2, 2, 5, "Accuracy");
+            plot.PlotScatter(model.OADate, model.RSquare, ProgramConfig.Color1, 2, 5, "R²");
+            plot.PlotScatter(model.OADate, model.Accuracy, ProgramConfig.Color2, 2, 5, "Accuracy");
             plot.Axis(y1: -.05, y2: 1.05);
             plot.Ticks(dateTimeX: true);
             plot.YTicks(new[] {0, .25, .5, .75, 1}, new[] {"0", ".25", ".5", ".75", "1"});
@@ -47,8 +47,8 @@ namespace Bonwerk.SnooStudy
         {
             var plot = new Plot();
             plot.Title($"{model.RName}: {model.Name} Hit Ratio ({model.Scope})", fontSize: ProgramConfig.TitleSize);
-            plot.PlotScatter(model.HourlyOADate, model.HourlyHitRatio, ProgramConfig.Color1, 2, 5, "Hit");
-            plot.PlotScatter(model.HourlyOADate, model.HourlyHypeRatio, ProgramConfig.Color2, 2, 5, "Hype");
+            plot.PlotScatter(model.OADate, model.HitRatio, ProgramConfig.Color1, 2, 5, "Hit");
+            plot.PlotScatter(model.OADate, model.HypeRatio, ProgramConfig.Color2, 2, 5, "Hype");
             plot.Axis(y1: -.05, y2: 1.05);
             plot.Ticks(dateTimeX: true);
             plot.YTicks(new[] {0, .25, .5, .75, 1}, new[] {"0", ".25", ".5", ".75", "1"});

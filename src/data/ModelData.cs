@@ -17,14 +17,11 @@ namespace Bonwerk.SnooStudy
 
             Interval = GetInterval(items.Last().Created - items.First().Created);
 
-            HourlyOADate = ArrayMaker.GetValues(items, x => GetHourGroup(x[0]).ToOADate(), GetHourGroup);
-            HourlyRSq = ArrayMaker.GetValues(items, x => x.Average(x1 => x1.RSquared), GetHourGroup);
-            HourlyAccuracy = ArrayMaker.GetValues(items, 
-                x => (double) x.Count(x1 => x1.IsAccurate()) / x.Count, GetHourGroup);
-            HourlyHitRatio = ArrayMaker.GetValues(items, 
-                x => (double) x.Count(x1 => x1.IsHit) / x.Count(x1 => x1.IsTop), GetHourGroup);
-            HourlyHypeRatio = ArrayMaker.GetValues(items, 
-                x => (double) x.Count(x1 => x1.IsHype) / x.Count(x1 => !x1.IsTop), GetHourGroup);
+            OADate = ArrayMaker.GetValues(items, x => GetHourGroup(x[0]).ToOADate(), GetHourGroup);
+            RSquare = ArrayMaker.GetValues(items, x => x.Average(x1 => x1.RSquared), GetHourGroup);
+            Accuracy = ArrayMaker.GetValues(items, GetAccuracy, GetHourGroup);
+            HitRatio = ArrayMaker.GetValues(items, GetHitRatio, GetHourGroup);
+            HypeRatio = ArrayMaker.GetValues(items, GetHypeRatio, GetHourGroup);
         }
 
         public string Name { get; }
@@ -35,11 +32,30 @@ namespace Bonwerk.SnooStudy
         public ModelParams ModelParams { get; }
         public SampleInterval Interval { get; }
         
-        public double[] HourlyOADate { get; }
-        public double[] HourlyRSq { get; }
-        public double[] HourlyAccuracy { get; }
-        public double[] HourlyHitRatio { get; }
-        public double[] HourlyHypeRatio { get; }
+        public double[] OADate { get; }
+        public double[] RSquare { get; }
+        public double[] Accuracy { get; }
+        public double[] HitRatio { get; }
+        public double[] HypeRatio { get; }
+
+        private double GetHypeRatio(List<StudyItem> x)
+        {
+            var count = x.Count(x1 => !x1.IsTop);
+            if (count == 0) return 0;
+            return (double) x.Count(x1 => x1.IsHype) / count;
+        }
+
+        private double GetAccuracy(List<StudyItem> x)
+        {
+            return (double) x.Count(x1 => x1.IsAccurate()) / x.Count;
+        }
+
+        private double GetHitRatio(List<StudyItem> x)
+        {
+            var count = x.Count(x1 => x1.IsTop);
+            if (count == 0) return 0;
+            return (double) x.Count(x1 => x1.IsHit) / count;
+        }
 
         private DateTime GetHourGroup(StudyItem item)
         {
