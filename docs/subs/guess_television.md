@@ -2,16 +2,12 @@
 
 [Home](../index.md)
 
-* n: 847
-* Threshold: 20,559
-
-## Charts
-
-![r/television R² (guess)](../images/guess_television_Accuracy.png "r/television R² (guess)")
-
-![r/television Hit Ratio (guess)](../images/guess_television_HitRatio.png "r/television Hit Ratio (guess)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/guess_television_General.md)|FastTreeTweedieRegression|559|0.17|
+|[AutoML](models/guess_television_AutoML.md)|FastTreeTweedieRegression|256|0.41|
+|[Observe1](models/guess_television_Observe1.md)|FastTreeTweedieTrainer|343|0.91|
+|[Prototype](models/guess_television_Prototype.md)||0|0.00|
 
 ![r/television Distributions (guess)](../images/guess_television_Distributions.png "r/television Distributions (guess)")
-
-![r/television Score Averages (guess)](../images/guess_television_Scores.png "r/television Score Averages (guess)")
 

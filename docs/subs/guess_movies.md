@@ -2,16 +2,17 @@
 
 [Home](../index.md)
 
-* n: 2610
-* Threshold: 16,908
-
-## Charts
-
-![r/movies R² (guess)](../images/guess_movies_Accuracy.png "r/movies R² (guess)")
-
-![r/movies Hit Ratio (guess)](../images/guess_movies_HitRatio.png "r/movies Hit Ratio (guess)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/guess_movies_General.md)|LightGbmRegression|1,634|0.64|
+|[DropAuthor_N+1](models/guess_movies_DropAuthor_N+1.md)|LightGbmRegression|1,634|0.64|
+|[DropAuthor](models/guess_movies_DropAuthor.md)|LightGbmRegression|1,083|0.12|
+|[DropTitle](models/guess_movies_DropTitle.md)|LightGbmRegression|1,083|0.22|
+|[AutoML](models/guess_movies_AutoML.md)|SdcaRegression|853|0.23|
+|[Observe1](models/guess_movies_Observe1.md)|FastForestRegressionTrainer|1,706|0.43|
+|[Observe10](models/guess_movies_Observe10.md)|FastTreeTweedieTrainer|1,233|0.47|
+|[Observe5](models/guess_movies_Observe5.md)|GamRegressionTrainer|977|0.47|
+|[Prototype](models/guess_movies_Prototype.md)||0|0.00|
 
 ![r/movies Distributions (guess)](../images/guess_movies_Distributions.png "r/movies Distributions (guess)")
-
-![r/movies Score Averages (guess)](../images/guess_movies_Scores.png "r/movies Score Averages (guess)")
 

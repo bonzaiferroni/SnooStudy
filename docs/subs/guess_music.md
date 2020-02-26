@@ -2,16 +2,16 @@
 
 [Home](../index.md)
 
-* n: 4018
-* Threshold: 247
-
-## Charts
-
-![r/music R² (guess)](../images/guess_music_Accuracy.png "r/music R² (guess)")
-
-![r/music Hit Ratio (guess)](../images/guess_music_HitRatio.png "r/music Hit Ratio (guess)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/guess_music_General.md)|FastTreeTweedieRegression|3,912|0.05|
+|[DropAuthor_N+1](models/guess_music_DropAuthor_N+1.md)|FastTreeTweedieRegression|3,912|0.05|
+|[DropAuthor](models/guess_music_DropAuthor.md)|FastTreeTweedieRegression|2,257|-0.00|
+|[DropTitle](models/guess_music_DropTitle.md)|FastTreeTweedieRegression|2,257|0.03|
+|[AutoML](models/guess_music_AutoML.md)|FastTreeTweedieRegression|1,675|0.08|
+|[Observe5](models/guess_music_Observe5.md)|SdcaRegressionTrainer|850|0.04|
+|[Observe2](models/guess_music_Observe2.md)|FastTreeTweedieTrainer|185|0.94|
+|[Prototype](models/guess_music_Prototype.md)||0|0.00|
 
 ![r/music Distributions (guess)](../images/guess_music_Distributions.png "r/music Distributions (guess)")
-
-![r/music Score Averages (guess)](../images/guess_music_Scores.png "r/music Score Averages (guess)")
 

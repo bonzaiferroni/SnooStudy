@@ -2,16 +2,15 @@
 
 [Home](../index.md)
 
-* n: 19762
-* Threshold: 4,586
-
-## Charts
-
-![r/the_donald R² (hunch)](../images/hunch_the_donald_Accuracy.png "r/the_donald R² (hunch)")
-
-![r/the_donald Hit Ratio (hunch)](../images/hunch_the_donald_HitRatio.png "r/the_donald Hit Ratio (hunch)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/hunch_the_donald_General.md)|LightGbmRegression|19,488|0.44|
+|[DropAuthor_N+1](models/hunch_the_donald_DropAuthor_N+1.md)|LightGbmRegression|19,488|0.44|
+|[DropAuthor](models/hunch_the_donald_DropAuthor.md)|FastTreeTweedieRegression|14,401|0.41|
+|[DropTitle](models/hunch_the_donald_DropTitle.md)|FastTreeRegression|14,401|0.40|
+|[RawData](models/hunch_the_donald_RawData.md)|FastTreeTweedieRegression|12,320|0.44|
+|[Full](models/hunch_the_donald_Full.md)|FastForestRegressionTrainer|6,342|0.04|
+|[Prototype](models/hunch_the_donald_Prototype.md)||0|0.00|
 
 ![r/the_donald Distributions (hunch)](../images/hunch_the_donald_Distributions.png "r/the_donald Distributions (hunch)")
-
-![r/the_donald Score Averages (hunch)](../images/hunch_the_donald_Scores.png "r/the_donald Score Averages (hunch)")
 

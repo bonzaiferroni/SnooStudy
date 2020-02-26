@@ -17,8 +17,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="docs\images" />
-      <Folder Include="docs\subs" />
+      <Folder Include="docs\images\models" />
+      <Folder Include="docs\subs\models" />
     </ItemGroup>
 
 </Project>

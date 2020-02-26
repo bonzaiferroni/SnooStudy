@@ -2,16 +2,12 @@
 
 [Home](../index.md)
 
-* n: 1197
-* Threshold: 56,063
-
-## Charts
-
-![r/news R² (hunch)](../images/hunch_news_Accuracy.png "r/news R² (hunch)")
-
-![r/news Hit Ratio (hunch)](../images/hunch_news_HitRatio.png "r/news Hit Ratio (hunch)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/hunch_news_General.md)|FastTreeTweedieRegression|1,180|0.19|
+|[RawData](models/hunch_news_RawData.md)|FastTreeTweedieRegression|824|0.15|
+|[Full](models/hunch_news_Full.md)|FastForestRegressionTrainer|463|-0.02|
+|[Prototype](models/hunch_news_Prototype.md)||0|0.00|
 
 ![r/news Distributions (hunch)](../images/hunch_news_Distributions.png "r/news Distributions (hunch)")
-
-![r/news Score Averages (hunch)](../images/hunch_news_Scores.png "r/news Score Averages (hunch)")
 

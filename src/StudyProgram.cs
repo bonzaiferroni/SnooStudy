@@ -36,9 +36,11 @@ namespace Bonwerk.SnooStudy
         {
             var scopes = new List<ScopeData>();
             
-            var scopeNames = new[] {"guess", "hunch"};
+            var scopeNames = new[] {ProphetStrings.Guess, ProphetStrings.Hunch};
+            var subs = SpyProcess.Subs;
+            //var subs = new[] {"politics"};
 
-            foreach (var subName in SpyProcess.Subs)
+            foreach (var subName in subs)
             {
                 var archive = new PostArchive($"{subName}.archive", $"{DataPath}/data");
                 var items = archive.GetItems();
@@ -52,13 +54,50 @@ namespace Bonwerk.SnooStudy
                         scope = new ScopeData(scopeName);
                         scopes.Add(scope);
                     }
+
+                    var generalParams = Memorizer.Load<ModelParams>($"{subName}.{scopeName}.params",
+                        $"{DataPath}/models");
+                    if (generalParams.Threshold == 0) 
+                        generalParams.Threshold = (int) AutoProgram.FindThreshold(items, x => x.OutcomeScore);
+                    var studyItems = items.Select(x => new StudyItem(scopeName, x, generalParams.Threshold)).ToArray();
                     
-                    var prams = Memorizer.Load<ModelParams>($"{subName}.{scopeName}.params", $"{DataPath}/models");
+                    var sub = new SubData(subName, scopeName, generalParams, studyItems);
+                    scope.Subreddits.Add(sub);
+                    
+                    // add general model
+                    sub.Models.Add(new ModelData("General", subName, scopeName, studyItems, generalParams));
 
-                    if (prams.Threshold == 0) prams.Threshold = (int) AutoProgram.FindThreshold(items, x => x.OutcomeScore);
+                    var groups = items
+                        .GroupBy(x => scopeName == ProphetStrings.Guess ? x.GuessFeatures : x.HunchFeatures).Reverse();
 
-                    var studyItems = items.Select(x => new StudyItem(scopeName, x, prams.Threshold)).ToArray();
-                    scope.Subreddits.Add(new SubData(subName, scopeName, studyItems, prams));
+                    const int modelCountMinimum = 100;
+                    
+                    foreach (var grouping in groups)
+                    {
+                        if (grouping.Count() < modelCountMinimum) continue;
+                        var groupedItems = grouping.ToArray();
+
+                        var first = groupedItems[0];
+
+                        var modelName = scopeName == ProphetStrings.Guess ? first.GuessFeatures : first.HunchFeatures;
+                        var rsq = scopeName == ProphetStrings.Guess ? first.GuessRSquared : first.HunchRSquared;
+                        var trainerName = scopeName == ProphetStrings.Guess ? first.GuessTrainer : first.HunchTrainer;
+                        var n = scopeName == ProphetStrings.Guess ? first.GuessN : first.HunchN;
+
+                        var modelParams = new ModelParams()
+                        {
+                            N = n,
+                            Threshold = generalParams.Threshold,
+                            RSquared = rsq,
+                            TrainerName = trainerName,
+                            FeatureSetName = modelName,
+                        };
+
+                        var groupedStudyItems =
+                            groupedItems.Select(x => new StudyItem(scopeName, x, generalParams.Threshold)).ToArray();
+                        
+                        sub.Models.Add(new ModelData(modelName, subName, scopeName, groupedStudyItems, modelParams));
+                    }
                 }
             }
 

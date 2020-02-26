@@ -2,16 +2,10 @@
 
 [Home](../index.md)
 
-* n: 189
-* Threshold: 6,562
-
-## Charts
-
-![r/outoftheloop R² (guess)](../images/guess_outoftheloop_Accuracy.png "r/outoftheloop R² (guess)")
-
-![r/outoftheloop Hit Ratio (guess)](../images/guess_outoftheloop_HitRatio.png "r/outoftheloop Hit Ratio (guess)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/guess_outoftheloop_General.md)|FastTreeTweedieRegression|164|-0.08|
+|[Prototype](models/guess_outoftheloop_Prototype.md)||0|0.00|
 
 ![r/outoftheloop Distributions (guess)](../images/guess_outoftheloop_Distributions.png "r/outoftheloop Distributions (guess)")
-
-![r/outoftheloop Score Averages (guess)](../images/guess_outoftheloop_Scores.png "r/outoftheloop Score Averages (guess)")
 

@@ -2,16 +2,14 @@
 
 [Home](../index.md)
 
-* n: 807
-* Threshold: 9,778
-
-## Charts
-
-![r/atheism R² (hunch)](../images/hunch_atheism_Accuracy.png "r/atheism R² (hunch)")
-
-![r/atheism Hit Ratio (hunch)](../images/hunch_atheism_HitRatio.png "r/atheism Hit Ratio (hunch)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/hunch_atheism_General.md)|FastTreeTweedieRegression|783|-0.03|
+|[DropAuthor_N+1](models/hunch_atheism_DropAuthor_N+1.md)|FastTreeTweedieRegression|783|-0.03|
+|[DropTitle](models/hunch_atheism_DropTitle.md)|FastTreeTweedieRegression|474|-0.03|
+|[RawData](models/hunch_atheism_RawData.md)|FastTreeTweedieRegression|338|-0.06|
+|[Full](models/hunch_atheism_Full.md)|FastTreeTweedieTrainer|150|-0.15|
+|[Prototype](models/hunch_atheism_Prototype.md)||0|0.00|
 
 ![r/atheism Distributions (hunch)](../images/hunch_atheism_Distributions.png "r/atheism Distributions (hunch)")
-
-![r/atheism Score Averages (hunch)](../images/hunch_atheism_Scores.png "r/atheism Score Averages (hunch)")
 

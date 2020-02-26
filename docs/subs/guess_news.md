@@ -2,16 +2,12 @@
 
 [Home](../index.md)
 
-* n: 1197
-* Threshold: 56,063
-
-## Charts
-
-![r/news R² (guess)](../images/guess_news_Accuracy.png "r/news R² (guess)")
-
-![r/news Hit Ratio (guess)](../images/guess_news_HitRatio.png "r/news Hit Ratio (guess)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/guess_news_General.md)|FastTreeTweedieRegression|733|0.46|
+|[AutoML](models/guess_news_AutoML.md)|FastTreeTweedieRegression|377|0.29|
+|[Observe10](models/guess_news_Observe10.md)|FastTreeTweedieTrainer|463|0.73|
+|[Prototype](models/guess_news_Prototype.md)||0|0.00|
 
 ![r/news Distributions (guess)](../images/guess_news_Distributions.png "r/news Distributions (guess)")
-
-![r/news Score Averages (guess)](../images/guess_news_Scores.png "r/news Score Averages (guess)")
 

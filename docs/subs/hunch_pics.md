@@ -2,16 +2,15 @@
 
 [Home](../index.md)
 
-* n: 12585
-* Threshold: 14,833
-
-## Charts
-
-![r/pics R² (hunch)](../images/hunch_pics_Accuracy.png "r/pics R² (hunch)")
-
-![r/pics Hit Ratio (hunch)](../images/hunch_pics_HitRatio.png "r/pics Hit Ratio (hunch)")
+|Model|Trainer|n|R²|
+|:---|:---|---:|---:|
+|[General](models/hunch_pics_General.md)|FastForestRegression|12,360|0.11|
+|[DropAuthor_N+1](models/hunch_pics_DropAuthor_N+1.md)|FastForestRegression|12,360|0.11|
+|[DropAuthor](models/hunch_pics_DropAuthor.md)|SdcaRegression|9,477|0.11|
+|[DropTitle](models/hunch_pics_DropTitle.md)|SdcaRegression|9,477|0.11|
+|[RawData](models/hunch_pics_RawData.md)|FastForestRegression|8,320|0.07|
+|[Full](models/hunch_pics_Full.md)|LbfgsPoissonRegressionTrainer|4,419|0.00|
+|[Prototype](models/hunch_pics_Prototype.md)||0|0.00|
 
 ![r/pics Distributions (hunch)](../images/hunch_pics_Distributions.png "r/pics Distributions (hunch)")
-
-![r/pics Score Averages (hunch)](../images/hunch_pics_Scores.png "r/pics Score Averages (hunch)")
 
