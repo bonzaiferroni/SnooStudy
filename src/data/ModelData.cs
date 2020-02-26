@@ -15,11 +15,16 @@ namespace Bonwerk.SnooStudy
             Items = items;
             ModelParams = modelParams;
 
-            HourlyOADate = GetDailyValues(x => GetTimeGroup(x[0].Created).ToOADate());
-            HourlyRSq = GetDailyValues(x => x.Average(x1 => x1.RSquared));
-            HourlyAccuracy = GetDailyValues(x => (double) x.Count(x1 => x1.IsAccurate()) / x.Count);
-            HourlyHitRatio = GetDailyValues(x => (double) x.Count(x1 => x1.IsHit) / x.Count(x1 => x1.IsTop));
-            HourlyHypeRatio = GetDailyValues(x => (double) x.Count(x1 => x1.IsHype) / x.Count(x1 => !x1.IsTop));
+            Interval = GetInterval(items.Last().Created - items.First().Created);
+
+            HourlyOADate = ArrayMaker.GetValues(items, x => GetHourGroup(x[0]).ToOADate(), GetHourGroup);
+            HourlyRSq = ArrayMaker.GetValues(items, x => x.Average(x1 => x1.RSquared), GetHourGroup);
+            HourlyAccuracy = ArrayMaker.GetValues(items, 
+                x => (double) x.Count(x1 => x1.IsAccurate()) / x.Count, GetHourGroup);
+            HourlyHitRatio = ArrayMaker.GetValues(items, 
+                x => (double) x.Count(x1 => x1.IsHit) / x.Count(x1 => x1.IsTop), GetHourGroup);
+            HourlyHypeRatio = ArrayMaker.GetValues(items, 
+                x => (double) x.Count(x1 => x1.IsHype) / x.Count(x1 => !x1.IsTop), GetHourGroup);
         }
 
         public string Name { get; }
@@ -28,6 +33,7 @@ namespace Bonwerk.SnooStudy
         public string Scope { get; }
         public StudyItem[] Items { get; }
         public ModelParams ModelParams { get; }
+        public SampleInterval Interval { get; }
         
         public double[] HourlyOADate { get; }
         public double[] HourlyRSq { get; }
@@ -35,44 +41,37 @@ namespace Bonwerk.SnooStudy
         public double[] HourlyHitRatio { get; }
         public double[] HourlyHypeRatio { get; }
 
-        public double[] GetDailyValues(Func<List<StudyItem>, double> func)
+        private DateTime GetHourGroup(StudyItem item)
         {
-            if (Items.Length == 0) return new double[0];
-
-            var group = GetTimeGroup(Items[0].Created);
-
-            var values = new List<double>();
-            var dailyItems = new List<StudyItem>();
+            var created = item.Created;
+            switch (Interval)
+            {
+                case SampleInterval.Hourly:
+                    return new DateTime(created.Year, created.Month, created.Day, created.Hour, 0, 0);
+                case SampleInterval.Daily:
+                    return new DateTime(created.Year, created.Month, created.Day, 0, 0, 0);
+                case SampleInterval.Monthly:
+                    return new DateTime(created.Year, created.Month, 0, 0, 0, 0);
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
             
-            for (int i = 0; i < Items.Length; i++)
-            {
-                var item = Items[i];
-                var itemGroup = GetTimeGroup(item.Created);
-                if (itemGroup != group && dailyItems.Count > 0)
-                {
-                    group = itemGroup;
-                    var value = func(dailyItems);
-                    values.Add(value);
-                    dailyItems.Clear();
-                }
-                
-                dailyItems.Add(item);
-            }
-
-            // last one
-            if (dailyItems.Count > 0)
-            {
-                var value = func(dailyItems);
-                values.Add(value);
-                values.Add(value);
-            }
-
-            return values.ToArray();
         }
 
-        private DateTime GetTimeGroup(in DateTime created)
+        private SampleInterval GetInterval(in TimeSpan span)
         {
-            return new DateTime(created.Year, created.Month, created.Day, created.Hour, 0, 0);
+            const int minSamples = 8;
+            var interval = span / minSamples;
+            if (interval > TimeSpan.FromDays(30)) return SampleInterval.Monthly;
+            if (interval > TimeSpan.FromDays(1)) return SampleInterval.Daily;
+            return SampleInterval.Hourly;
+        }
+
+        public enum SampleInterval
+        {
+            Hourly,
+            Daily,
+            Monthly,
         }
     }
 }
