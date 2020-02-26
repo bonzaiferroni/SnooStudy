@@ -47,8 +47,19 @@ namespace Bonwerk.SnooStudy
         {
             var plot = new Plot();
             plot.Title($"{model.RName}: {model.Name} Hit Ratio ({model.Scope})", fontSize: ProgramConfig.TitleSize);
-            plot.PlotScatter(model.OADate, model.HitRatio, ProgramConfig.Color1, 2, 5, "Hit");
-            plot.PlotScatter(model.OADate, model.HypeRatio, ProgramConfig.Color2, 2, 5, "Hype");
+
+            var series = ArrayMaker.RemoveInvalid(model.OADate, model.HitRatio);
+            if (series != null)
+            {
+                plot.PlotScatter(series.Xs, series.Ys, ProgramConfig.Color1, 2, 5, "Hit");
+            }
+            
+            series = ArrayMaker.RemoveInvalid(model.OADate, model.HypeRatio);
+            if (series != null)
+            {
+                plot.PlotScatter(series.Xs, series.Ys, ProgramConfig.Color2, 2, 5, "Hype");
+            }
+            
             plot.Axis(y1: -.05, y2: 1.05);
             plot.Ticks(dateTimeX: true);
             plot.YTicks(new[] {0, .25, .5, .75, 1}, new[] {"0", ".25", ".5", ".75", "1"});

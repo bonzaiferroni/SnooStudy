@@ -1,10 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Bonwerk.SnooStudy
 {
     public static class ArrayMaker
     {
+        public const double InvalidValue = -1;
+        
         public static double[] GetValues<T>(T[] items, Func<List<T>, double> func, Func<T, DateTime> getTimeGroup)
         {
             if (items.Length == 0) return new double[0];
@@ -38,6 +41,38 @@ namespace Bonwerk.SnooStudy
             }
 
             return values.ToArray();
+        }
+
+        public static SeriesValues RemoveInvalid(double[] xs, double[] ys)
+        {
+            if (!FindInvalid(ys)) return new SeriesValues(xs, ys);
+
+            var indices = ys.Where(x => x != InvalidValue).Select((x, index) => index).ToArray();
+            if (indices.Length == 0) return null;
+
+            var newXs = new double[indices.Length];
+            var newYs = new double[indices.Length];
+
+            for (int i = 0; i < indices.Length; i++)
+            {
+                newXs[i] = xs[indices[i]];
+                newYs[i] = ys[indices[i]];
+            }
+
+            return new SeriesValues(newXs, newYs);
+        }
+
+        private static bool FindInvalid(double[] ys)
+        {
+            foreach (var y in ys)
+            {
+                if (y == InvalidValue)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }

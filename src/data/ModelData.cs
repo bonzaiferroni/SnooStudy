@@ -41,7 +41,7 @@ namespace Bonwerk.SnooStudy
         private double GetHypeRatio(List<StudyItem> x)
         {
             var count = x.Count(x1 => !x1.IsTop);
-            if (count == 0) return 0;
+            if (count == 0) return ArrayMaker.InvalidValue;
             return (double) x.Count(x1 => x1.IsHype) / count;
         }
 
@@ -53,7 +53,7 @@ namespace Bonwerk.SnooStudy
         private double GetHitRatio(List<StudyItem> x)
         {
             var count = x.Count(x1 => x1.IsTop);
-            if (count == 0) return 0;
+            if (count == 0) return ArrayMaker.InvalidValue;
             return (double) x.Count(x1 => x1.IsHit) / count;
         }
 
