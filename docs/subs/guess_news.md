@@ -15,3 +15,5 @@
 
 ![r/news Distributions](../images/guess_news_Distributions.png "r/news Distributions")
 
+![r/news Categorical](../images/guess_news_Catagorical.png "r/news Categorical")
+

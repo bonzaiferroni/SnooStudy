@@ -15,3 +15,5 @@
 
 ![r/television Distributions](../images/guess_television_Distributions.png "r/television Distributions")
 
+![r/television Categorical](../images/guess_television_Catagorical.png "r/television Categorical")
+

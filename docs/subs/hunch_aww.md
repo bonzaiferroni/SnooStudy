@@ -18,3 +18,5 @@
 
 ![r/aww Distributions](../images/hunch_aww_Distributions.png "r/aww Distributions")
 
+![r/aww Categorical](../images/hunch_aww_Catagorical.png "r/aww Categorical")
+

@@ -20,3 +20,5 @@
 
 ![r/videos Distributions](../images/guess_videos_Distributions.png "r/videos Distributions")
 
+![r/videos Categorical](../images/guess_videos_Catagorical.png "r/videos Categorical")
+

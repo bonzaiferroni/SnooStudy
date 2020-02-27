@@ -16,3 +16,5 @@
 
 ![r/gifs Distributions](../images/guess_gifs_Distributions.png "r/gifs Distributions")
 
+![r/gifs Categorical](../images/guess_gifs_Catagorical.png "r/gifs Categorical")
+

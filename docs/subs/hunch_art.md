@@ -18,3 +18,5 @@
 
 ![r/art Distributions](../images/hunch_art_Distributions.png "r/art Distributions")
 
+![r/art Categorical](../images/hunch_art_Catagorical.png "r/art Categorical")
+

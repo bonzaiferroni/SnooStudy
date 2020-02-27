@@ -20,3 +20,5 @@
 
 ![r/worldnews Distributions](../images/guess_worldnews_Distributions.png "r/worldnews Distributions")
 
+![r/worldnews Categorical](../images/guess_worldnews_Catagorical.png "r/worldnews Categorical")
+

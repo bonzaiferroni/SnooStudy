@@ -15,3 +15,5 @@
 
 ![r/television Distributions](../images/hunch_television_Distributions.png "r/television Distributions")
 
+![r/television Categorical](../images/hunch_television_Catagorical.png "r/television Categorical")
+

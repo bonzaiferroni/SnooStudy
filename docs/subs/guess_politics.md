@@ -21,3 +21,5 @@
 
 ![r/politics Distributions](../images/guess_politics_Distributions.png "r/politics Distributions")
 
+![r/politics Categorical](../images/guess_politics_Catagorical.png "r/politics Categorical")
+

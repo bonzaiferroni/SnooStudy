@@ -18,3 +18,5 @@
 
 ![r/pics Distributions](../images/hunch_pics_Distributions.png "r/pics Distributions")
 
+![r/pics Categorical](../images/hunch_pics_Catagorical.png "r/pics Categorical")
+

@@ -18,3 +18,5 @@
 
 ![r/funny Distributions](../images/hunch_funny_Distributions.png "r/funny Distributions")
 
+![r/funny Categorical](../images/hunch_funny_Catagorical.png "r/funny Categorical")
+

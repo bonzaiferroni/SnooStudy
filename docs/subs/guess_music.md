@@ -19,3 +19,5 @@
 
 ![r/music Distributions](../images/guess_music_Distributions.png "r/music Distributions")
 
+![r/music Categorical](../images/guess_music_Catagorical.png "r/music Categorical")
+

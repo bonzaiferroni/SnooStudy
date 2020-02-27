@@ -18,3 +18,5 @@
 
 ![r/gaming Distributions](../images/hunch_gaming_Distributions.png "r/gaming Distributions")
 
+![r/gaming Categorical](../images/hunch_gaming_Catagorical.png "r/gaming Categorical")
+

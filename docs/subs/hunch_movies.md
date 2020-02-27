@@ -18,3 +18,5 @@
 
 ![r/movies Distributions](../images/hunch_movies_Distributions.png "r/movies Distributions")
 
+![r/movies Categorical](../images/hunch_movies_Catagorical.png "r/movies Categorical")
+

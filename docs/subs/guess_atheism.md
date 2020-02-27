@@ -17,3 +17,5 @@
 
 ![r/atheism Distributions](../images/guess_atheism_Distributions.png "r/atheism Distributions")
 
+![r/atheism Categorical](../images/guess_atheism_Catagorical.png "r/atheism Categorical")
+

@@ -14,3 +14,5 @@
 
 ![r/dataisbeautiful Distributions](../images/guess_dataisbeautiful_Distributions.png "r/dataisbeautiful Distributions")
 
+![r/dataisbeautiful Categorical](../images/guess_dataisbeautiful_Catagorical.png "r/dataisbeautiful Categorical")
+

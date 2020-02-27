@@ -20,3 +20,5 @@
 
 ![r/funny Distributions](../images/guess_funny_Distributions.png "r/funny Distributions")
 
+![r/funny Categorical](../images/guess_funny_Catagorical.png "r/funny Categorical")
+

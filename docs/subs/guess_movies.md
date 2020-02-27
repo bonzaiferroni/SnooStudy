@@ -20,3 +20,5 @@
 
 ![r/movies Distributions](../images/guess_movies_Distributions.png "r/movies Distributions")
 
+![r/movies Categorical](../images/guess_movies_Catagorical.png "r/movies Categorical")
+

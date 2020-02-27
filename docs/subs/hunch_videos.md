@@ -18,3 +18,5 @@
 
 ![r/videos Distributions](../images/hunch_videos_Distributions.png "r/videos Distributions")
 
+![r/videos Categorical](../images/hunch_videos_Catagorical.png "r/videos Categorical")
+

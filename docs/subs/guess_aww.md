@@ -19,3 +19,5 @@
 
 ![r/aww Distributions](../images/guess_aww_Distributions.png "r/aww Distributions")
 
+![r/aww Categorical](../images/guess_aww_Catagorical.png "r/aww Categorical")
+

@@ -20,3 +20,5 @@
 
 ![r/pics Distributions](../images/guess_pics_Distributions.png "r/pics Distributions")
 
+![r/pics Categorical](../images/guess_pics_Catagorical.png "r/pics Categorical")
+

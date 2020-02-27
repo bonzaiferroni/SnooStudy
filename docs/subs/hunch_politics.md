@@ -18,3 +18,5 @@
 
 ![r/politics Distributions](../images/hunch_politics_Distributions.png "r/politics Distributions")
 
+![r/politics Categorical](../images/hunch_politics_Catagorical.png "r/politics Categorical")
+

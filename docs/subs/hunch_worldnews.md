@@ -18,3 +18,5 @@
 
 ![r/worldnews Distributions](../images/hunch_worldnews_Distributions.png "r/worldnews Distributions")
 
+![r/worldnews Categorical](../images/hunch_worldnews_Catagorical.png "r/worldnews Categorical")
+

@@ -18,3 +18,5 @@
 
 ![r/music Distributions](../images/hunch_music_Distributions.png "r/music Distributions")
 
+![r/music Categorical](../images/hunch_music_Catagorical.png "r/music Categorical")
+

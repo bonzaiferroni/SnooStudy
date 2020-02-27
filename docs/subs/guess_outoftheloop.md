@@ -13,3 +13,5 @@
 
 ![r/outoftheloop Distributions](../images/guess_outoftheloop_Distributions.png "r/outoftheloop Distributions")
 
+![r/outoftheloop Categorical](../images/guess_outoftheloop_Catagorical.png "r/outoftheloop Categorical")
+

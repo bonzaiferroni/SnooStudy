@@ -21,3 +21,5 @@
 
 ![r/the_donald Distributions](../images/guess_the_donald_Distributions.png "r/the_donald Distributions")
 
+![r/the_donald Categorical](../images/guess_the_donald_Catagorical.png "r/the_donald Categorical")
+

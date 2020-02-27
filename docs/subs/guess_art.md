@@ -19,3 +19,5 @@
 
 ![r/art Distributions](../images/guess_art_Distributions.png "r/art Distributions")
 
+![r/art Categorical](../images/guess_art_Catagorical.png "r/art Categorical")
+
