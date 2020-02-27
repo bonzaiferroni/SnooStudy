@@ -4,11 +4,11 @@
 
 [Back (r/videos)](../hunch_videos.md)
 
-## Charts
+## Model Charts
 
-![r/videos R² (hunch)](../../images/models/hunch_videos_Full_Accuracy.png "r/videos R² (hunch)")
+![Full R²](../../images/models/hunch_videos_Full_Accuracy.png "Full R²")
 
-![r/videos Hit Ratio (hunch)](../../images/models/hunch_videos_Full_HitRatio.png "r/videos Hit Ratio (hunch)")
+![Full Hit Ratio](../../images/models/hunch_videos_Full_HitRatio.png "Full Hit Ratio")
 
-![r/videos Score Averages (hunch)](../../images/models/hunch_videos_Full_Scores.png "r/videos Score Averages (hunch)")
+![Full Score Averages](../../images/models/hunch_videos_Full_Scores.png "Full Score Averages")
 

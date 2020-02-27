@@ -4,11 +4,11 @@
 
 [Back (r/the_donald)](../hunch_the_donald.md)
 
-## Charts
+## Model Charts
 
-![r/the_donald R² (hunch)](../../images/models/hunch_the_donald_General_Accuracy.png "r/the_donald R² (hunch)")
+![General R²](../../images/models/hunch_the_donald_General_Accuracy.png "General R²")
 
-![r/the_donald Hit Ratio (hunch)](../../images/models/hunch_the_donald_General_HitRatio.png "r/the_donald Hit Ratio (hunch)")
+![General Hit Ratio](../../images/models/hunch_the_donald_General_HitRatio.png "General Hit Ratio")
 
-![r/the_donald Score Averages (hunch)](../../images/models/hunch_the_donald_General_Scores.png "r/the_donald Score Averages (hunch)")
+![General Score Averages](../../images/models/hunch_the_donald_General_Scores.png "General Score Averages")
 

@@ -4,11 +4,11 @@
 
 [Back (r/politics)](../guess_politics.md)
 
-## Charts
+## Model Charts
 
-![r/politics R² (guess)](../../images/models/guess_politics_Observe10_Accuracy.png "r/politics R² (guess)")
+![Observe10 R²](../../images/models/guess_politics_Observe10_Accuracy.png "Observe10 R²")
 
-![r/politics Hit Ratio (guess)](../../images/models/guess_politics_Observe10_HitRatio.png "r/politics Hit Ratio (guess)")
+![Observe10 Hit Ratio](../../images/models/guess_politics_Observe10_HitRatio.png "Observe10 Hit Ratio")
 
-![r/politics Score Averages (guess)](../../images/models/guess_politics_Observe10_Scores.png "r/politics Score Averages (guess)")
+![Observe10 Score Averages](../../images/models/guess_politics_Observe10_Scores.png "Observe10 Score Averages")
 

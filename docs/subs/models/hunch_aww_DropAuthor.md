@@ -4,11 +4,11 @@
 
 [Back (r/aww)](../hunch_aww.md)
 
-## Charts
+## Model Charts
 
-![r/aww R² (hunch)](../../images/models/hunch_aww_DropAuthor_Accuracy.png "r/aww R² (hunch)")
+![DropAuthor R²](../../images/models/hunch_aww_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/aww Hit Ratio (hunch)](../../images/models/hunch_aww_DropAuthor_HitRatio.png "r/aww Hit Ratio (hunch)")
+![DropAuthor Hit Ratio](../../images/models/hunch_aww_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/aww Score Averages (hunch)](../../images/models/hunch_aww_DropAuthor_Scores.png "r/aww Score Averages (hunch)")
+![DropAuthor Score Averages](../../images/models/hunch_aww_DropAuthor_Scores.png "DropAuthor Score Averages")
 

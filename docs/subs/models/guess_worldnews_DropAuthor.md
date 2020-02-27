@@ -4,11 +4,11 @@
 
 [Back (r/worldnews)](../guess_worldnews.md)
 
-## Charts
+## Model Charts
 
-![r/worldnews R² (guess)](../../images/models/guess_worldnews_DropAuthor_Accuracy.png "r/worldnews R² (guess)")
+![DropAuthor R²](../../images/models/guess_worldnews_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/worldnews Hit Ratio (guess)](../../images/models/guess_worldnews_DropAuthor_HitRatio.png "r/worldnews Hit Ratio (guess)")
+![DropAuthor Hit Ratio](../../images/models/guess_worldnews_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/worldnews Score Averages (guess)](../../images/models/guess_worldnews_DropAuthor_Scores.png "r/worldnews Score Averages (guess)")
+![DropAuthor Score Averages](../../images/models/guess_worldnews_DropAuthor_Scores.png "DropAuthor Score Averages")
 

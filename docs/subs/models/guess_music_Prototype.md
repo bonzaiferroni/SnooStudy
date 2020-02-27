@@ -4,11 +4,11 @@
 
 [Back (r/music)](../guess_music.md)
 
-## Charts
+## Model Charts
 
-![r/music R² (guess)](../../images/models/guess_music_Prototype_Accuracy.png "r/music R² (guess)")
+![Prototype R²](../../images/models/guess_music_Prototype_Accuracy.png "Prototype R²")
 
-![r/music Hit Ratio (guess)](../../images/models/guess_music_Prototype_HitRatio.png "r/music Hit Ratio (guess)")
+![Prototype Hit Ratio](../../images/models/guess_music_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/music Score Averages (guess)](../../images/models/guess_music_Prototype_Scores.png "r/music Score Averages (guess)")
+![Prototype Score Averages](../../images/models/guess_music_Prototype_Scores.png "Prototype Score Averages")
 

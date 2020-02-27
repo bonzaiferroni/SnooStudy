@@ -4,11 +4,11 @@
 
 [Back (r/art)](../guess_art.md)
 
-## Charts
+## Model Charts
 
-![r/art R² (guess)](../../images/models/guess_art_AutoML_Accuracy.png "r/art R² (guess)")
+![AutoML R²](../../images/models/guess_art_AutoML_Accuracy.png "AutoML R²")
 
-![r/art Hit Ratio (guess)](../../images/models/guess_art_AutoML_HitRatio.png "r/art Hit Ratio (guess)")
+![AutoML Hit Ratio](../../images/models/guess_art_AutoML_HitRatio.png "AutoML Hit Ratio")
 
-![r/art Score Averages (guess)](../../images/models/guess_art_AutoML_Scores.png "r/art Score Averages (guess)")
+![AutoML Score Averages](../../images/models/guess_art_AutoML_Scores.png "AutoML Score Averages")
 

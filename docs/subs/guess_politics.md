@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_politics_General.md)|FastTreeTweedieRegression|5,354|0.61|
@@ -15,5 +17,7 @@
 |[Observe1](models/guess_politics_Observe1.md)|FastTreeTweedieTrainer|4,160|0.77|
 |[Prototype](models/guess_politics_Prototype.md)||0|0.00|
 
-![r/politics Distributions (guess)](../images/guess_politics_Distributions.png "r/politics Distributions (guess)")
+## Subreddit Charts
+
+![r/politics Distributions](../images/guess_politics_Distributions.png "r/politics Distributions")
 

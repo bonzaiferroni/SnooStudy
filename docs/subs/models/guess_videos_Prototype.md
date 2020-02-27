@@ -4,11 +4,11 @@
 
 [Back (r/videos)](../guess_videos.md)
 
-## Charts
+## Model Charts
 
-![r/videos R² (guess)](../../images/models/guess_videos_Prototype_Accuracy.png "r/videos R² (guess)")
+![Prototype R²](../../images/models/guess_videos_Prototype_Accuracy.png "Prototype R²")
 
-![r/videos Hit Ratio (guess)](../../images/models/guess_videos_Prototype_HitRatio.png "r/videos Hit Ratio (guess)")
+![Prototype Hit Ratio](../../images/models/guess_videos_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/videos Score Averages (guess)](../../images/models/guess_videos_Prototype_Scores.png "r/videos Score Averages (guess)")
+![Prototype Score Averages](../../images/models/guess_videos_Prototype_Scores.png "Prototype Score Averages")
 

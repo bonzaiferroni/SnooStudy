@@ -4,11 +4,11 @@
 
 [Back (r/television)](../hunch_television.md)
 
-## Charts
+## Model Charts
 
-![r/television R² (hunch)](../../images/models/hunch_television_Prototype_Accuracy.png "r/television R² (hunch)")
+![Prototype R²](../../images/models/hunch_television_Prototype_Accuracy.png "Prototype R²")
 
-![r/television Hit Ratio (hunch)](../../images/models/hunch_television_Prototype_HitRatio.png "r/television Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_television_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/television Score Averages (hunch)](../../images/models/hunch_television_Prototype_Scores.png "r/television Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_television_Prototype_Scores.png "Prototype Score Averages")
 

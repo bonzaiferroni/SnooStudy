@@ -4,11 +4,11 @@
 
 [Back (r/gaming)](../guess_gaming.md)
 
-## Charts
+## Model Charts
 
-![r/gaming R² (guess)](../../images/models/guess_gaming_Observe1_Accuracy.png "r/gaming R² (guess)")
+![Observe1 R²](../../images/models/guess_gaming_Observe1_Accuracy.png "Observe1 R²")
 
-![r/gaming Hit Ratio (guess)](../../images/models/guess_gaming_Observe1_HitRatio.png "r/gaming Hit Ratio (guess)")
+![Observe1 Hit Ratio](../../images/models/guess_gaming_Observe1_HitRatio.png "Observe1 Hit Ratio")
 
-![r/gaming Score Averages (guess)](../../images/models/guess_gaming_Observe1_Scores.png "r/gaming Score Averages (guess)")
+![Observe1 Score Averages](../../images/models/guess_gaming_Observe1_Scores.png "Observe1 Score Averages")
 

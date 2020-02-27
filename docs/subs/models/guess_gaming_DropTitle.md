@@ -4,11 +4,11 @@
 
 [Back (r/gaming)](../guess_gaming.md)
 
-## Charts
+## Model Charts
 
-![r/gaming R² (guess)](../../images/models/guess_gaming_DropTitle_Accuracy.png "r/gaming R² (guess)")
+![DropTitle R²](../../images/models/guess_gaming_DropTitle_Accuracy.png "DropTitle R²")
 
-![r/gaming Hit Ratio (guess)](../../images/models/guess_gaming_DropTitle_HitRatio.png "r/gaming Hit Ratio (guess)")
+![DropTitle Hit Ratio](../../images/models/guess_gaming_DropTitle_HitRatio.png "DropTitle Hit Ratio")
 
-![r/gaming Score Averages (guess)](../../images/models/guess_gaming_DropTitle_Scores.png "r/gaming Score Averages (guess)")
+![DropTitle Score Averages](../../images/models/guess_gaming_DropTitle_Scores.png "DropTitle Score Averages")
 

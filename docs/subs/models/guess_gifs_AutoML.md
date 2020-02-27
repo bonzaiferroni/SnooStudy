@@ -4,11 +4,11 @@
 
 [Back (r/gifs)](../guess_gifs.md)
 
-## Charts
+## Model Charts
 
-![r/gifs R² (guess)](../../images/models/guess_gifs_AutoML_Accuracy.png "r/gifs R² (guess)")
+![AutoML R²](../../images/models/guess_gifs_AutoML_Accuracy.png "AutoML R²")
 
-![r/gifs Hit Ratio (guess)](../../images/models/guess_gifs_AutoML_HitRatio.png "r/gifs Hit Ratio (guess)")
+![AutoML Hit Ratio](../../images/models/guess_gifs_AutoML_HitRatio.png "AutoML Hit Ratio")
 
-![r/gifs Score Averages (guess)](../../images/models/guess_gifs_AutoML_Scores.png "r/gifs Score Averages (guess)")
+![AutoML Score Averages](../../images/models/guess_gifs_AutoML_Scores.png "AutoML Score Averages")
 

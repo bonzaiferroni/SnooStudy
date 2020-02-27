@@ -4,11 +4,11 @@
 
 [Back (r/movies)](../hunch_movies.md)
 
-## Charts
+## Model Charts
 
-![r/movies R² (hunch)](../../images/models/hunch_movies_DropTitle_Accuracy.png "r/movies R² (hunch)")
+![DropTitle R²](../../images/models/hunch_movies_DropTitle_Accuracy.png "DropTitle R²")
 
-![r/movies Hit Ratio (hunch)](../../images/models/hunch_movies_DropTitle_HitRatio.png "r/movies Hit Ratio (hunch)")
+![DropTitle Hit Ratio](../../images/models/hunch_movies_DropTitle_HitRatio.png "DropTitle Hit Ratio")
 
-![r/movies Score Averages (hunch)](../../images/models/hunch_movies_DropTitle_Scores.png "r/movies Score Averages (hunch)")
+![DropTitle Score Averages](../../images/models/hunch_movies_DropTitle_Scores.png "DropTitle Score Averages")
 

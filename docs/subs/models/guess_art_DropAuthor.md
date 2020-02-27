@@ -4,11 +4,11 @@
 
 [Back (r/art)](../guess_art.md)
 
-## Charts
+## Model Charts
 
-![r/art R² (guess)](../../images/models/guess_art_DropAuthor_Accuracy.png "r/art R² (guess)")
+![DropAuthor R²](../../images/models/guess_art_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/art Hit Ratio (guess)](../../images/models/guess_art_DropAuthor_HitRatio.png "r/art Hit Ratio (guess)")
+![DropAuthor Hit Ratio](../../images/models/guess_art_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/art Score Averages (guess)](../../images/models/guess_art_DropAuthor_Scores.png "r/art Score Averages (guess)")
+![DropAuthor Score Averages](../../images/models/guess_art_DropAuthor_Scores.png "DropAuthor Score Averages")
 

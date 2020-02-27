@@ -4,11 +4,11 @@
 
 [Back (r/music)](../guess_music.md)
 
-## Charts
+## Model Charts
 
-![r/music R² (guess)](../../images/models/guess_music_AutoML_Accuracy.png "r/music R² (guess)")
+![AutoML R²](../../images/models/guess_music_AutoML_Accuracy.png "AutoML R²")
 
-![r/music Hit Ratio (guess)](../../images/models/guess_music_AutoML_HitRatio.png "r/music Hit Ratio (guess)")
+![AutoML Hit Ratio](../../images/models/guess_music_AutoML_HitRatio.png "AutoML Hit Ratio")
 
-![r/music Score Averages (guess)](../../images/models/guess_music_AutoML_Scores.png "r/music Score Averages (guess)")
+![AutoML Score Averages](../../images/models/guess_music_AutoML_Scores.png "AutoML Score Averages")
 

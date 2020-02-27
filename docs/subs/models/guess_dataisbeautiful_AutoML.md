@@ -4,11 +4,11 @@
 
 [Back (r/dataisbeautiful)](../guess_dataisbeautiful.md)
 
-## Charts
+## Model Charts
 
-![r/dataisbeautiful R² (guess)](../../images/models/guess_dataisbeautiful_AutoML_Accuracy.png "r/dataisbeautiful R² (guess)")
+![AutoML R²](../../images/models/guess_dataisbeautiful_AutoML_Accuracy.png "AutoML R²")
 
-![r/dataisbeautiful Hit Ratio (guess)](../../images/models/guess_dataisbeautiful_AutoML_HitRatio.png "r/dataisbeautiful Hit Ratio (guess)")
+![AutoML Hit Ratio](../../images/models/guess_dataisbeautiful_AutoML_HitRatio.png "AutoML Hit Ratio")
 
-![r/dataisbeautiful Score Averages (guess)](../../images/models/guess_dataisbeautiful_AutoML_Scores.png "r/dataisbeautiful Score Averages (guess)")
+![AutoML Score Averages](../../images/models/guess_dataisbeautiful_AutoML_Scores.png "AutoML Score Averages")
 

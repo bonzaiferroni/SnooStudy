@@ -1,29 +1,19 @@
-using System;
 using System.Linq;
-using Bonwerk.LearningML.Auto;
 using Bonwerk.Markdown;
 using Bonwerk.RedditSpy;
 using ScottPlot;
 
 namespace Bonwerk.SnooStudy
 {
-    public static class ChartSections
+    public static class ModelCharts
     {
         public static void Add(FileLinker linker, ModelData model, Document page)
         {
-            var section = page.Root.AddSection("Charts");
-
-            var image = CreateAccuracyChart(linker, model);
-            var linkText = linker.LinkImage($"{model.RName} R² ({model.Scope})", page, image);
-            section.AddText(linkText);
-
-            image = CreateHitRatioChart(linker, model);
-            linkText = linker.LinkImage($"{model.RName} Hit Ratio ({model.Scope})", page, image);
-            section.AddText(linkText);
+            var section = page.Root.AddSection("Model Charts");
             
-            image = CreateScoreCharts(linker, model);
-            linkText = linker.LinkImage($"{model.RName} Score Averages ({model.Scope})", page, image);
-            section.AddText(linkText);
+            page.AddImage(CreateAccuracyChart(linker, model), $"{model.Name} R²", section);
+            page.AddImage(CreateHitRatioChart(linker, model), $"{model.Name} Hit Ratio", section);
+            page.AddImage(CreateScoreCharts(linker, model), $"{model.Name} Score Averages", section);
         }
 
         private static Image CreateAccuracyChart(FileLinker linker, ModelData model)

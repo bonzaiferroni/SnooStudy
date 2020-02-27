@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_movies_General.md)|LightGbmRegression|1,634|0.64|
@@ -14,5 +16,7 @@
 |[Observe5](models/guess_movies_Observe5.md)|GamRegressionTrainer|977|0.47|
 |[Prototype](models/guess_movies_Prototype.md)||0|0.00|
 
-![r/movies Distributions (guess)](../images/guess_movies_Distributions.png "r/movies Distributions (guess)")
+## Subreddit Charts
+
+![r/movies Distributions](../images/guess_movies_Distributions.png "r/movies Distributions")
 

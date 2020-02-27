@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_gifs_General.md)|FastTreeTweedieRegression|764|0.14|
@@ -10,5 +12,7 @@
 |[Full](models/hunch_gifs_Full.md)|OnlineGradientDescentTrainer|109|0.04|
 |[Prototype](models/hunch_gifs_Prototype.md)||0|0.00|
 
-![r/gifs Distributions (hunch)](../images/hunch_gifs_Distributions.png "r/gifs Distributions (hunch)")
+## Subreddit Charts
+
+![r/gifs Distributions](../images/hunch_gifs_Distributions.png "r/gifs Distributions")
 

@@ -4,11 +4,11 @@
 
 [Back (r/funny)](../guess_funny.md)
 
-## Charts
+## Model Charts
 
-![r/funny R² (guess)](../../images/models/guess_funny_DropTitle_Accuracy.png "r/funny R² (guess)")
+![DropTitle R²](../../images/models/guess_funny_DropTitle_Accuracy.png "DropTitle R²")
 
-![r/funny Hit Ratio (guess)](../../images/models/guess_funny_DropTitle_HitRatio.png "r/funny Hit Ratio (guess)")
+![DropTitle Hit Ratio](../../images/models/guess_funny_DropTitle_HitRatio.png "DropTitle Hit Ratio")
 
-![r/funny Score Averages (guess)](../../images/models/guess_funny_DropTitle_Scores.png "r/funny Score Averages (guess)")
+![DropTitle Score Averages](../../images/models/guess_funny_DropTitle_Scores.png "DropTitle Score Averages")
 

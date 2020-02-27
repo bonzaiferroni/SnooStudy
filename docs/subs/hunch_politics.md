@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_politics_General.md)|FastTreeRegression|9,377|0.20|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_politics_Full.md)|SdcaRegressionTrainer|4,160|0.11|
 |[Prototype](models/hunch_politics_Prototype.md)||0|0.00|
 
-![r/politics Distributions (hunch)](../images/hunch_politics_Distributions.png "r/politics Distributions (hunch)")
+## Subreddit Charts
+
+![r/politics Distributions](../images/hunch_politics_Distributions.png "r/politics Distributions")
 

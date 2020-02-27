@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_pics_General.md)|FastForestRegression|12,360|0.11|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_pics_Full.md)|LbfgsPoissonRegressionTrainer|4,419|0.00|
 |[Prototype](models/hunch_pics_Prototype.md)||0|0.00|
 
-![r/pics Distributions (hunch)](../images/hunch_pics_Distributions.png "r/pics Distributions (hunch)")
+## Subreddit Charts
+
+![r/pics Distributions](../images/hunch_pics_Distributions.png "r/pics Distributions")
 

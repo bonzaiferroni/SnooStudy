@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_videos_General.md)|LightGbmRegression|5,279|0.05|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_videos_Full.md)|FastForestRegressionTrainer|1,868|0.01|
 |[Prototype](models/hunch_videos_Prototype.md)||0|0.00|
 
-![r/videos Distributions (hunch)](../images/hunch_videos_Distributions.png "r/videos Distributions (hunch)")
+## Subreddit Charts
+
+![r/videos Distributions](../images/hunch_videos_Distributions.png "r/videos Distributions")
 

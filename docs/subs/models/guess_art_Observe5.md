@@ -4,11 +4,11 @@
 
 [Back (r/art)](../guess_art.md)
 
-## Charts
+## Model Charts
 
-![r/art R² (guess)](../../images/models/guess_art_Observe5_Accuracy.png "r/art R² (guess)")
+![Observe5 R²](../../images/models/guess_art_Observe5_Accuracy.png "Observe5 R²")
 
-![r/art Hit Ratio (guess)](../../images/models/guess_art_Observe5_HitRatio.png "r/art Hit Ratio (guess)")
+![Observe5 Hit Ratio](../../images/models/guess_art_Observe5_HitRatio.png "Observe5 Hit Ratio")
 
-![r/art Score Averages (guess)](../../images/models/guess_art_Observe5_Scores.png "r/art Score Averages (guess)")
+![Observe5 Score Averages](../../images/models/guess_art_Observe5_Scores.png "Observe5 Score Averages")
 

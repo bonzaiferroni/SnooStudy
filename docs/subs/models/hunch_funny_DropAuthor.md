@@ -4,11 +4,11 @@
 
 [Back (r/funny)](../hunch_funny.md)
 
-## Charts
+## Model Charts
 
-![r/funny R² (hunch)](../../images/models/hunch_funny_DropAuthor_Accuracy.png "r/funny R² (hunch)")
+![DropAuthor R²](../../images/models/hunch_funny_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/funny Hit Ratio (hunch)](../../images/models/hunch_funny_DropAuthor_HitRatio.png "r/funny Hit Ratio (hunch)")
+![DropAuthor Hit Ratio](../../images/models/hunch_funny_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/funny Score Averages (hunch)](../../images/models/hunch_funny_DropAuthor_Scores.png "r/funny Score Averages (hunch)")
+![DropAuthor Score Averages](../../images/models/hunch_funny_DropAuthor_Scores.png "DropAuthor Score Averages")
 

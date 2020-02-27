@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_the_donald_General.md)|FastTreeRegression|13,363|0.83|
@@ -15,5 +17,7 @@
 |[Observe2](models/guess_the_donald_Observe2.md)|FastTreeRegressionTrainer|6,342|0.73|
 |[Prototype](models/guess_the_donald_Prototype.md)||0|0.00|
 
-![r/the_donald Distributions (guess)](../images/guess_the_donald_Distributions.png "r/the_donald Distributions (guess)")
+## Subreddit Charts
+
+![r/the_donald Distributions](../images/guess_the_donald_Distributions.png "r/the_donald Distributions")
 

@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_pics_General.md)|LightGbmRegression|8,059|0.46|
@@ -14,5 +16,7 @@
 |[Observe2](models/guess_pics_Observe2.md)|FastTreeTweedieTrainer|4,419|0.47|
 |[Prototype](models/guess_pics_Prototype.md)||0|0.00|
 
-![r/pics Distributions (guess)](../images/guess_pics_Distributions.png "r/pics Distributions (guess)")
+## Subreddit Charts
+
+![r/pics Distributions](../images/guess_pics_Distributions.png "r/pics Distributions")
 

@@ -4,11 +4,11 @@
 
 [Back (r/dataisbeautiful)](../hunch_dataisbeautiful.md)
 
-## Charts
+## Model Charts
 
-![r/dataisbeautiful R² (hunch)](../../images/models/hunch_dataisbeautiful_Prototype_Accuracy.png "r/dataisbeautiful R² (hunch)")
+![Prototype R²](../../images/models/hunch_dataisbeautiful_Prototype_Accuracy.png "Prototype R²")
 
-![r/dataisbeautiful Hit Ratio (hunch)](../../images/models/hunch_dataisbeautiful_Prototype_HitRatio.png "r/dataisbeautiful Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_dataisbeautiful_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/dataisbeautiful Score Averages (hunch)](../../images/models/hunch_dataisbeautiful_Prototype_Scores.png "r/dataisbeautiful Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_dataisbeautiful_Prototype_Scores.png "Prototype Score Averages")
 

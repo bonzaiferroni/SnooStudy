@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_gaming_General.md)|LightGbmRegression|5,060|0.68|
@@ -14,5 +16,7 @@
 |[Observe1](models/guess_gaming_Observe1.md)|FastTreeTweedieTrainer|264|0.29|
 |[Prototype](models/guess_gaming_Prototype.md)||0|0.00|
 
-![r/gaming Distributions (guess)](../images/guess_gaming_Distributions.png "r/gaming Distributions (guess)")
+## Subreddit Charts
+
+![r/gaming Distributions](../images/guess_gaming_Distributions.png "r/gaming Distributions")
 

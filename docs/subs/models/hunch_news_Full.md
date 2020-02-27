@@ -4,11 +4,11 @@
 
 [Back (r/news)](../hunch_news.md)
 
-## Charts
+## Model Charts
 
-![r/news R² (hunch)](../../images/models/hunch_news_Full_Accuracy.png "r/news R² (hunch)")
+![Full R²](../../images/models/hunch_news_Full_Accuracy.png "Full R²")
 
-![r/news Hit Ratio (hunch)](../../images/models/hunch_news_Full_HitRatio.png "r/news Hit Ratio (hunch)")
+![Full Hit Ratio](../../images/models/hunch_news_Full_HitRatio.png "Full Hit Ratio")
 
-![r/news Score Averages (hunch)](../../images/models/hunch_news_Full_Scores.png "r/news Score Averages (hunch)")
+![Full Score Averages](../../images/models/hunch_news_Full_Scores.png "Full Score Averages")
 

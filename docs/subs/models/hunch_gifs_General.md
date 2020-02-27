@@ -4,11 +4,11 @@
 
 [Back (r/gifs)](../hunch_gifs.md)
 
-## Charts
+## Model Charts
 
-![r/gifs R² (hunch)](../../images/models/hunch_gifs_General_Accuracy.png "r/gifs R² (hunch)")
+![General R²](../../images/models/hunch_gifs_General_Accuracy.png "General R²")
 
-![r/gifs Hit Ratio (hunch)](../../images/models/hunch_gifs_General_HitRatio.png "r/gifs Hit Ratio (hunch)")
+![General Hit Ratio](../../images/models/hunch_gifs_General_HitRatio.png "General Hit Ratio")
 
-![r/gifs Score Averages (hunch)](../../images/models/hunch_gifs_General_Scores.png "r/gifs Score Averages (hunch)")
+![General Score Averages](../../images/models/hunch_gifs_General_Scores.png "General Score Averages")
 

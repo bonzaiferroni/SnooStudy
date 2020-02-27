@@ -4,11 +4,11 @@
 
 [Back (r/worldnews)](../hunch_worldnews.md)
 
-## Charts
+## Model Charts
 
-![r/worldnews R² (hunch)](../../images/models/hunch_worldnews_DropAuthor_Accuracy.png "r/worldnews R² (hunch)")
+![DropAuthor R²](../../images/models/hunch_worldnews_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/worldnews Hit Ratio (hunch)](../../images/models/hunch_worldnews_DropAuthor_HitRatio.png "r/worldnews Hit Ratio (hunch)")
+![DropAuthor Hit Ratio](../../images/models/hunch_worldnews_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/worldnews Score Averages (hunch)](../../images/models/hunch_worldnews_DropAuthor_Scores.png "r/worldnews Score Averages (hunch)")
+![DropAuthor Score Averages](../../images/models/hunch_worldnews_DropAuthor_Scores.png "DropAuthor Score Averages")
 

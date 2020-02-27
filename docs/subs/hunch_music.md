@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_music_General.md)|FastForestRegression|3,912|0.00|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_music_Full.md)|FastTreeTweedieTrainer|185|0.05|
 |[Prototype](models/hunch_music_Prototype.md)||0|0.00|
 
-![r/music Distributions (hunch)](../images/hunch_music_Distributions.png "r/music Distributions (hunch)")
+## Subreddit Charts
+
+![r/music Distributions](../images/hunch_music_Distributions.png "r/music Distributions")
 

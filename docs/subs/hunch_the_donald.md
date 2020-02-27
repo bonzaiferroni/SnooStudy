@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_the_donald_General.md)|LightGbmRegression|19,488|0.44|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_the_donald_Full.md)|FastForestRegressionTrainer|6,342|0.04|
 |[Prototype](models/hunch_the_donald_Prototype.md)||0|0.00|
 
-![r/the_donald Distributions (hunch)](../images/hunch_the_donald_Distributions.png "r/the_donald Distributions (hunch)")
+## Subreddit Charts
+
+![r/the_donald Distributions](../images/hunch_the_donald_Distributions.png "r/the_donald Distributions")
 

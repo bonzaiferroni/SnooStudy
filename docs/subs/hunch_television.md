@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_television_General.md)|FastTreeRegression|837|0.59|
@@ -9,5 +11,7 @@
 |[Full](models/hunch_television_Full.md)|LightGbmRegressionTrainer|294|0.77|
 |[Prototype](models/hunch_television_Prototype.md)||0|0.00|
 
-![r/television Distributions (hunch)](../images/hunch_television_Distributions.png "r/television Distributions (hunch)")
+## Subreddit Charts
+
+![r/television Distributions](../images/hunch_television_Distributions.png "r/television Distributions")
 

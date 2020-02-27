@@ -4,11 +4,11 @@
 
 [Back (r/news)](../guess_news.md)
 
-## Charts
+## Model Charts
 
-![r/news R² (guess)](../../images/models/guess_news_AutoML_Accuracy.png "r/news R² (guess)")
+![AutoML R²](../../images/models/guess_news_AutoML_Accuracy.png "AutoML R²")
 
-![r/news Hit Ratio (guess)](../../images/models/guess_news_AutoML_HitRatio.png "r/news Hit Ratio (guess)")
+![AutoML Hit Ratio](../../images/models/guess_news_AutoML_HitRatio.png "AutoML Hit Ratio")
 
-![r/news Score Averages (guess)](../../images/models/guess_news_AutoML_Scores.png "r/news Score Averages (guess)")
+![AutoML Score Averages](../../images/models/guess_news_AutoML_Scores.png "AutoML Score Averages")
 

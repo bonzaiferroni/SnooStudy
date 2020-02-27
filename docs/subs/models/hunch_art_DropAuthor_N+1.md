@@ -4,11 +4,11 @@
 
 [Back (r/art)](../hunch_art.md)
 
-## Charts
+## Model Charts
 
-![r/art R² (hunch)](../../images/models/hunch_art_DropAuthor_N+1_Accuracy.png "r/art R² (hunch)")
+![DropAuthor_N+1 R²](../../images/models/hunch_art_DropAuthor_N+1_Accuracy.png "DropAuthor_N+1 R²")
 
-![r/art Hit Ratio (hunch)](../../images/models/hunch_art_DropAuthor_N+1_HitRatio.png "r/art Hit Ratio (hunch)")
+![DropAuthor_N+1 Hit Ratio](../../images/models/hunch_art_DropAuthor_N+1_HitRatio.png "DropAuthor_N+1 Hit Ratio")
 
-![r/art Score Averages (hunch)](../../images/models/hunch_art_DropAuthor_N+1_Scores.png "r/art Score Averages (hunch)")
+![DropAuthor_N+1 Score Averages](../../images/models/hunch_art_DropAuthor_N+1_Scores.png "DropAuthor_N+1 Score Averages")
 

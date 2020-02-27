@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_art_General.md)|SdcaRegression|4,163|0.37|
@@ -13,5 +15,7 @@
 |[Observe10](models/guess_art_Observe10.md)|FastForestRegressionTrainer|2,285|0.41|
 |[Prototype](models/guess_art_Prototype.md)||0|0.00|
 
-![r/art Distributions (guess)](../images/guess_art_Distributions.png "r/art Distributions (guess)")
+## Subreddit Charts
+
+![r/art Distributions](../images/guess_art_Distributions.png "r/art Distributions")
 

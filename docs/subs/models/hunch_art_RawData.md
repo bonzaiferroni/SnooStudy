@@ -4,11 +4,11 @@
 
 [Back (r/art)](../hunch_art.md)
 
-## Charts
+## Model Charts
 
-![r/art R² (hunch)](../../images/models/hunch_art_RawData_Accuracy.png "r/art R² (hunch)")
+![RawData R²](../../images/models/hunch_art_RawData_Accuracy.png "RawData R²")
 
-![r/art Hit Ratio (hunch)](../../images/models/hunch_art_RawData_HitRatio.png "r/art Hit Ratio (hunch)")
+![RawData Hit Ratio](../../images/models/hunch_art_RawData_HitRatio.png "RawData Hit Ratio")
 
-![r/art Score Averages (hunch)](../../images/models/hunch_art_RawData_Scores.png "r/art Score Averages (hunch)")
+![RawData Score Averages](../../images/models/hunch_art_RawData_Scores.png "RawData Score Averages")
 

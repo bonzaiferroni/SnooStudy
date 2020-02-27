@@ -4,11 +4,11 @@
 
 [Back (r/news)](../guess_news.md)
 
-## Charts
+## Model Charts
 
-![r/news R² (guess)](../../images/models/guess_news_General_Accuracy.png "r/news R² (guess)")
+![General R²](../../images/models/guess_news_General_Accuracy.png "General R²")
 
-![r/news Hit Ratio (guess)](../../images/models/guess_news_General_HitRatio.png "r/news Hit Ratio (guess)")
+![General Hit Ratio](../../images/models/guess_news_General_HitRatio.png "General Hit Ratio")
 
-![r/news Score Averages (guess)](../../images/models/guess_news_General_Scores.png "r/news Score Averages (guess)")
+![General Score Averages](../../images/models/guess_news_General_Scores.png "General Score Averages")
 

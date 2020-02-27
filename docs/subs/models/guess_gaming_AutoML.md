@@ -4,11 +4,11 @@
 
 [Back (r/gaming)](../guess_gaming.md)
 
-## Charts
+## Model Charts
 
-![r/gaming R² (guess)](../../images/models/guess_gaming_AutoML_Accuracy.png "r/gaming R² (guess)")
+![AutoML R²](../../images/models/guess_gaming_AutoML_Accuracy.png "AutoML R²")
 
-![r/gaming Hit Ratio (guess)](../../images/models/guess_gaming_AutoML_HitRatio.png "r/gaming Hit Ratio (guess)")
+![AutoML Hit Ratio](../../images/models/guess_gaming_AutoML_HitRatio.png "AutoML Hit Ratio")
 
-![r/gaming Score Averages (guess)](../../images/models/guess_gaming_AutoML_Scores.png "r/gaming Score Averages (guess)")
+![AutoML Score Averages](../../images/models/guess_gaming_AutoML_Scores.png "AutoML Score Averages")
 

@@ -4,11 +4,11 @@
 
 [Back (r/music)](../guess_music.md)
 
-## Charts
+## Model Charts
 
-![r/music R² (guess)](../../images/models/guess_music_Observe5_Accuracy.png "r/music R² (guess)")
+![Observe5 R²](../../images/models/guess_music_Observe5_Accuracy.png "Observe5 R²")
 
-![r/music Hit Ratio (guess)](../../images/models/guess_music_Observe5_HitRatio.png "r/music Hit Ratio (guess)")
+![Observe5 Hit Ratio](../../images/models/guess_music_Observe5_HitRatio.png "Observe5 Hit Ratio")
 
-![r/music Score Averages (guess)](../../images/models/guess_music_Observe5_Scores.png "r/music Score Averages (guess)")
+![Observe5 Score Averages](../../images/models/guess_music_Observe5_Scores.png "Observe5 Score Averages")
 

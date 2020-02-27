@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_television_General.md)|FastTreeTweedieRegression|559|0.17|
@@ -9,5 +11,7 @@
 |[Observe1](models/guess_television_Observe1.md)|FastTreeTweedieTrainer|343|0.91|
 |[Prototype](models/guess_television_Prototype.md)||0|0.00|
 
-![r/television Distributions (guess)](../images/guess_television_Distributions.png "r/television Distributions (guess)")
+## Subreddit Charts
+
+![r/television Distributions](../images/guess_television_Distributions.png "r/television Distributions")
 

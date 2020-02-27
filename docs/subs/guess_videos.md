@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_videos_General.md)|FastTreeTweedieRegression|3,465|0.15|
@@ -14,5 +16,7 @@
 |[Observe10](models/guess_videos_Observe10.md)|LbfgsPoissonRegressionTrainer|1,868|0.20|
 |[Prototype](models/guess_videos_Prototype.md)||0|0.00|
 
-![r/videos Distributions (guess)](../images/guess_videos_Distributions.png "r/videos Distributions (guess)")
+## Subreddit Charts
+
+![r/videos Distributions](../images/guess_videos_Distributions.png "r/videos Distributions")
 

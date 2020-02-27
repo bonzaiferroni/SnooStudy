@@ -4,11 +4,11 @@
 
 [Back (r/movies)](../hunch_movies.md)
 
-## Charts
+## Model Charts
 
-![r/movies R² (hunch)](../../images/models/hunch_movies_Prototype_Accuracy.png "r/movies R² (hunch)")
+![Prototype R²](../../images/models/hunch_movies_Prototype_Accuracy.png "Prototype R²")
 
-![r/movies Hit Ratio (hunch)](../../images/models/hunch_movies_Prototype_HitRatio.png "r/movies Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_movies_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/movies Score Averages (hunch)](../../images/models/hunch_movies_Prototype_Scores.png "r/movies Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_movies_Prototype_Scores.png "Prototype Score Averages")
 

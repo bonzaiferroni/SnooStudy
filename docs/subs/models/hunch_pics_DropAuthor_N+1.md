@@ -4,11 +4,11 @@
 
 [Back (r/pics)](../hunch_pics.md)
 
-## Charts
+## Model Charts
 
-![r/pics R² (hunch)](../../images/models/hunch_pics_DropAuthor_N+1_Accuracy.png "r/pics R² (hunch)")
+![DropAuthor_N+1 R²](../../images/models/hunch_pics_DropAuthor_N+1_Accuracy.png "DropAuthor_N+1 R²")
 
-![r/pics Hit Ratio (hunch)](../../images/models/hunch_pics_DropAuthor_N+1_HitRatio.png "r/pics Hit Ratio (hunch)")
+![DropAuthor_N+1 Hit Ratio](../../images/models/hunch_pics_DropAuthor_N+1_HitRatio.png "DropAuthor_N+1 Hit Ratio")
 
-![r/pics Score Averages (hunch)](../../images/models/hunch_pics_DropAuthor_N+1_Scores.png "r/pics Score Averages (hunch)")
+![DropAuthor_N+1 Score Averages](../../images/models/hunch_pics_DropAuthor_N+1_Scores.png "DropAuthor_N+1 Score Averages")
 

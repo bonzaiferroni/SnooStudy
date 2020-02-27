@@ -4,11 +4,11 @@
 
 [Back (r/outoftheloop)](../hunch_outoftheloop.md)
 
-## Charts
+## Model Charts
 
-![r/outoftheloop R² (hunch)](../../images/models/hunch_outoftheloop_General_Accuracy.png "r/outoftheloop R² (hunch)")
+![General R²](../../images/models/hunch_outoftheloop_General_Accuracy.png "General R²")
 
-![r/outoftheloop Hit Ratio (hunch)](../../images/models/hunch_outoftheloop_General_HitRatio.png "r/outoftheloop Hit Ratio (hunch)")
+![General Hit Ratio](../../images/models/hunch_outoftheloop_General_HitRatio.png "General Hit Ratio")
 
-![r/outoftheloop Score Averages (hunch)](../../images/models/hunch_outoftheloop_General_Scores.png "r/outoftheloop Score Averages (hunch)")
+![General Score Averages](../../images/models/hunch_outoftheloop_General_Scores.png "General Score Averages")
 

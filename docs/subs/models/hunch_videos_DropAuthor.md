@@ -4,11 +4,11 @@
 
 [Back (r/videos)](../hunch_videos.md)
 
-## Charts
+## Model Charts
 
-![r/videos R² (hunch)](../../images/models/hunch_videos_DropAuthor_Accuracy.png "r/videos R² (hunch)")
+![DropAuthor R²](../../images/models/hunch_videos_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/videos Hit Ratio (hunch)](../../images/models/hunch_videos_DropAuthor_HitRatio.png "r/videos Hit Ratio (hunch)")
+![DropAuthor Hit Ratio](../../images/models/hunch_videos_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/videos Score Averages (hunch)](../../images/models/hunch_videos_DropAuthor_Scores.png "r/videos Score Averages (hunch)")
+![DropAuthor Score Averages](../../images/models/hunch_videos_DropAuthor_Scores.png "DropAuthor Score Averages")
 

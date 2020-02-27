@@ -4,11 +4,11 @@
 
 [Back (r/politics)](../hunch_politics.md)
 
-## Charts
+## Model Charts
 
-![r/politics R² (hunch)](../../images/models/hunch_politics_Prototype_Accuracy.png "r/politics R² (hunch)")
+![Prototype R²](../../images/models/hunch_politics_Prototype_Accuracy.png "Prototype R²")
 
-![r/politics Hit Ratio (hunch)](../../images/models/hunch_politics_Prototype_HitRatio.png "r/politics Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_politics_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/politics Score Averages (hunch)](../../images/models/hunch_politics_Prototype_Scores.png "r/politics Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_politics_Prototype_Scores.png "Prototype Score Averages")
 

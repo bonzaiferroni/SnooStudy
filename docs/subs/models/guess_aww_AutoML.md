@@ -4,11 +4,11 @@
 
 [Back (r/aww)](../guess_aww.md)
 
-## Charts
+## Model Charts
 
-![r/aww R² (guess)](../../images/models/guess_aww_AutoML_Accuracy.png "r/aww R² (guess)")
+![AutoML R²](../../images/models/guess_aww_AutoML_Accuracy.png "AutoML R²")
 
-![r/aww Hit Ratio (guess)](../../images/models/guess_aww_AutoML_HitRatio.png "r/aww Hit Ratio (guess)")
+![AutoML Hit Ratio](../../images/models/guess_aww_AutoML_HitRatio.png "AutoML Hit Ratio")
 
-![r/aww Score Averages (guess)](../../images/models/guess_aww_AutoML_Scores.png "r/aww Score Averages (guess)")
+![AutoML Score Averages](../../images/models/guess_aww_AutoML_Scores.png "AutoML Score Averages")
 

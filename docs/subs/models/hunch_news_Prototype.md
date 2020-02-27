@@ -4,11 +4,11 @@
 
 [Back (r/news)](../hunch_news.md)
 
-## Charts
+## Model Charts
 
-![r/news R² (hunch)](../../images/models/hunch_news_Prototype_Accuracy.png "r/news R² (hunch)")
+![Prototype R²](../../images/models/hunch_news_Prototype_Accuracy.png "Prototype R²")
 
-![r/news Hit Ratio (hunch)](../../images/models/hunch_news_Prototype_HitRatio.png "r/news Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_news_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/news Score Averages (hunch)](../../images/models/hunch_news_Prototype_Scores.png "r/news Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_news_Prototype_Scores.png "Prototype Score Averages")
 

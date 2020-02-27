@@ -4,11 +4,11 @@
 
 [Back (r/videos)](../guess_videos.md)
 
-## Charts
+## Model Charts
 
-![r/videos R² (guess)](../../images/models/guess_videos_Observe5_Accuracy.png "r/videos R² (guess)")
+![Observe5 R²](../../images/models/guess_videos_Observe5_Accuracy.png "Observe5 R²")
 
-![r/videos Hit Ratio (guess)](../../images/models/guess_videos_Observe5_HitRatio.png "r/videos Hit Ratio (guess)")
+![Observe5 Hit Ratio](../../images/models/guess_videos_Observe5_HitRatio.png "Observe5 Hit Ratio")
 
-![r/videos Score Averages (guess)](../../images/models/guess_videos_Observe5_Scores.png "r/videos Score Averages (guess)")
+![Observe5 Score Averages](../../images/models/guess_videos_Observe5_Scores.png "Observe5 Score Averages")
 

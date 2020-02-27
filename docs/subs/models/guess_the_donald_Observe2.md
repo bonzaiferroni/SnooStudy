@@ -4,11 +4,11 @@
 
 [Back (r/the_donald)](../guess_the_donald.md)
 
-## Charts
+## Model Charts
 
-![r/the_donald R² (guess)](../../images/models/guess_the_donald_Observe2_Accuracy.png "r/the_donald R² (guess)")
+![Observe2 R²](../../images/models/guess_the_donald_Observe2_Accuracy.png "Observe2 R²")
 
-![r/the_donald Hit Ratio (guess)](../../images/models/guess_the_donald_Observe2_HitRatio.png "r/the_donald Hit Ratio (guess)")
+![Observe2 Hit Ratio](../../images/models/guess_the_donald_Observe2_HitRatio.png "Observe2 Hit Ratio")
 
-![r/the_donald Score Averages (guess)](../../images/models/guess_the_donald_Observe2_Scores.png "r/the_donald Score Averages (guess)")
+![Observe2 Score Averages](../../images/models/guess_the_donald_Observe2_Scores.png "Observe2 Score Averages")
 

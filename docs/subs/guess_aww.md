@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_aww_General.md)|FastTreeRegression|13,290|0.60|
@@ -13,5 +15,7 @@
 |[Observe10](models/guess_aww_Observe10.md)|LbfgsPoissonRegressionTrainer|714|0.71|
 |[Prototype](models/guess_aww_Prototype.md)||0|0.00|
 
-![r/aww Distributions (guess)](../images/guess_aww_Distributions.png "r/aww Distributions (guess)")
+## Subreddit Charts
+
+![r/aww Distributions](../images/guess_aww_Distributions.png "r/aww Distributions")
 

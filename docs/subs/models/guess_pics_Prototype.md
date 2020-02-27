@@ -4,11 +4,11 @@
 
 [Back (r/pics)](../guess_pics.md)
 
-## Charts
+## Model Charts
 
-![r/pics R² (guess)](../../images/models/guess_pics_Prototype_Accuracy.png "r/pics R² (guess)")
+![Prototype R²](../../images/models/guess_pics_Prototype_Accuracy.png "Prototype R²")
 
-![r/pics Hit Ratio (guess)](../../images/models/guess_pics_Prototype_HitRatio.png "r/pics Hit Ratio (guess)")
+![Prototype Hit Ratio](../../images/models/guess_pics_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/pics Score Averages (guess)](../../images/models/guess_pics_Prototype_Scores.png "r/pics Score Averages (guess)")
+![Prototype Score Averages](../../images/models/guess_pics_Prototype_Scores.png "Prototype Score Averages")
 

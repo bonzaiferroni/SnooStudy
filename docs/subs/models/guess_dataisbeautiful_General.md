@@ -4,11 +4,11 @@
 
 [Back (r/dataisbeautiful)](../guess_dataisbeautiful.md)
 
-## Charts
+## Model Charts
 
-![r/dataisbeautiful R² (guess)](../../images/models/guess_dataisbeautiful_General_Accuracy.png "r/dataisbeautiful R² (guess)")
+![General R²](../../images/models/guess_dataisbeautiful_General_Accuracy.png "General R²")
 
-![r/dataisbeautiful Hit Ratio (guess)](../../images/models/guess_dataisbeautiful_General_HitRatio.png "r/dataisbeautiful Hit Ratio (guess)")
+![General Hit Ratio](../../images/models/guess_dataisbeautiful_General_HitRatio.png "General Hit Ratio")
 
-![r/dataisbeautiful Score Averages (guess)](../../images/models/guess_dataisbeautiful_General_Scores.png "r/dataisbeautiful Score Averages (guess)")
+![General Score Averages](../../images/models/guess_dataisbeautiful_General_Scores.png "General Score Averages")
 

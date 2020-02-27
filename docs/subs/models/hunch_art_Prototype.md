@@ -4,11 +4,11 @@
 
 [Back (r/art)](../hunch_art.md)
 
-## Charts
+## Model Charts
 
-![r/art R² (hunch)](../../images/models/hunch_art_Prototype_Accuracy.png "r/art R² (hunch)")
+![Prototype R²](../../images/models/hunch_art_Prototype_Accuracy.png "Prototype R²")
 
-![r/art Hit Ratio (hunch)](../../images/models/hunch_art_Prototype_HitRatio.png "r/art Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_art_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/art Score Averages (hunch)](../../images/models/hunch_art_Prototype_Scores.png "r/art Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_art_Prototype_Scores.png "Prototype Score Averages")
 

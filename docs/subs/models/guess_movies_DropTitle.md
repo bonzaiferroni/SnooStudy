@@ -4,11 +4,11 @@
 
 [Back (r/movies)](../guess_movies.md)
 
-## Charts
+## Model Charts
 
-![r/movies R² (guess)](../../images/models/guess_movies_DropTitle_Accuracy.png "r/movies R² (guess)")
+![DropTitle R²](../../images/models/guess_movies_DropTitle_Accuracy.png "DropTitle R²")
 
-![r/movies Hit Ratio (guess)](../../images/models/guess_movies_DropTitle_HitRatio.png "r/movies Hit Ratio (guess)")
+![DropTitle Hit Ratio](../../images/models/guess_movies_DropTitle_HitRatio.png "DropTitle Hit Ratio")
 
-![r/movies Score Averages (guess)](../../images/models/guess_movies_DropTitle_Scores.png "r/movies Score Averages (guess)")
+![DropTitle Score Averages](../../images/models/guess_movies_DropTitle_Scores.png "DropTitle Score Averages")
 

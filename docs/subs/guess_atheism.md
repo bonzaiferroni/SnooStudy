@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_atheism_General.md)|FastTreeTweedieRegression|783|0.27|
@@ -11,5 +13,7 @@
 |[Observe5](models/guess_atheism_Observe5.md)|LbfgsPoissonRegressionTrainer|150|0.56|
 |[Prototype](models/guess_atheism_Prototype.md)||0|0.00|
 
-![r/atheism Distributions (guess)](../images/guess_atheism_Distributions.png "r/atheism Distributions (guess)")
+## Subreddit Charts
+
+![r/atheism Distributions](../images/guess_atheism_Distributions.png "r/atheism Distributions")
 

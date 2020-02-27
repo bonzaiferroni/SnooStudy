@@ -4,11 +4,11 @@
 
 [Back (r/gifs)](../guess_gifs.md)
 
-## Charts
+## Model Charts
 
-![r/gifs R² (guess)](../../images/models/guess_gifs_General_Accuracy.png "r/gifs R² (guess)")
+![General R²](../../images/models/guess_gifs_General_Accuracy.png "General R²")
 
-![r/gifs Hit Ratio (guess)](../../images/models/guess_gifs_General_HitRatio.png "r/gifs Hit Ratio (guess)")
+![General Hit Ratio](../../images/models/guess_gifs_General_HitRatio.png "General Hit Ratio")
 
-![r/gifs Score Averages (guess)](../../images/models/guess_gifs_General_Scores.png "r/gifs Score Averages (guess)")
+![General Score Averages](../../images/models/guess_gifs_General_Scores.png "General Score Averages")
 

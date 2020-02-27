@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_funny_General.md)|SdcaRegression|7,251|0.11|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_funny_Full.md)|OnlineGradientDescentTrainer|445|-0.01|
 |[Prototype](models/hunch_funny_Prototype.md)||0|0.00|
 
-![r/funny Distributions (hunch)](../images/hunch_funny_Distributions.png "r/funny Distributions (hunch)")
+## Subreddit Charts
+
+![r/funny Distributions](../images/hunch_funny_Distributions.png "r/funny Distributions")
 

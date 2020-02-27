@@ -4,11 +4,11 @@
 
 [Back (r/atheism)](../hunch_atheism.md)
 
-## Charts
+## Model Charts
 
-![r/atheism R² (hunch)](../../images/models/hunch_atheism_Prototype_Accuracy.png "r/atheism R² (hunch)")
+![Prototype R²](../../images/models/hunch_atheism_Prototype_Accuracy.png "Prototype R²")
 
-![r/atheism Hit Ratio (hunch)](../../images/models/hunch_atheism_Prototype_HitRatio.png "r/atheism Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_atheism_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/atheism Score Averages (hunch)](../../images/models/hunch_atheism_Prototype_Scores.png "r/atheism Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_atheism_Prototype_Scores.png "Prototype Score Averages")
 

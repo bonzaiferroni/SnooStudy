@@ -4,11 +4,11 @@
 
 [Back (r/music)](../hunch_music.md)
 
-## Charts
+## Model Charts
 
-![r/music R² (hunch)](../../images/models/hunch_music_Prototype_Accuracy.png "r/music R² (hunch)")
+![Prototype R²](../../images/models/hunch_music_Prototype_Accuracy.png "Prototype R²")
 
-![r/music Hit Ratio (hunch)](../../images/models/hunch_music_Prototype_HitRatio.png "r/music Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_music_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/music Score Averages (hunch)](../../images/models/hunch_music_Prototype_Scores.png "r/music Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_music_Prototype_Scores.png "Prototype Score Averages")
 

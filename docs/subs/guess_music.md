@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_music_General.md)|FastTreeTweedieRegression|3,912|0.05|
@@ -13,5 +15,7 @@
 |[Observe2](models/guess_music_Observe2.md)|FastTreeTweedieTrainer|185|0.94|
 |[Prototype](models/guess_music_Prototype.md)||0|0.00|
 
-![r/music Distributions (guess)](../images/guess_music_Distributions.png "r/music Distributions (guess)")
+## Subreddit Charts
+
+![r/music Distributions](../images/guess_music_Distributions.png "r/music Distributions")
 

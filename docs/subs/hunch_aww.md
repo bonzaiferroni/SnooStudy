@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_aww_General.md)|FastTreeTweedieRegression|13,290|0.12|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_aww_Full.md)|FastForestRegressionTrainer|714|0.02|
 |[Prototype](models/hunch_aww_Prototype.md)||0|0.00|
 
-![r/aww Distributions (hunch)](../images/hunch_aww_Distributions.png "r/aww Distributions (hunch)")
+## Subreddit Charts
+
+![r/aww Distributions](../images/hunch_aww_Distributions.png "r/aww Distributions")
 

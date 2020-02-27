@@ -4,11 +4,11 @@
 
 [Back (r/television)](../guess_television.md)
 
-## Charts
+## Model Charts
 
-![r/television R² (guess)](../../images/models/guess_television_General_Accuracy.png "r/television R² (guess)")
+![General R²](../../images/models/guess_television_General_Accuracy.png "General R²")
 
-![r/television Hit Ratio (guess)](../../images/models/guess_television_General_HitRatio.png "r/television Hit Ratio (guess)")
+![General Hit Ratio](../../images/models/guess_television_General_HitRatio.png "General Hit Ratio")
 
-![r/television Score Averages (guess)](../../images/models/guess_television_General_Scores.png "r/television Score Averages (guess)")
+![General Score Averages](../../images/models/guess_television_General_Scores.png "General Score Averages")
 

@@ -4,11 +4,11 @@
 
 [Back (r/television)](../hunch_television.md)
 
-## Charts
+## Model Charts
 
-![r/television R² (hunch)](../../images/models/hunch_television_RawData_Accuracy.png "r/television R² (hunch)")
+![RawData R²](../../images/models/hunch_television_RawData_Accuracy.png "RawData R²")
 
-![r/television Hit Ratio (hunch)](../../images/models/hunch_television_RawData_HitRatio.png "r/television Hit Ratio (hunch)")
+![RawData Hit Ratio](../../images/models/hunch_television_RawData_HitRatio.png "RawData Hit Ratio")
 
-![r/television Score Averages (hunch)](../../images/models/hunch_television_RawData_Scores.png "r/television Score Averages (hunch)")
+![RawData Score Averages](../../images/models/hunch_television_RawData_Scores.png "RawData Score Averages")
 

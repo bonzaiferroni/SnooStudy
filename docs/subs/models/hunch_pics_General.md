@@ -4,11 +4,11 @@
 
 [Back (r/pics)](../hunch_pics.md)
 
-## Charts
+## Model Charts
 
-![r/pics R² (hunch)](../../images/models/hunch_pics_General_Accuracy.png "r/pics R² (hunch)")
+![General R²](../../images/models/hunch_pics_General_Accuracy.png "General R²")
 
-![r/pics Hit Ratio (hunch)](../../images/models/hunch_pics_General_HitRatio.png "r/pics Hit Ratio (hunch)")
+![General Hit Ratio](../../images/models/hunch_pics_General_HitRatio.png "General Hit Ratio")
 
-![r/pics Score Averages (hunch)](../../images/models/hunch_pics_General_Scores.png "r/pics Score Averages (hunch)")
+![General Score Averages](../../images/models/hunch_pics_General_Scores.png "General Score Averages")
 

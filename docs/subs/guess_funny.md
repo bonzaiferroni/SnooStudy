@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_funny_General.md)|LightGbmRegression|7,251|0.65|
@@ -14,5 +16,7 @@
 |[Observe10](models/guess_funny_Observe10.md)|FastForestRegressionTrainer|445|0.47|
 |[Prototype](models/guess_funny_Prototype.md)||0|0.00|
 
-![r/funny Distributions (guess)](../images/guess_funny_Distributions.png "r/funny Distributions (guess)")
+## Subreddit Charts
+
+![r/funny Distributions](../images/guess_funny_Distributions.png "r/funny Distributions")
 

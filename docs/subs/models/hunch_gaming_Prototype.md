@@ -4,11 +4,11 @@
 
 [Back (r/gaming)](../hunch_gaming.md)
 
-## Charts
+## Model Charts
 
-![r/gaming R² (hunch)](../../images/models/hunch_gaming_Prototype_Accuracy.png "r/gaming R² (hunch)")
+![Prototype R²](../../images/models/hunch_gaming_Prototype_Accuracy.png "Prototype R²")
 
-![r/gaming Hit Ratio (hunch)](../../images/models/hunch_gaming_Prototype_HitRatio.png "r/gaming Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_gaming_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/gaming Score Averages (hunch)](../../images/models/hunch_gaming_Prototype_Scores.png "r/gaming Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_gaming_Prototype_Scores.png "Prototype Score Averages")
 

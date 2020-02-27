@@ -4,11 +4,11 @@
 
 [Back (r/the_donald)](../hunch_the_donald.md)
 
-## Charts
+## Model Charts
 
-![r/the_donald R² (hunch)](../../images/models/hunch_the_donald_DropAuthor_Accuracy.png "r/the_donald R² (hunch)")
+![DropAuthor R²](../../images/models/hunch_the_donald_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/the_donald Hit Ratio (hunch)](../../images/models/hunch_the_donald_DropAuthor_HitRatio.png "r/the_donald Hit Ratio (hunch)")
+![DropAuthor Hit Ratio](../../images/models/hunch_the_donald_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/the_donald Score Averages (hunch)](../../images/models/hunch_the_donald_DropAuthor_Scores.png "r/the_donald Score Averages (hunch)")
+![DropAuthor Score Averages](../../images/models/hunch_the_donald_DropAuthor_Scores.png "DropAuthor Score Averages")
 

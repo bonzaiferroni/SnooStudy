@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_art_General.md)|FastTreeTweedieRegression|6,385|0.07|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_art_Full.md)|OnlineGradientDescentTrainer|2,285|-0.01|
 |[Prototype](models/hunch_art_Prototype.md)||0|0.00|
 
-![r/art Distributions (hunch)](../images/hunch_art_Distributions.png "r/art Distributions (hunch)")
+## Subreddit Charts
+
+![r/art Distributions](../images/hunch_art_Distributions.png "r/art Distributions")
 

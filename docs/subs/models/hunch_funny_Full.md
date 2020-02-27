@@ -4,11 +4,11 @@
 
 [Back (r/funny)](../hunch_funny.md)
 
-## Charts
+## Model Charts
 
-![r/funny R² (hunch)](../../images/models/hunch_funny_Full_Accuracy.png "r/funny R² (hunch)")
+![Full R²](../../images/models/hunch_funny_Full_Accuracy.png "Full R²")
 
-![r/funny Hit Ratio (hunch)](../../images/models/hunch_funny_Full_HitRatio.png "r/funny Hit Ratio (hunch)")
+![Full Hit Ratio](../../images/models/hunch_funny_Full_HitRatio.png "Full Hit Ratio")
 
-![r/funny Score Averages (hunch)](../../images/models/hunch_funny_Full_Scores.png "r/funny Score Averages (hunch)")
+![Full Score Averages](../../images/models/hunch_funny_Full_Scores.png "Full Score Averages")
 

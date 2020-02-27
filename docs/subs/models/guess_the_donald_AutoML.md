@@ -4,11 +4,11 @@
 
 [Back (r/the_donald)](../guess_the_donald.md)
 
-## Charts
+## Model Charts
 
-![r/the_donald R² (guess)](../../images/models/guess_the_donald_AutoML_Accuracy.png "r/the_donald R² (guess)")
+![AutoML R²](../../images/models/guess_the_donald_AutoML_Accuracy.png "AutoML R²")
 
-![r/the_donald Hit Ratio (guess)](../../images/models/guess_the_donald_AutoML_HitRatio.png "r/the_donald Hit Ratio (guess)")
+![AutoML Hit Ratio](../../images/models/guess_the_donald_AutoML_HitRatio.png "AutoML Hit Ratio")
 
-![r/the_donald Score Averages (guess)](../../images/models/guess_the_donald_AutoML_Scores.png "r/the_donald Score Averages (guess)")
+![AutoML Score Averages](../../images/models/guess_the_donald_AutoML_Scores.png "AutoML Score Averages")
 

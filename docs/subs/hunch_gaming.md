@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_gaming_General.md)|FastForestRegression|5,060|0.11|
@@ -12,5 +14,7 @@
 |[Full](models/hunch_gaming_Full.md)|FastTreeTweedieTrainer|264|0.11|
 |[Prototype](models/hunch_gaming_Prototype.md)||0|0.00|
 
-![r/gaming Distributions (hunch)](../images/hunch_gaming_Distributions.png "r/gaming Distributions (hunch)")
+## Subreddit Charts
+
+![r/gaming Distributions](../images/hunch_gaming_Distributions.png "r/gaming Distributions")
 

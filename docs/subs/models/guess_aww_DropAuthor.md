@@ -4,11 +4,11 @@
 
 [Back (r/aww)](../guess_aww.md)
 
-## Charts
+## Model Charts
 
-![r/aww R² (guess)](../../images/models/guess_aww_DropAuthor_Accuracy.png "r/aww R² (guess)")
+![DropAuthor R²](../../images/models/guess_aww_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/aww Hit Ratio (guess)](../../images/models/guess_aww_DropAuthor_HitRatio.png "r/aww Hit Ratio (guess)")
+![DropAuthor Hit Ratio](../../images/models/guess_aww_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/aww Score Averages (guess)](../../images/models/guess_aww_DropAuthor_Scores.png "r/aww Score Averages (guess)")
+![DropAuthor Score Averages](../../images/models/guess_aww_DropAuthor_Scores.png "DropAuthor Score Averages")
 

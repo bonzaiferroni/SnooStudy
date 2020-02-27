@@ -4,11 +4,11 @@
 
 [Back (r/videos)](../guess_videos.md)
 
-## Charts
+## Model Charts
 
-![r/videos R² (guess)](../../images/models/guess_videos_DropAuthor_N+1_Accuracy.png "r/videos R² (guess)")
+![DropAuthor_N+1 R²](../../images/models/guess_videos_DropAuthor_N+1_Accuracy.png "DropAuthor_N+1 R²")
 
-![r/videos Hit Ratio (guess)](../../images/models/guess_videos_DropAuthor_N+1_HitRatio.png "r/videos Hit Ratio (guess)")
+![DropAuthor_N+1 Hit Ratio](../../images/models/guess_videos_DropAuthor_N+1_HitRatio.png "DropAuthor_N+1 Hit Ratio")
 
-![r/videos Score Averages (guess)](../../images/models/guess_videos_DropAuthor_N+1_Scores.png "r/videos Score Averages (guess)")
+![DropAuthor_N+1 Score Averages](../../images/models/guess_videos_DropAuthor_N+1_Scores.png "DropAuthor_N+1 Score Averages")
 

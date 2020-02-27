@@ -4,11 +4,11 @@
 
 [Back (r/music)](../guess_music.md)
 
-## Charts
+## Model Charts
 
-![r/music R² (guess)](../../images/models/guess_music_DropAuthor_Accuracy.png "r/music R² (guess)")
+![DropAuthor R²](../../images/models/guess_music_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/music Hit Ratio (guess)](../../images/models/guess_music_DropAuthor_HitRatio.png "r/music Hit Ratio (guess)")
+![DropAuthor Hit Ratio](../../images/models/guess_music_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/music Score Averages (guess)](../../images/models/guess_music_DropAuthor_Scores.png "r/music Score Averages (guess)")
+![DropAuthor Score Averages](../../images/models/guess_music_DropAuthor_Scores.png "DropAuthor Score Averages")
 

@@ -4,11 +4,11 @@
 
 [Back (r/atheism)](../guess_atheism.md)
 
-## Charts
+## Model Charts
 
-![r/atheism R² (guess)](../../images/models/guess_atheism_DropTitle_Accuracy.png "r/atheism R² (guess)")
+![DropTitle R²](../../images/models/guess_atheism_DropTitle_Accuracy.png "DropTitle R²")
 
-![r/atheism Hit Ratio (guess)](../../images/models/guess_atheism_DropTitle_HitRatio.png "r/atheism Hit Ratio (guess)")
+![DropTitle Hit Ratio](../../images/models/guess_atheism_DropTitle_HitRatio.png "DropTitle Hit Ratio")
 
-![r/atheism Score Averages (guess)](../../images/models/guess_atheism_DropTitle_Scores.png "r/atheism Score Averages (guess)")
+![DropTitle Score Averages](../../images/models/guess_atheism_DropTitle_Scores.png "DropTitle Score Averages")
 

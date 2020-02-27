@@ -4,11 +4,11 @@
 
 [Back (r/politics)](../guess_politics.md)
 
-## Charts
+## Model Charts
 
-![r/politics R² (guess)](../../images/models/guess_politics_DropAuthor_Accuracy.png "r/politics R² (guess)")
+![DropAuthor R²](../../images/models/guess_politics_DropAuthor_Accuracy.png "DropAuthor R²")
 
-![r/politics Hit Ratio (guess)](../../images/models/guess_politics_DropAuthor_HitRatio.png "r/politics Hit Ratio (guess)")
+![DropAuthor Hit Ratio](../../images/models/guess_politics_DropAuthor_HitRatio.png "DropAuthor Hit Ratio")
 
-![r/politics Score Averages (guess)](../../images/models/guess_politics_DropAuthor_Scores.png "r/politics Score Averages (guess)")
+![DropAuthor Score Averages](../../images/models/guess_politics_DropAuthor_Scores.png "DropAuthor Score Averages")
 

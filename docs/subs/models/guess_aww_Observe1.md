@@ -4,11 +4,11 @@
 
 [Back (r/aww)](../guess_aww.md)
 
-## Charts
+## Model Charts
 
-![r/aww R² (guess)](../../images/models/guess_aww_Observe1_Accuracy.png "r/aww R² (guess)")
+![Observe1 R²](../../images/models/guess_aww_Observe1_Accuracy.png "Observe1 R²")
 
-![r/aww Hit Ratio (guess)](../../images/models/guess_aww_Observe1_HitRatio.png "r/aww Hit Ratio (guess)")
+![Observe1 Hit Ratio](../../images/models/guess_aww_Observe1_HitRatio.png "Observe1 Hit Ratio")
 
-![r/aww Score Averages (guess)](../../images/models/guess_aww_Observe1_Scores.png "r/aww Score Averages (guess)")
+![Observe1 Score Averages](../../images/models/guess_aww_Observe1_Scores.png "Observe1 Score Averages")
 

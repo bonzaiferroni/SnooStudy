@@ -4,11 +4,11 @@
 
 [Back (r/worldnews)](../guess_worldnews.md)
 
-## Charts
+## Model Charts
 
-![r/worldnews R² (guess)](../../images/models/guess_worldnews_Observe5_Accuracy.png "r/worldnews R² (guess)")
+![Observe5 R²](../../images/models/guess_worldnews_Observe5_Accuracy.png "Observe5 R²")
 
-![r/worldnews Hit Ratio (guess)](../../images/models/guess_worldnews_Observe5_HitRatio.png "r/worldnews Hit Ratio (guess)")
+![Observe5 Hit Ratio](../../images/models/guess_worldnews_Observe5_HitRatio.png "Observe5 Hit Ratio")
 
-![r/worldnews Score Averages (guess)](../../images/models/guess_worldnews_Observe5_Scores.png "r/worldnews Score Averages (guess)")
+![Observe5 Score Averages](../../images/models/guess_worldnews_Observe5_Scores.png "Observe5 Score Averages")
 

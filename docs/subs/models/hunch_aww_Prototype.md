@@ -4,11 +4,11 @@
 
 [Back (r/aww)](../hunch_aww.md)
 
-## Charts
+## Model Charts
 
-![r/aww R² (hunch)](../../images/models/hunch_aww_Prototype_Accuracy.png "r/aww R² (hunch)")
+![Prototype R²](../../images/models/hunch_aww_Prototype_Accuracy.png "Prototype R²")
 
-![r/aww Hit Ratio (hunch)](../../images/models/hunch_aww_Prototype_HitRatio.png "r/aww Hit Ratio (hunch)")
+![Prototype Hit Ratio](../../images/models/hunch_aww_Prototype_HitRatio.png "Prototype Hit Ratio")
 
-![r/aww Score Averages (hunch)](../../images/models/hunch_aww_Prototype_Scores.png "r/aww Score Averages (hunch)")
+![Prototype Score Averages](../../images/models/hunch_aww_Prototype_Scores.png "Prototype Score Averages")
 

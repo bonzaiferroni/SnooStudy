@@ -4,11 +4,11 @@
 
 [Back (r/pics)](../guess_pics.md)
 
-## Charts
+## Model Charts
 
-![r/pics R² (guess)](../../images/models/guess_pics_Observe1_Accuracy.png "r/pics R² (guess)")
+![Observe1 R²](../../images/models/guess_pics_Observe1_Accuracy.png "Observe1 R²")
 
-![r/pics Hit Ratio (guess)](../../images/models/guess_pics_Observe1_HitRatio.png "r/pics Hit Ratio (guess)")
+![Observe1 Hit Ratio](../../images/models/guess_pics_Observe1_HitRatio.png "Observe1 Hit Ratio")
 
-![r/pics Score Averages (guess)](../../images/models/guess_pics_Observe1_Scores.png "r/pics Score Averages (guess)")
+![Observe1 Score Averages](../../images/models/guess_pics_Observe1_Scores.png "Observe1 Score Averages")
 

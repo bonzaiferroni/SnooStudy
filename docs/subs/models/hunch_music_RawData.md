@@ -4,11 +4,11 @@
 
 [Back (r/music)](../hunch_music.md)
 
-## Charts
+## Model Charts
 
-![r/music R² (hunch)](../../images/models/hunch_music_RawData_Accuracy.png "r/music R² (hunch)")
+![RawData R²](../../images/models/hunch_music_RawData_Accuracy.png "RawData R²")
 
-![r/music Hit Ratio (hunch)](../../images/models/hunch_music_RawData_HitRatio.png "r/music Hit Ratio (hunch)")
+![RawData Hit Ratio](../../images/models/hunch_music_RawData_HitRatio.png "RawData Hit Ratio")
 
-![r/music Score Averages (hunch)](../../images/models/hunch_music_RawData_Scores.png "r/music Score Averages (hunch)")
+![RawData Score Averages](../../images/models/hunch_music_RawData_Scores.png "RawData Score Averages")
 

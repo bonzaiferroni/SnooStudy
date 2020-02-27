@@ -2,6 +2,8 @@
 
 [Home](../index.md)
 
+## Models
+
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_worldnews_General.md)|FastTreeTweedieRegression|3,521|0.42|
@@ -14,5 +16,7 @@
 |[Observe10](models/guess_worldnews_Observe10.md)|FastForestRegressionTrainer|2,237|0.53|
 |[Prototype](models/guess_worldnews_Prototype.md)||0|0.00|
 
-![r/worldnews Distributions (guess)](../images/guess_worldnews_Distributions.png "r/worldnews Distributions (guess)")
+## Subreddit Charts
+
+![r/worldnews Distributions](../images/guess_worldnews_Distributions.png "r/worldnews Distributions")
 
