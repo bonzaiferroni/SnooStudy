@@ -7,6 +7,7 @@
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_politics_General.md)|FastTreeRegression|5,354|0.64|
+|[20minTrain](models/guess_politics_20minTrain.md)|FastTreeRegression|5,354|0.64|
 |[DropAuthor_N+1](models/guess_politics_DropAuthor_N+1.md)|FastTreeTweedieRegression|5,354|0.61|
 |[DropAuthor](models/guess_politics_DropAuthor.md)|FastTreeTweedieRegression|3,271|0.64|
 |[DropTitle](models/guess_politics_DropTitle.md)|FastTreeTweedieRegression|3,271|0.62|
