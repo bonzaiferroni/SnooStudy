@@ -20,3 +20,5 @@
 
 ![r/aww Categorical](../images/hunch_aww_Catagorical.png "r/aww Categorical")
 
+![r/aww Correlation](../images/hunch_aww_Correlations.png "r/aww Correlation")
+

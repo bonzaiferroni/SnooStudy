@@ -20,3 +20,5 @@
 
 ![r/music Categorical](../images/hunch_music_Catagorical.png "r/music Categorical")
 
+![r/music Correlation](../images/hunch_music_Correlations.png "r/music Correlation")
+

@@ -22,3 +22,5 @@
 
 ![r/worldnews Categorical](../images/guess_worldnews_Catagorical.png "r/worldnews Categorical")
 
+![r/worldnews Correlation](../images/guess_worldnews_Correlations.png "r/worldnews Correlation")
+

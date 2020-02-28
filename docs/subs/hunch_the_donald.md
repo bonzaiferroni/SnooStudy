@@ -20,3 +20,5 @@
 
 ![r/the_donald Categorical](../images/hunch_the_donald_Catagorical.png "r/the_donald Categorical")
 
+![r/the_donald Correlation](../images/hunch_the_donald_Correlations.png "r/the_donald Correlation")
+

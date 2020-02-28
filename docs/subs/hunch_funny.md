@@ -20,3 +20,5 @@
 
 ![r/funny Categorical](../images/hunch_funny_Catagorical.png "r/funny Categorical")
 
+![r/funny Correlation](../images/hunch_funny_Correlations.png "r/funny Correlation")
+

@@ -21,3 +21,5 @@
 
 ![r/art Categorical](../images/guess_art_Catagorical.png "r/art Categorical")
 
+![r/art Correlation](../images/guess_art_Correlations.png "r/art Correlation")
+

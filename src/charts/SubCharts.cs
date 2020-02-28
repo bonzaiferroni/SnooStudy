@@ -16,11 +16,13 @@ namespace Bonwerk.SnooStudy
             page.AddImage(CreateDistCharts(linker, sub), $"{sub.RName} Distributions", section);
 
             page.AddImage(CreateCategoricalCharts(linker, sub), $"{sub.RName} Categorical", section);
+
+            page.AddImage(CreateCorrelationCharts(linker, sub), $"{sub.RName} Correlation", section);
         }
 
         private static Image CreateDistCharts(FileLinker linker, SubData sub)
         {
-            var recipes = DistRecipes.Recipes;
+            var recipes = ChartRecipes.Distributions;
             
             const int cols = 4;
             const int plotHeight = 200;
@@ -47,7 +49,7 @@ namespace Bonwerk.SnooStudy
                     var items = sub.Items;
                     if (recipe.IsValid != null)
                     {
-                        items = items.Where(x => recipe.IsValid(recipe.Getter(x))).ToArray();
+                        items = items.Where(x => recipe.IsValid(x)).ToArray();
                     }
                     
                     plot.Title(recipe.Title);
@@ -215,6 +217,66 @@ namespace Bonwerk.SnooStudy
             }
             
             var image = linker.CreateImage($"images/{sub.Scope}_{sub.Name}_Catagorical.png");
+            mp.SaveFig(image.Path);
+            return image;
+        }
+
+        private static Image CreateCorrelationCharts(FileLinker linker, SubData sub)
+        {
+            var recipes = ChartRecipes.Correlation;
+            
+            const int cols = 2;
+            const int plotHeight = 400;
+            const int plotWidth = 400;
+            var rows = (int) Math.Ceiling((float) recipes.Length / cols);
+            
+            var mp = new ScottPlot.MultiPlot(width: cols * plotWidth, height: plotHeight * rows, rows: rows, cols: cols);
+
+            var orderedItems = sub.Items.OrderBy(x => x.Outcome).ToArray();
+            
+            for (var column = 0; column < cols; column++)
+            {
+                for (var row = 0; row < rows; row++)
+                {
+                    var recipeIndex = row * cols + column;
+                    var plot = mp.subplots[recipeIndex];
+                    ProgramConfig.StylePlot(plot);
+                    var c = ProgramConfig.BgColor;
+                    plot.Style(c, c, c, c, c);
+                    
+                    if (recipeIndex >= recipes.Length) continue;
+
+                    var recipe = recipes[recipeIndex];
+
+                    var items = orderedItems;
+                    if (recipe.IsValid != null)
+                    {
+                        items = items.Where(x => recipe.IsValid(x)).ToArray();
+                    }
+                    
+                    plot.Title(recipe.Title);
+
+                    if (items.Length == 0) continue;
+
+                    var xs = items.Select(x => (double) x.Outcome).ToArray();
+                    var ys = items.Select(recipe.Getter).ToArray();
+
+                    plot.PlotScatter(xs, ys, ProgramConfig.Color1, 0, 2.5);
+                    plot.Ticks(useMultiplierNotation: false);
+                    
+                    // var model = new ScottPlot.Statistics.LinearRegressionLine(xs, ys);
+                    // double x1 = xs[0];
+                    // double x2 = xs[^1];
+                    // double y1 = model.GetValueAt(x1);
+                    // double y2 = model.GetValueAt(x2);
+                    // plot.PlotLine(x1, y1, x2, y2, ProgramConfig.Color2, 2);
+                    
+                    plot.TightenLayout(5);
+                    ProgramConfig.StylePlot(plot);
+                }
+            }
+            
+            var image = linker.CreateImage($"images/{sub.Scope}_{sub.Name}_Correlations.png");
             mp.SaveFig(image.Path);
             return image;
         }

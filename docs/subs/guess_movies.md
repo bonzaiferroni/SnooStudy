@@ -22,3 +22,5 @@
 
 ![r/movies Categorical](../images/guess_movies_Catagorical.png "r/movies Categorical")
 
+![r/movies Correlation](../images/guess_movies_Correlations.png "r/movies Correlation")
+

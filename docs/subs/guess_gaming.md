@@ -22,3 +22,5 @@
 
 ![r/gaming Categorical](../images/guess_gaming_Catagorical.png "r/gaming Categorical")
 
+![r/gaming Correlation](../images/guess_gaming_Correlations.png "r/gaming Correlation")
+

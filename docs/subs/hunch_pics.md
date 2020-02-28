@@ -20,3 +20,5 @@
 
 ![r/pics Categorical](../images/hunch_pics_Catagorical.png "r/pics Categorical")
 
+![r/pics Correlation](../images/hunch_pics_Correlations.png "r/pics Correlation")
+

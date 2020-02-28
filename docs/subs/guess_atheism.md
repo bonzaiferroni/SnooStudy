@@ -19,3 +19,5 @@
 
 ![r/atheism Categorical](../images/guess_atheism_Catagorical.png "r/atheism Categorical")
 
+![r/atheism Correlation](../images/guess_atheism_Correlations.png "r/atheism Correlation")
+

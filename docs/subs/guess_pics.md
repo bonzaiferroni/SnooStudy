@@ -22,3 +22,5 @@
 
 ![r/pics Categorical](../images/guess_pics_Catagorical.png "r/pics Categorical")
 
+![r/pics Correlation](../images/guess_pics_Correlations.png "r/pics Correlation")
+

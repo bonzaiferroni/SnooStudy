@@ -23,3 +23,5 @@
 
 ![r/politics Categorical](../images/guess_politics_Catagorical.png "r/politics Categorical")
 
+![r/politics Correlation](../images/guess_politics_Correlations.png "r/politics Correlation")
+

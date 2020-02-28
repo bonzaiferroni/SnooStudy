@@ -20,3 +20,5 @@
 
 ![r/art Categorical](../images/hunch_art_Catagorical.png "r/art Categorical")
 
+![r/art Correlation](../images/hunch_art_Correlations.png "r/art Correlation")
+

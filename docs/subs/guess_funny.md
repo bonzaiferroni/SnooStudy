@@ -22,3 +22,5 @@
 
 ![r/funny Categorical](../images/guess_funny_Catagorical.png "r/funny Categorical")
 
+![r/funny Correlation](../images/guess_funny_Correlations.png "r/funny Correlation")
+

@@ -21,3 +21,5 @@
 
 ![r/music Categorical](../images/guess_music_Catagorical.png "r/music Categorical")
 
+![r/music Correlation](../images/guess_music_Correlations.png "r/music Correlation")
+

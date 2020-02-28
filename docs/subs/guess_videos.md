@@ -22,3 +22,5 @@
 
 ![r/videos Categorical](../images/guess_videos_Catagorical.png "r/videos Categorical")
 
+![r/videos Correlation](../images/guess_videos_Correlations.png "r/videos Correlation")
+

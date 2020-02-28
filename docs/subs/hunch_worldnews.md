@@ -20,3 +20,5 @@
 
 ![r/worldnews Categorical](../images/hunch_worldnews_Catagorical.png "r/worldnews Categorical")
 
+![r/worldnews Correlation](../images/hunch_worldnews_Correlations.png "r/worldnews Correlation")
+

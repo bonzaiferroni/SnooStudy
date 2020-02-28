@@ -16,3 +16,5 @@
 
 ![r/dataisbeautiful Categorical](../images/guess_dataisbeautiful_Catagorical.png "r/dataisbeautiful Categorical")
 
+![r/dataisbeautiful Correlation](../images/guess_dataisbeautiful_Correlations.png "r/dataisbeautiful Correlation")
+

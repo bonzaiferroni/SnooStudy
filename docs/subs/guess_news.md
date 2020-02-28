@@ -17,3 +17,5 @@
 
 ![r/news Categorical](../images/guess_news_Catagorical.png "r/news Categorical")
 
+![r/news Correlation](../images/guess_news_Correlations.png "r/news Correlation")
+

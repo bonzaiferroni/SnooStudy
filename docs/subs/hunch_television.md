@@ -17,3 +17,5 @@
 
 ![r/television Categorical](../images/hunch_television_Catagorical.png "r/television Categorical")
 
+![r/television Correlation](../images/hunch_television_Correlations.png "r/television Correlation")
+

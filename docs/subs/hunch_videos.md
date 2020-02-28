@@ -20,3 +20,5 @@
 
 ![r/videos Categorical](../images/hunch_videos_Catagorical.png "r/videos Categorical")
 
+![r/videos Correlation](../images/hunch_videos_Correlations.png "r/videos Correlation")
+

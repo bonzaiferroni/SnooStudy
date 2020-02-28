@@ -20,3 +20,5 @@
 
 ![r/movies Categorical](../images/hunch_movies_Catagorical.png "r/movies Categorical")
 
+![r/movies Correlation](../images/hunch_movies_Correlations.png "r/movies Correlation")
+

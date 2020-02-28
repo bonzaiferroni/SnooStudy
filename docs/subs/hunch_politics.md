@@ -20,3 +20,5 @@
 
 ![r/politics Categorical](../images/hunch_politics_Catagorical.png "r/politics Categorical")
 
+![r/politics Correlation](../images/hunch_politics_Correlations.png "r/politics Correlation")
+

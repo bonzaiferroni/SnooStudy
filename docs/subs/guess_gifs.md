@@ -18,3 +18,5 @@
 
 ![r/gifs Categorical](../images/guess_gifs_Catagorical.png "r/gifs Categorical")
 
+![r/gifs Correlation](../images/guess_gifs_Correlations.png "r/gifs Correlation")
+

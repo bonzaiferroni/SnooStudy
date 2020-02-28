@@ -15,3 +15,5 @@
 
 ![r/outoftheloop Categorical](../images/guess_outoftheloop_Catagorical.png "r/outoftheloop Categorical")
 
+![r/outoftheloop Correlation](../images/guess_outoftheloop_Correlations.png "r/outoftheloop Correlation")
+

@@ -20,3 +20,5 @@
 
 ![r/gaming Categorical](../images/hunch_gaming_Catagorical.png "r/gaming Categorical")
 
+![r/gaming Correlation](../images/hunch_gaming_Correlations.png "r/gaming Correlation")
+

@@ -5,9 +5,10 @@ namespace Bonwerk.SnooStudy
 {
     public class StudyItem
     {
-        public StudyItem(string study, ArchiveItem rawData, int threshold)
+        public StudyItem(string study, ArchiveItem rawData, LoggedItem encoded, int threshold)
         {
             RawData = rawData;
+            EncodedData = encoded;
             Predicted = study == ProphetStrings.Hunch ? rawData.HunchScore : rawData.GuessScore;
             if (float.IsNaN(Predicted)) Predicted = -1;
             RSquared = study == ProphetStrings.Hunch ? rawData.HunchRSquared : rawData.GuessRSquared;
@@ -40,6 +41,7 @@ namespace Bonwerk.SnooStudy
         public string FeatureSet { get; }
         public bool IsNotable { get; }
         public ArchiveItem RawData { get; }
+        public LoggedItem EncodedData { get; }
         
         public int Threshold { get; }
         

@@ -40,11 +40,12 @@ namespace Bonwerk.SnooStudy
             var subs = SpyProcess.Subs;
             //var subs = new[] {"politics"};
 
+            var encoder = new PostEncoder();
+
             foreach (var subName in subs)
             {
                 var archive = new PostArchive($"{subName}.archive", $"{DataPath}/data");
-                var items = archive.GetItems();
-                items = items.OrderBy(x => x.Created).ToList();
+                var items = archive.GetItems().OrderBy(x => x.Created).ToList();
                 
                 foreach (var scopeName in scopeNames)
                 {
@@ -59,7 +60,7 @@ namespace Bonwerk.SnooStudy
                         $"{DataPath}/models");
                     if (generalParams.Threshold == 0) 
                         generalParams.Threshold = (int) AutoProgram.FindThreshold(items, x => x.OutcomeScore);
-                    var studyItems = items.Select(x => new StudyItem(scopeName, x, generalParams.Threshold)).ToArray();
+                    var studyItems = items.Select(x => new StudyItem(scopeName, x, encoder.EncodeLogged(x), generalParams.Threshold)).ToArray();
                     
                     var sub = new SubData(subName, scopeName, generalParams, studyItems);
                     scope.Subreddits.Add(sub);
@@ -94,7 +95,8 @@ namespace Bonwerk.SnooStudy
                         };
 
                         var groupedStudyItems =
-                            groupedItems.Select(x => new StudyItem(scopeName, x, generalParams.Threshold)).ToArray();
+                            groupedItems.Select(x => new StudyItem(scopeName, x, encoder.EncodeLogged(x), 
+                                generalParams.Threshold)).ToArray();
                         
                         sub.Models.Add(new ModelData(modelName, subName, scopeName, groupedStudyItems, modelParams));
                     }
