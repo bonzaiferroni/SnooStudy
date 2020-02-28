@@ -232,8 +232,6 @@ namespace Bonwerk.SnooStudy
             
             var mp = new ScottPlot.MultiPlot(width: cols * plotWidth, height: plotHeight * rows, rows: rows, cols: cols);
 
-            var orderedItems = sub.Items.OrderBy(x => x.Outcome).ToArray();
-            
             for (var column = 0; column < cols; column++)
             {
                 for (var row = 0; row < rows; row++)
@@ -248,7 +246,7 @@ namespace Bonwerk.SnooStudy
 
                     var recipe = recipes[recipeIndex];
 
-                    var items = orderedItems;
+                    var items = sub.Items;
                     if (recipe.IsValid != null)
                     {
                         items = items.Where(x => recipe.IsValid(x)).ToArray();
@@ -258,8 +256,8 @@ namespace Bonwerk.SnooStudy
 
                     if (items.Length == 0) continue;
 
-                    var xs = items.Select(x => (double) x.Outcome).ToArray();
-                    var ys = items.Select(recipe.Getter).ToArray();
+                    var xs = items.Select(recipe.Getter).ToArray();
+                    var ys = items.Select(x => (double) x.Outcome).ToArray();
 
                     plot.PlotScatter(xs, ys, ProgramConfig.Color1, 0, 2.5);
                     plot.Ticks(useMultiplierNotation: false);
