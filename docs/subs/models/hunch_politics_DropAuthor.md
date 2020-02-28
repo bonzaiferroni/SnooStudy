@@ -12,3 +12,5 @@
 
 ![DropAuthor Score Averages](../../images/models/hunch_politics_DropAuthor_Scores.png "DropAuthor Score Averages")
 
+![DropAuthor Buzz Averages](../../images/models/hunch_politics_DropAuthor_Buzz.png "DropAuthor Buzz Averages")
+

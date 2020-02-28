@@ -12,3 +12,5 @@
 
 ![DropAuthor_N+1 Score Averages](../../images/models/hunch_funny_DropAuthor_N+1_Scores.png "DropAuthor_N+1 Score Averages")
 
+![DropAuthor_N+1 Buzz Averages](../../images/models/hunch_funny_DropAuthor_N+1_Buzz.png "DropAuthor_N+1 Buzz Averages")
+

@@ -13,7 +13,8 @@ namespace Bonwerk.SnooStudy
             
             page.AddImage(CreateAccuracyChart(linker, model), $"{model.Name} R²", section);
             page.AddImage(CreateHitRatioChart(linker, model), $"{model.Name} Hit Ratio", section);
-            page.AddImage(CreateScoreCharts(linker, model), $"{model.Name} Score Averages", section);
+            page.AddImage(CreateScoreCharts(linker, model, false), $"{model.Name} Score Averages", section);
+            page.AddImage(CreateScoreCharts(linker, model, true), $"{model.Name} Buzz Averages", section);
         }
 
         private static Image CreateAccuracyChart(FileLinker linker, ModelData model)
@@ -61,18 +62,19 @@ namespace Bonwerk.SnooStudy
             return image;
         }
 
-        private static Image CreateScoreCharts(FileLinker linker, ModelData model)
+        private static Image CreateScoreCharts(FileLinker linker, ModelData model, bool buzz)
         {
-            var top = GetScoreAverages(model.Items.Where(x => x.IsTop).ToArray());
-            var bottom = GetScoreAverages(model.Items.Where(x => !x.IsTop).ToArray());
-            var hits = GetScoreAverages(model.Items.Where(x => x.IsHit).ToArray());
-            var hypes = GetScoreAverages(model.Items.Where(x => x.IsHype).ToArray());
+            var top = GetScoreAverages(model.Items.Where(x => x.IsTop).ToArray(), buzz);
+            var bottom = GetScoreAverages(model.Items.Where(x => !x.IsTop).ToArray(), buzz);
+            var hits = GetScoreAverages(model.Items.Where(x => x.IsHit).ToArray(), buzz);
+            var hypes = GetScoreAverages(model.Items.Where(x => x.IsHype).ToArray(), buzz);
             var xs = ScottPlot.DataGen.Consecutive(PostInfo.UpdateCount);
             var xTicks = xs;
             var xLabels = xs.Select(x => $"{x * PostInfo.UpdateInterval / 60}").ToArray();
             
             var plot = new Plot();
-            plot.Title($"{model.RName}: {model.Name} Score Averages ({model.Scope})", fontSize: ProgramConfig.TitleSize);
+            var name = buzz ? "Buzz" : "Scores";
+            plot.Title($"{model.RName}: {model.Name} {name} Averages ({model.Scope})", fontSize: ProgramConfig.TitleSize);
             
             if (top != null) plot.PlotScatter(xs, top, ProgramConfig.Color1, 2, 5, $"Top");
             if (bottom != null) plot.PlotScatter(xs, bottom, ProgramConfig.Color2, 2, 5, "Bottom");
@@ -85,12 +87,12 @@ namespace Bonwerk.SnooStudy
             plot.YLabel("Score");
 
             ProgramConfig.StylePlot(plot);
-            var image = linker.CreateImage($"images/models/{model.Scope}_{model.SubName}_{model.Name}_Scores.png");
+            var image = linker.CreateImage($"images/models/{model.Scope}_{model.SubName}_{model.Name}_{name}.png");
             plot.SaveFig(image.Path);
             return image;
         }
 
-        private static double[] GetScoreAverages(StudyItem[] top)
+        private static double[] GetScoreAverages(StudyItem[] top, bool buzz)
         {
             if (top.Length == 0) return null;
             
@@ -98,7 +100,10 @@ namespace Bonwerk.SnooStudy
 
             for (int i = 0; i < values.Length; i++)
             {
-                values[i] = top.Average(x => x.Scores[i]);
+                if (buzz)
+                    values[i] = top.Average(x => x.Buzz[i]);
+                else
+                    values[i] = top.Average(x => x.Scores[i]);
             }
 
             return values;

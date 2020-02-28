@@ -12,3 +12,5 @@
 
 ![DropTitle Score Averages](../../images/models/guess_gaming_DropTitle_Scores.png "DropTitle Score Averages")
 
+![DropTitle Buzz Averages](../../images/models/guess_gaming_DropTitle_Buzz.png "DropTitle Buzz Averages")
+

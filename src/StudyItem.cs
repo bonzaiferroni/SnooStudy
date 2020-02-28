@@ -32,6 +32,20 @@ namespace Bonwerk.SnooStudy
                 rawData.Score8,
                 rawData.Score9,
             };
+
+            Buzz = new[]
+            {
+                encoded.Buzz0,
+                encoded.Buzz1,
+                encoded.Buzz2,
+                encoded.Buzz3,
+                encoded.Buzz4,
+                encoded.Buzz5,
+                encoded.Buzz6,
+                encoded.Buzz7,
+                encoded.Buzz8,
+                encoded.Buzz9,
+            };
         }
         
         public int Predicted { get; }
@@ -50,6 +64,7 @@ namespace Bonwerk.SnooStudy
         public int Outcome => RawData.OutcomeScore;
         
         public int[] Scores { get; }
+        public float[] Buzz { get; }
 
         public bool IsAccurate()
         {

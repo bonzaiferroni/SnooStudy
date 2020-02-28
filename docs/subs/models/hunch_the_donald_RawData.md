@@ -12,3 +12,5 @@
 
 ![RawData Score Averages](../../images/models/hunch_the_donald_RawData_Scores.png "RawData Score Averages")
 
+![RawData Buzz Averages](../../images/models/hunch_the_donald_RawData_Buzz.png "RawData Buzz Averages")
+

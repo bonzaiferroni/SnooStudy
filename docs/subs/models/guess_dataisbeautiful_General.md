@@ -12,3 +12,5 @@
 
 ![General Score Averages](../../images/models/guess_dataisbeautiful_General_Scores.png "General Score Averages")
 
+![General Buzz Averages](../../images/models/guess_dataisbeautiful_General_Buzz.png "General Buzz Averages")
+

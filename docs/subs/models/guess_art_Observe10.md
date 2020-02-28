@@ -12,3 +12,5 @@
 
 ![Observe10 Score Averages](../../images/models/guess_art_Observe10_Scores.png "Observe10 Score Averages")
 
+![Observe10 Buzz Averages](../../images/models/guess_art_Observe10_Buzz.png "Observe10 Buzz Averages")
+

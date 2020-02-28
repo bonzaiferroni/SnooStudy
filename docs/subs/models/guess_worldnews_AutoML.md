@@ -12,3 +12,5 @@
 
 ![AutoML Score Averages](../../images/models/guess_worldnews_AutoML_Scores.png "AutoML Score Averages")
 
+![AutoML Buzz Averages](../../images/models/guess_worldnews_AutoML_Buzz.png "AutoML Buzz Averages")
+

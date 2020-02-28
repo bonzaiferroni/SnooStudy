@@ -12,3 +12,5 @@
 
 ![Full Score Averages](../../images/models/hunch_pics_Full_Scores.png "Full Score Averages")
 
+![Full Buzz Averages](../../images/models/hunch_pics_Full_Buzz.png "Full Buzz Averages")
+

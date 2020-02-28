@@ -12,3 +12,5 @@
 
 ![Observe2 Score Averages](../../images/models/guess_worldnews_Observe2_Scores.png "Observe2 Score Averages")
 
+![Observe2 Buzz Averages](../../images/models/guess_worldnews_Observe2_Buzz.png "Observe2 Buzz Averages")
+

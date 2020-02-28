@@ -12,3 +12,5 @@
 
 ![Prototype Score Averages](../../images/models/guess_aww_Prototype_Scores.png "Prototype Score Averages")
 
+![Prototype Buzz Averages](../../images/models/guess_aww_Prototype_Buzz.png "Prototype Buzz Averages")
+

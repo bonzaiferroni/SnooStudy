@@ -12,3 +12,5 @@
 
 ![DropTitle Score Averages](../../images/models/hunch_the_donald_DropTitle_Scores.png "DropTitle Score Averages")
 
+![DropTitle Buzz Averages](../../images/models/hunch_the_donald_DropTitle_Buzz.png "DropTitle Buzz Averages")
+

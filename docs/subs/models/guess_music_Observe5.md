@@ -12,3 +12,5 @@
 
 ![Observe5 Score Averages](../../images/models/guess_music_Observe5_Scores.png "Observe5 Score Averages")
 
+![Observe5 Buzz Averages](../../images/models/guess_music_Observe5_Buzz.png "Observe5 Buzz Averages")
+

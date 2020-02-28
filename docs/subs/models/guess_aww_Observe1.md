@@ -12,3 +12,5 @@
 
 ![Observe1 Score Averages](../../images/models/guess_aww_Observe1_Scores.png "Observe1 Score Averages")
 
+![Observe1 Buzz Averages](../../images/models/guess_aww_Observe1_Buzz.png "Observe1 Buzz Averages")
+
