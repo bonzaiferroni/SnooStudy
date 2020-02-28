@@ -6,7 +6,7 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_pics_General.md)|LightGbmRegression|8,059|0.46|
+|[General](models/guess_pics_General.md)|LightGbmRegression|8,059|0.47|
 |[DropAuthor_N+1](models/guess_pics_DropAuthor_N+1.md)|LightGbmRegression|8,059|0.46|
 |[DropAuthor](models/guess_pics_DropAuthor.md)|FastForestRegression|5,176|0.44|
 |[DropTitle](models/guess_pics_DropTitle.md)|FastTreeRegression|5,176|0.44|

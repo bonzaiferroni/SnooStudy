@@ -7,6 +7,7 @@
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_aww_General.md)|FastTreeRegression|13,290|0.60|
+|[20minTrain](models/guess_aww_20minTrain.md)|FastTreeRegression|13,290|0.60|
 |[DropAuthor_N+1](models/guess_aww_DropAuthor_N+1.md)|FastTreeRegression|13,290|0.60|
 |[DropAuthor](models/guess_aww_DropAuthor.md)|FastTreeTweedieRegression|7,967|0.57|
 |[DropTitle](models/guess_aww_DropTitle.md)|LightGbmRegression|7,967|0.53|

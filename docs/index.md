@@ -8,23 +8,23 @@ Stay a while, and listen.
 
 |Subreddit|Trainer Name|Feature Set|n|R²|
 |:---|:---|:---|---:|---:|
-|[r/politics](subs/guess_politics.md)|FastTreeTweedie|DropAuthor_N+1|5,354|0.61|
-|[r/news](subs/guess_news.md)|FastTreeTweedie|DropAuthor_N+1|733|0.46|
-|[r/worldnews](subs/guess_worldnews.md)|FastTreeTweedie|DropAuthor_N+1|3,521|0.42|
-|[r/television](subs/guess_television.md)|FastTreeTweedie|DropAuthor_N+1|559|0.17|
-|[r/movies](subs/guess_movies.md)|LightGbm|DropAuthor_N+1|1,634|0.64|
-|[r/the_donald](subs/guess_the_donald.md)|FastTree|DropAuthor_N+1|13,363|0.83|
-|[r/pics](subs/guess_pics.md)|LightGbm|DropAuthor_N+1|8,059|0.46|
-|[r/videos](subs/guess_videos.md)|FastTreeTweedie|DropAuthor_N+1|3,465|0.15|
-|[r/art](subs/guess_art.md)|Sdca|DropAuthor_N+1|4,163|0.37|
-|[r/dataisbeautiful](subs/guess_dataisbeautiful.md)|FastTreeTweedie|DropAuthor_N+1|365|0.06|
-|[r/outoftheloop](subs/guess_outoftheloop.md)|FastTreeTweedie|DropAuthor_N+1|164|-0.08|
-|[r/gifs](subs/guess_gifs.md)|FastForest|DropAuthor_N+1|665|0.41|
-|[r/funny](subs/guess_funny.md)|LightGbm|DropAuthor_N+1|7,251|0.65|
-|[r/atheism](subs/guess_atheism.md)|FastTreeTweedie|DropAuthor_N+1|783|0.27|
-|[r/music](subs/guess_music.md)|FastTreeTweedie|DropAuthor_N+1|3,912|0.05|
-|[r/aww](subs/guess_aww.md)|FastTree|DropAuthor_N+1|13,290|0.60|
-|[r/gaming](subs/guess_gaming.md)|LightGbm|DropAuthor_N+1|5,060|0.68|
+|[r/politics](subs/guess_politics.md)|FastTree|20minTrain|5,354|0.64|
+|[r/news](subs/guess_news.md)|FastTreeTweedie|20minTrain|733|0.54|
+|[r/worldnews](subs/guess_worldnews.md)|FastTreeTweedie|20minTrain|3,521|0.40|
+|[r/television](subs/guess_television.md)|FastTreeTweedie|20minTrain|559|0.53|
+|[r/movies](subs/guess_movies.md)|LightGbm|20minTrain|1,634|0.72|
+|[r/the_donald](subs/guess_the_donald.md)|LightGbm|20minTrain|13,363|0.82|
+|[r/pics](subs/guess_pics.md)|LightGbm|20minTrain|8,059|0.47|
+|[r/videos](subs/guess_videos.md)|FastTreeTweedie|20minTrain|3,465|0.20|
+|[r/art](subs/guess_art.md)|Sdca|20minTrain|4,163|0.37|
+|[r/dataisbeautiful](subs/guess_dataisbeautiful.md)|FastTreeTweedie|20minTrain|365|0.20|
+|[r/outoftheloop](subs/guess_outoftheloop.md)|FastTreeTweedie|20minTrain|164|-0.11|
+|[r/gifs](subs/guess_gifs.md)|LightGbm|20minTrain|665|0.43|
+|[r/funny](subs/guess_funny.md)|LightGbm|20minTrain|7,251|0.63|
+|[r/atheism](subs/guess_atheism.md)|FastTreeTweedie|20minTrain|783|0.26|
+|[r/music](subs/guess_music.md)|FastTreeTweedie|20minTrain|3,912|0.12|
+|[r/aww](subs/guess_aww.md)|FastTree|20minTrain|13,290|0.60|
+|[r/gaming](subs/guess_gaming.md)|FastForest|20minTrain|5,060|0.63|
 
 ### hunch
 

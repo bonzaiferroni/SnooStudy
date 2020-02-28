@@ -6,7 +6,8 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_dataisbeautiful_General.md)|FastTreeTweedieRegression|365|0.06|
+|[General](models/guess_dataisbeautiful_General.md)|FastTreeTweedieRegression|365|0.20|
+|[DropAuthor_N+1](models/guess_dataisbeautiful_DropAuthor_N+1.md)|FastTreeTweedieRegression|365|0.06|
 |[AutoML](models/guess_dataisbeautiful_AutoML.md)|FastTreeTweedieRegression|176|0.11|
 |[Prototype](models/guess_dataisbeautiful_Prototype.md)||0|0.00|
 

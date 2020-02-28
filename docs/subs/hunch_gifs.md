@@ -7,6 +7,7 @@
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/hunch_gifs_General.md)|FastTreeTweedieRegression|764|0.14|
+|[DropAuthor_N+1](models/hunch_gifs_DropAuthor_N+1.md)|FastTreeTweedieRegression|764|0.14|
 |[DropTitle](models/hunch_gifs_DropTitle.md)|FastForestRegression|517|0.06|
 |[RawData](models/hunch_gifs_RawData.md)|FastForestRegression|421|0.06|
 |[Full](models/hunch_gifs_Full.md)|OnlineGradientDescentTrainer|109|0.04|

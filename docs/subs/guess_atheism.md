@@ -6,7 +6,7 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_atheism_General.md)|FastTreeTweedieRegression|783|0.27|
+|[General](models/guess_atheism_General.md)|FastTreeTweedieRegression|783|0.26|
 |[DropAuthor_N+1](models/guess_atheism_DropAuthor_N+1.md)|FastTreeTweedieRegression|783|0.27|
 |[DropTitle](models/guess_atheism_DropTitle.md)|FastTreeTweedieRegression|474|-0.04|
 |[AutoML](models/guess_atheism_AutoML.md)|FastTreeTweedieRegression|338|0.16|

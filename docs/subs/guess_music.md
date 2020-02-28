@@ -6,7 +6,7 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_music_General.md)|FastTreeTweedieRegression|3,912|0.05|
+|[General](models/guess_music_General.md)|FastTreeTweedieRegression|3,912|0.12|
 |[DropAuthor_N+1](models/guess_music_DropAuthor_N+1.md)|FastTreeTweedieRegression|3,912|0.05|
 |[DropAuthor](models/guess_music_DropAuthor.md)|FastTreeTweedieRegression|2,257|-0.00|
 |[DropTitle](models/guess_music_DropTitle.md)|FastTreeTweedieRegression|2,257|0.03|

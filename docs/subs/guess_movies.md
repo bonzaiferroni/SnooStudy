@@ -6,7 +6,7 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_movies_General.md)|LightGbmRegression|1,634|0.64|
+|[General](models/guess_movies_General.md)|LightGbmRegression|1,634|0.72|
 |[DropAuthor_N+1](models/guess_movies_DropAuthor_N+1.md)|LightGbmRegression|1,634|0.64|
 |[DropAuthor](models/guess_movies_DropAuthor.md)|LightGbmRegression|1,083|0.12|
 |[DropTitle](models/guess_movies_DropTitle.md)|LightGbmRegression|1,083|0.22|

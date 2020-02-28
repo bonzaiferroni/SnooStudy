@@ -6,7 +6,7 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_outoftheloop_General.md)|FastTreeTweedieRegression|164|-0.08|
+|[General](models/guess_outoftheloop_General.md)|FastTreeTweedieRegression|164|-0.11|
 |[Prototype](models/guess_outoftheloop_Prototype.md)||0|0.00|
 
 ## Subreddit Charts
