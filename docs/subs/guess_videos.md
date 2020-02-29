@@ -7,6 +7,7 @@
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_videos_General.md)|FastTreeTweedieRegression|3,465|0.20|
+|[20minTrain](models/guess_videos_20minTrain.md)|FastTreeTweedieRegression|3,465|0.20|
 |[DropAuthor_N+1](models/guess_videos_DropAuthor_N+1.md)|FastTreeTweedieRegression|3,465|0.15|
 |[DropAuthor](models/guess_videos_DropAuthor.md)|LightGbmRegression|2,092|0.02|
 |[DropTitle](models/guess_videos_DropTitle.md)|LightGbmRegression|2,092|0.02|

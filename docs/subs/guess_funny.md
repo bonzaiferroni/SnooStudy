@@ -7,6 +7,7 @@
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_funny_General.md)|LightGbmRegression|7,251|0.63|
+|[20minTrain](models/guess_funny_20minTrain.md)|LightGbmRegression|7,251|0.63|
 |[DropAuthor_N+1](models/guess_funny_DropAuthor_N+1.md)|LightGbmRegression|7,251|0.65|
 |[DropAuthor](models/guess_funny_DropAuthor.md)|LightGbmRegression|4,408|0.62|
 |[DropTitle](models/guess_funny_DropTitle.md)|FastForestRegression|4,408|0.61|

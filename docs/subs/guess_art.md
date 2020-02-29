@@ -7,6 +7,7 @@
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_art_General.md)|SdcaRegression|4,163|0.37|
+|[20minTrain](models/guess_art_20minTrain.md)|SdcaRegression|4,163|0.37|
 |[DropAuthor_N+1](models/guess_art_DropAuthor_N+1.md)|SdcaRegression|4,163|0.37|
 |[DropAuthor](models/guess_art_DropAuthor.md)|SdcaRegression|2,733|0.35|
 |[DropTitle](models/guess_art_DropTitle.md)|SdcaRegression|2,733|0.35|

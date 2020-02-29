@@ -7,6 +7,7 @@
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
 |[General](models/guess_worldnews_General.md)|FastTreeTweedieRegression|3,521|0.40|
+|[20minTrain](models/guess_worldnews_20minTrain.md)|FastTreeTweedieRegression|3,521|0.40|
 |[DropAuthor_N+1](models/guess_worldnews_DropAuthor_N+1.md)|FastTreeTweedieRegression|3,521|0.42|
 |[DropAuthor](models/guess_worldnews_DropAuthor.md)|FastTreeTweedieRegression|2,202|0.29|
 |[DropTitle](models/guess_worldnews_DropTitle.md)|FastTreeTweedieRegression|2,202|0.20|
