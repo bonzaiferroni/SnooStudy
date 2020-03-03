@@ -12,7 +12,7 @@ namespace Bonwerk.SnooStudy
     class StudyProgram
     {
         public const string DocsPath = "../../../docs";
-        public static string DataPath => $"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}/Study";
+        public const string SourcePath = "C:/Users/Luke/Desktop/AppData/Sputnik/RedditSpy";
         
         private static void Main(string[] args)
         {
@@ -44,7 +44,7 @@ namespace Bonwerk.SnooStudy
 
             foreach (var subName in subs)
             {
-                var archive = new PostArchive($"{subName}.archive", $"{DataPath}/data");
+                var archive = new PostArchive($"{subName}.archive", $"{SourcePath}/data");
                 var items = archive.GetItems().OrderBy(x => x.Created).ToList();
                 
                 foreach (var scopeName in scopeNames)
@@ -57,7 +57,7 @@ namespace Bonwerk.SnooStudy
                     }
 
                     var generalParams = Memorizer.Load<ModelParams>($"{subName}.{scopeName}.params",
-                        $"{DataPath}/models");
+                        $"{SourcePath}/models");
                     if (generalParams.Threshold == 0) 
                         generalParams.Threshold = (int) AutoProgram.FindThreshold(items, x => x.OutcomeScore);
                     var studyItems = items.Select(x => new StudyItem(scopeName, x, encoder.EncodeLogged(x), generalParams.Threshold)).ToArray();

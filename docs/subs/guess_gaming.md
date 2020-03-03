@@ -6,7 +6,10 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_gaming_General.md)|FastForestRegression|5,060|0.63|
+|[General](models/guess_gaming_General.md)|LightGbmRegression|7,866|0.65|
+|[SwapUsers](models/guess_gaming_SwapUsers.md)|FastForestRegression|7,866|0.64|
+|[SwapBuzz_N+1](models/guess_gaming_SwapBuzz_N+1.md)|FastForestRegression|7,866|0.62|
+|[SwapBuzz](models/guess_gaming_SwapBuzz.md)|FastForestRegression|5,060|0.63|
 |[20minTrain](models/guess_gaming_20minTrain.md)|FastForestRegression|5,060|0.63|
 |[DropAuthor_N+1](models/guess_gaming_DropAuthor_N+1.md)|LightGbmRegression|5,060|0.68|
 |[DropAuthor](models/guess_gaming_DropAuthor.md)|FastTreeTweedieRegression|3,067|0.51|

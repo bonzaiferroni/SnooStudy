@@ -6,7 +6,10 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_videos_General.md)|FastTreeTweedieRegression|3,465|0.20|
+|[General](models/guess_videos_General.md)|FastForestRegression|5,034|0.12|
+|[SwapUsers](models/guess_videos_SwapUsers.md)|FastForestRegression|5,034|0.12|
+|[SwapBuzz_N+1](models/guess_videos_SwapBuzz_N+1.md)|FastForestRegression|5,034|0.12|
+|[SwapBuzz](models/guess_videos_SwapBuzz.md)|FastTreeTweedieRegression|3,465|0.09|
 |[20minTrain](models/guess_videos_20minTrain.md)|FastTreeTweedieRegression|3,465|0.20|
 |[DropAuthor_N+1](models/guess_videos_DropAuthor_N+1.md)|FastTreeTweedieRegression|3,465|0.15|
 |[DropAuthor](models/guess_videos_DropAuthor.md)|LightGbmRegression|2,092|0.02|

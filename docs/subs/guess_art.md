@@ -6,7 +6,10 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_art_General.md)|SdcaRegression|4,163|0.37|
+|[General](models/guess_art_General.md)|FastTreeTweedieRegression|6,173|0.49|
+|[SwapUsers](models/guess_art_SwapUsers.md)|FastForestRegression|6,173|0.42|
+|[SwapBuzz_N+1](models/guess_art_SwapBuzz_N+1.md)|FastForestRegression|6,173|0.39|
+|[SwapBuzz](models/guess_art_SwapBuzz.md)|FastTreeTweedieRegression|4,163|0.42|
 |[20minTrain](models/guess_art_20minTrain.md)|SdcaRegression|4,163|0.37|
 |[DropAuthor_N+1](models/guess_art_DropAuthor_N+1.md)|SdcaRegression|4,163|0.37|
 |[DropAuthor](models/guess_art_DropAuthor.md)|SdcaRegression|2,733|0.35|

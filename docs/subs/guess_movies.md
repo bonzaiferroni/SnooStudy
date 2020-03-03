@@ -6,7 +6,10 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_movies_General.md)|LightGbmRegression|1,634|0.72|
+|[General](models/guess_movies_General.md)|FastTreeTweedieRegression|2,336|0.53|
+|[SwapUsers](models/guess_movies_SwapUsers.md)|FastTreeTweedieRegression|2,336|0.53|
+|[SwapBuzz_N+1](models/guess_movies_SwapBuzz_N+1.md)|FastTreeRegression|2,336|0.42|
+|[20minTrain](models/guess_movies_20minTrain.md)|LightGbmRegression|1,634|0.72|
 |[DropAuthor_N+1](models/guess_movies_DropAuthor_N+1.md)|LightGbmRegression|1,634|0.64|
 |[DropAuthor](models/guess_movies_DropAuthor.md)|LightGbmRegression|1,083|0.12|
 |[DropTitle](models/guess_movies_DropTitle.md)|LightGbmRegression|1,083|0.22|
