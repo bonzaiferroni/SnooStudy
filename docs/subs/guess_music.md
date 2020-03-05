@@ -6,7 +6,9 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_music_General.md)|FastTreeRegression|5,873|0.08|
+|[General](models/guess_music_General.md)|FastTreeTweedieRegression|7,533|0.10|
+|[SwapActivity_N+1](models/guess_music_SwapActivity_N+1.md)|FastTreeTweedieRegression|7,533|0.15|
+|[SwapActivity](models/guess_music_SwapActivity.md)|FastTreeRegression|5,873|0.08|
 |[SwapUsers](models/guess_music_SwapUsers.md)|FastTreeRegression|5,873|0.05|
 |[SwapBuzz_N+1](models/guess_music_SwapBuzz_N+1.md)|FastTreeTweedieRegression|5,873|0.09|
 |[SwapBuzz](models/guess_music_SwapBuzz.md)|FastTreeTweedieRegression|3,912|0.13|

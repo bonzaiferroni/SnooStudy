@@ -6,7 +6,9 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_funny_General.md)|FastTreeTweedieRegression|10,960|0.61|
+|[General](models/guess_funny_General.md)|FastTreeRegression|14,140|0.64|
+|[SwapActivity_N+1](models/guess_funny_SwapActivity_N+1.md)|FastTreeRegression|14,140|0.63|
+|[SwapActivity](models/guess_funny_SwapActivity.md)|FastTreeTweedieRegression|10,960|0.61|
 |[SwapUsers](models/guess_funny_SwapUsers.md)|FastForestRegression|10,960|0.61|
 |[SwapBuzz_N+1](models/guess_funny_SwapBuzz_N+1.md)|FastForestRegression|10,960|0.61|
 |[SwapBuzz](models/guess_funny_SwapBuzz.md)|LightGbmRegression|7,251|0.64|

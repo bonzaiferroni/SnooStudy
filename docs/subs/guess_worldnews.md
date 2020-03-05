@@ -6,7 +6,9 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_worldnews_General.md)|LightGbmRegression|5,559|0.43|
+|[General](models/guess_worldnews_General.md)|FastForestRegression|7,110|0.45|
+|[SwapActivity_N+1](models/guess_worldnews_SwapActivity_N+1.md)|FastForestRegression|7,110|0.46|
+|[SwapActivity](models/guess_worldnews_SwapActivity.md)|LightGbmRegression|5,559|0.43|
 |[SwapUsers](models/guess_worldnews_SwapUsers.md)|FastTreeTweedieRegression|5,559|0.44|
 |[SwapBuzz_N+1](models/guess_worldnews_SwapBuzz_N+1.md)|LightGbmRegression|5,559|0.45|
 |[SwapBuzz](models/guess_worldnews_SwapBuzz.md)|LightGbmRegression|3,521|0.40|

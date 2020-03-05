@@ -6,7 +6,9 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_aww_General.md)|FastTreeTweedieRegression|21,044|0.61|
+|[General](models/guess_aww_General.md)|FastForestRegression|26,717|0.64|
+|[SwapActivity_N+1](models/guess_aww_SwapActivity_N+1.md)|LightGbmRegression|26,717|0.63|
+|[SwapActivity](models/guess_aww_SwapActivity.md)|FastTreeTweedieRegression|21,044|0.61|
 |[SwapUsers](models/guess_aww_SwapUsers.md)|SdcaRegression|21,044|0.58|
 |[SwapBuzz_N+1](models/guess_aww_SwapBuzz_N+1.md)|SdcaRegression|21,044|0.57|
 |[SwapBuzz](models/guess_aww_SwapBuzz.md)|FastTreeRegression|13,290|0.57|

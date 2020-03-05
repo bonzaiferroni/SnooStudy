@@ -6,7 +6,8 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_gifs_General.md)|FastTreeTweedieRegression|993|0.41|
+|[General](models/guess_gifs_General.md)|FastForestRegression|1,258|0.44|
+|[SwapUsers](models/guess_gifs_SwapUsers.md)|FastTreeTweedieRegression|993|0.45|
 |[20minTrain](models/guess_gifs_20minTrain.md)|LightGbmRegression|665|0.43|
 |[DropAuthor_N+1](models/guess_gifs_DropAuthor_N+1.md)|FastForestRegression|665|0.41|
 |[DropTitle](models/guess_gifs_DropTitle.md)|FastTreeRegression|418|0.37|

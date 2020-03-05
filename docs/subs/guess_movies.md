@@ -6,7 +6,8 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_movies_General.md)|FastTreeTweedieRegression|2,336|0.53|
+|[General](models/guess_movies_General.md)|FastTreeTweedieRegression|2,925|0.38|
+|[SwapActivity](models/guess_movies_SwapActivity.md)|FastTreeTweedieRegression|2,336|0.53|
 |[SwapUsers](models/guess_movies_SwapUsers.md)|FastTreeTweedieRegression|2,336|0.53|
 |[SwapBuzz_N+1](models/guess_movies_SwapBuzz_N+1.md)|FastTreeRegression|2,336|0.42|
 |[20minTrain](models/guess_movies_20minTrain.md)|LightGbmRegression|1,634|0.72|

@@ -6,7 +6,7 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_the_donald_General.md)|LightGbmRegression|16,509|0.79|
+|[General](models/guess_the_donald_General.md)|LightGbmRegression|16,522|0.79|
 |[DropAuthor_N+1](models/guess_the_donald_DropAuthor_N+1.md)|FastTreeRegression|13,363|0.83|
 |[DropAuthor](models/guess_the_donald_DropAuthor.md)|FastTreeRegression|8,276|0.83|
 |[DropTitle](models/guess_the_donald_DropTitle.md)|LightGbmRegression|8,276|0.83|

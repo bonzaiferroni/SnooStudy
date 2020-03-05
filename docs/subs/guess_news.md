@@ -6,7 +6,8 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_news_General.md)|FastForestRegression|1,044|0.40|
+|[General](models/guess_news_General.md)|FastTreeTweedieRegression|1,281|0.46|
+|[SwapUsers](models/guess_news_SwapUsers.md)|FastForestRegression|1,044|0.42|
 |[20minTrain](models/guess_news_20minTrain.md)|FastTreeTweedieRegression|733|0.54|
 |[DropAuthor_N+1](models/guess_news_DropAuthor_N+1.md)|FastTreeTweedieRegression|733|0.46|
 |[AutoML](models/guess_news_AutoML.md)|FastTreeTweedieRegression|377|0.29|

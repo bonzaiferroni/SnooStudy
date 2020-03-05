@@ -6,7 +6,9 @@
 
 |Model|Trainer|n|R²|
 |:---|:---|---:|---:|
-|[General](models/guess_politics_General.md)|FastTreeTweedieRegression|8,243|0.66|
+|[General](models/guess_politics_General.md)|LightGbmRegression|10,288|0.67|
+|[SwapActivity_N+1](models/guess_politics_SwapActivity_N+1.md)|FastTreeTweedieRegression|10,288|0.69|
+|[SwapActivity](models/guess_politics_SwapActivity.md)|FastTreeTweedieRegression|8,243|0.66|
 |[SwapUsers](models/guess_politics_SwapUsers.md)|LightGbmRegression|8,243|0.66|
 |[SwapBuzz_N+1](models/guess_politics_SwapBuzz_N+1.md)|LightGbmRegression|8,243|0.67|
 |[SwapBuzz](models/guess_politics_SwapBuzz.md)|FastTreeRegression|5,354|0.64|
